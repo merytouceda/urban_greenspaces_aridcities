@@ -1,0 +1,20 @@
+INFO [2022-09-06 11:30:33] [[1]]
+INFO [2022-09-06 11:30:33] list(pasture_old = pasture_old_AMRs_collapsed$AMR.Gene.Family, 
+INFO [2022-09-06 11:30:33]     pasture_recent = pasture_recent_AMRs_collapsed$AMR.Gene.Family, 
+INFO [2022-09-06 11:30:33]     urban = urban_AMRs_collapsed$AMR.Gene.Family, natural = natural_AMRs_collapsed$AMR.Gene.Family)
+INFO [2022-09-06 11:30:33] 
+INFO [2022-09-06 11:30:33] $fill
+INFO [2022-09-06 11:30:33] c("DarkGreen", "olivedrab4", "skyblue3", "darkorange4")
+INFO [2022-09-06 11:30:33] 
+INFO [2022-09-06 11:30:33] $alpha
+INFO [2022-09-06 11:30:33] c(0.5, 0.5, 0.5, 0.5)
+INFO [2022-09-06 11:30:33] 
+INFO [2022-09-06 11:30:33] $cat.cex
+INFO [2022-09-06 11:30:33] [1] 1.5
+INFO [2022-09-06 11:30:33] 
+INFO [2022-09-06 11:30:33] $cex
+INFO [2022-09-06 11:30:33] [1] 1.5
+INFO [2022-09-06 11:30:33] 
+INFO [2022-09-06 11:30:33] $filename
+INFO [2022-09-06 11:30:33] NULL
+INFO [2022-09-06 11:30:33] 
