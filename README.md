@@ -6,13 +6,15 @@ Repository for the land use project. Understanding the effects of land use pract
 Shotgun metagenomics data
 24 samples
 4 land uses, 2 sites per land use, 3 replicates per site:
+
    
-   **land use**     **site1**             **site 2**
-   urban            Reid Park (RP)        Himmel Park (HP)
-   natural          Sabino Canyon (SC)    Rose Canyon (RC)
-   old pasture      SRER*-11B             SRER-8
-   recent pasture   SRER-UAB              SRER-Ex45
- 
+| land use       | site1             | site 2          |
+| -------------  | ----------------  |---------------- |
+| urban          | Reid Park (RP)    | Himmel Park (HP)|
+| natural        | Sabino Canyon (SC)| Rose Canyon (RC)|
+| old pasture    |  SRER*-11B        | SRER-8          |
+| recent pasture |  SRER-UAB         | SRER-Ex45       |
+
  *SRER stands for Santa Rita Experimental Range
  Replicates are taken in a transect at 3,6, and 9 meters. 
    
