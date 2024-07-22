@@ -3,7 +3,7 @@ Repository for the publication: "Differences in the genomic potential of soil ba
 
 
 #### This repository
-This repository harbours the processing and analysis information, and final data products for the study of soil bacteria and viruses in urban greenspaces and natural soils around the arid city of Tucson (Arizona, USA). 
+This repository harbours the analysis information, and final data and visualization products from the study of soil bacteria and viruses in urban greenspaces and natural soils around the arid city of Tucson (Arizona, USA). 
 - Bacteria
     - gene centric: assembly, gene prediction and annotation with :
         - KEGG
@@ -20,31 +20,6 @@ This repository harbours the processing and analysis information, and final data
     - annotation 
 
 
-
-
-#### Directory Structure: 
--bacteria
-    - genecentric 
-        - README.md
-        - scripts
-        - data
-        - pipeline.md
-        - analyses
-    - taxonomy
-        - scripts
-        - analyses
-    - analyses
-- virus 
-    - README.md
-    - inference
-        - deepvirfinder
-        - virsorter2
-    - annotation
-        - phagcn
-        - phatyp
-        - genomad
-        - iphop
-    - analyses
 
   
 
