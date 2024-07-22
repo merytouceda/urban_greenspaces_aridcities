@@ -1,50 +1,70 @@
-# LandUse
-Repository for the land use project. Understanding the effects of land use practices on arid soil microbial communities. 
+# Soil metagenomics of urban greenspaces in arid cities
+Repository for the publication: "Differences in the genomic potential of soil bacterial and phage communities between urban greenspaces and natural arid soils". 
 
 
-#### Experimental design
-Shotgun metagenomics data
-24 samples
-4 land uses, 2 sites per land use, 3 replicates per site:
+#### This repository
+This repository harbours the processing and analysis information, and final data products for the study of soil bacteria and viruses in urban greenspaces and natural soils around the arid city of Tucson (Arizona, USA). 
+- Bacteria
+    - gene centric: assembly, gene prediction and annotation with :
+        - KEGG
+        - NCyc (nitrogen cycling genes) 
+        - CAZY (carbon cycling genes) 
+        - CARD (anbtibiotic resistance genes)
+        - BACmet (heavy metal resistance genes).
+    - taxonomy: taxonomic classification of reads using Kraken2. 
+    - 
+    - args: annotation of antibiotic resistence genes 
 
-   
-| land use       | site1             | site 2          |
-| -------------  | ----------------  |---------------- |
-| urban          | Reid Park (RP)    | Himmel Park (HP)|
-| natural        | Sabino Canyon (SC)| Rose Canyon (RC)|
-| old pasture    |  SRER*-11B        | SRER-8          |
-| recent pasture |  SRER-UAB         | SRER-Ex45       |
+- Virus
+    - inference
+    - annotation 
 
- *SRER stands for Santa Rita Experimental Range
- Replicates are taken in a transect at 3,6, and 9 meters. 
-   
-   
-   
-#### Contents
-This repository holds the different processeing and subsequent analyses performed on this dataset: 
-- gene centric: assembly, gene prediction and annotation.  
-- virus: assembly of reads and viral sequence inference from contigs. 
-- taxonomy: taxonomic classification of reads using Kraken2. 
-- args: annotation of antibiotic resistence genes, 
 
 
 
 #### Directory Structure: 
-- genecentric 
-    - scripts
-    - data
-    - README.md
-    - pipeline.md
+-bacteria
+    - genecentric 
+        - README.md
+        - scripts
+        - data
+        - pipeline.md
+        - analyses
+    - taxonomy
+        - scripts
+        - analyses
     - analyses
 - virus 
-    - deepvirfinder
-    - virsorter2
     - README.md
+    - inference
+        - deepvirfinder
+        - virsorter2
+    - annotation
+        - phagcn
+        - phatyp
+        - genomad
+        - iphop
     - analyses
-- taxonomy
-    - scripts
-    - analyses
-- args
-    - scripts
-    - analyses
+
   
+
+
+#### Field sampling design
+24 samples
+2 land uses, 4 vegetation types, 3 replicates per site:
+   
+| landuse        | site              | Vegetation      |
+| -------------  | ----------------  |---------------- |
+| urban          | Reid Park (RP)    | Grassland       |
+| urban          | Himmel Park (HP)  | Grassland       |
+| urban          | Rose Canyon (RC)  | Forest          |
+| natural        | Sabino Canyon (SC)| Shrubland       |
+| natural        | SRER-11B          | Grassland       |
+| natural        | SRER-8            | Grassland       |
+| natural        | SRER-Ex45         | Grassland       |
+| natural        | SRER-UAB          | Grassland       |
+
+ *SRER stands for Santa Rita Experimental Range
+ Replicates are taken in a transect at 3,6, and 9 meters for each site.
+   
+   
