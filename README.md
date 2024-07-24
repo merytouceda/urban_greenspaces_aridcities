@@ -5,15 +5,14 @@ Repository for the publication: "Differences in the genomic potential of soil ba
 #### This repository
 This repository harbours the analysis information, and final data and visualization products from the study of soil bacteria and viruses in urban greenspaces and natural soils around the arid city of Tucson (Arizona, USA). 
 - Bacteria
-    - gene centric: assembly, gene prediction and annotation with :
+    - gene centric: assembly, gene prediction, functional trait inference, and annotation with :
         - KEGG
         - NCyc (nitrogen cycling genes) 
         - CAZY (carbon cycling genes) 
         - CARD (anbtibiotic resistance genes)
         - BACmet (heavy metal resistance genes).
     - taxonomy: taxonomic classification of reads using Kraken2. 
-    - 
-    - args: annotation of antibiotic resistence genes 
+      
 
 - Virus
     - inference
