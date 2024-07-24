@@ -153,10 +153,83 @@ Anova(lmer(metadata$ags ~ metadata$urban.natural + (1|site), data = metadata), t
 
 
 
+##############################################################################
+######## GC CONTENT
+##############################################################################
+gc_mean <- read.table("gc_mean.txt")
+gc_var <- read.table("gc_var.txt")
 
-# --------------------------------------------------------------------------------------------------------------------------- 
-#  SUGAR-ACID metabolism
-# -------------------------------------------------------------------------------------------------------------------------- 
+row.names(gc_mean)<- row.names(growth)
+row.names(gc_var)<- row.names(growth)
+
+#GC mean
+ggplot(data = gc_mean, aes(y = V1, x = metadata$urban.natural))+
+  geom_boxplot(alpha = 0.6, outlier.shape = NA, aes(fill= metadata$urban.natural, color = metadata$urban.natural))+
+  geom_jitter(aes(color = metadata$urban.natural), size = 2.5)+
+  scale_fill_manual(values=pal1)+
+  scale_color_manual(values=pal1)+
+  xlab(NULL) + 
+  scale_x_discrete(labels=c('Natural', 'Urban greenspaces'))+
+  ylab("Mean GC content (%)")+
+  theme_bw()+
+  theme(legend.position = "none", text = element_text(size=16))
+
+metadata$gc_content <- gc_mean
+anova(lmer(metadata$gc_content$V1 ~ urban.natural + (1|site) , data = metadata))
+Anova(lmer(metadata$gc_content$V1 ~ urban.natural + (1|site) , data = metadata))
+Anova(lmer(metadata$gc_content$V1 ~ urban.natural + (1|site) , data = metadata), type=3)
+# likelihood ratio que compara el modelo con y sin random effect
+
+#GC variance
+ggplot(data = gc_var, aes(y = V1, x = metadata$urban.natural))+
+  geom_boxplot(alpha = 0.6, outlier.shape = NA, aes(fill= metadata$urban.natural, color = metadata$urban.natural))+
+  geom_jitter(aes(color = metadata$urban.natural), size = 2.5)+
+  scale_fill_manual(values=pal1)+
+  scale_color_manual(values=pal1)+
+  xlab(NULL) + 
+  scale_x_discrete(labels=c('Natural', 'Urban greenspaces'))+
+  ylab("Variance GC content (%)")+
+  theme_bw()+
+  theme(legend.position = "none", text = element_text(size=14))
+
+# STATS
+metadata$gc_var <- gc_var
+Anova(lmer(metadata$gc_var$V1 ~ metadata$urban.natural + (1|site), data = metadata), type = 3)
+
+
+
+
+##############################################################################
+######## CODON USAGE BIAS
+##############################################################################
+growth <- read.table("growth_coverage.txt", header = T)
+
+# Mean of the codon usage bias of each highly expressed gene relative to all other genes
+metadata$cubhe <- growth$cubhe
+ggplot(data = growth, aes(y = cubhe, x = metadata$urban.natural))+
+  geom_boxplot(alpha = 0.6, outlier.shape = NA, aes(fill= metadata$urban.natural, color = metadata$urban.natural))+
+  geom_jitter(aes(color =  metadata$urban.natural), size = 2.5)+
+  scale_fill_manual(values=pal1)+
+  scale_color_manual(values=pal1)+
+  xlab(NULL) + 
+  ylab("Average codon usage bias")+
+  scale_x_discrete(labels=c('Natural', 'Urban greenspaces'))+
+  theme_bw()+
+  theme(legend.position = "none", text = element_text(size=16))
+ggsave("codonusagebias.pdf", device = "pdf", width = 4, height = 4 , units = "in")
+
+Anova(lmer(metadata$cubhe ~ urban.natural + (1|site) , data = metadata), type=3)
+
+
+
+
+
+
+
+
+##############################################################################
+######## SUGAR-ACID metabolism
+##############################################################################
 
 # calculate abundance of genes in sugar vs. acid metabolism and add to metadata
 sugar_acid <- read.csv("sugar_acid_ko_gralka23.csv")
