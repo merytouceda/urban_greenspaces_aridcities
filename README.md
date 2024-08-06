@@ -1,4 +1,6 @@
-# Soil metagenomics of urban greenspaces in arid cities
+NOTE: This repository is under construction
+
+# Soil metagenomics of urban greenspaces in an arid city
 Repository for the publication: "Differences in the genomic potential of soil bacterial and phage communities between urban greenspaces and natural arid soils". 
 
 
