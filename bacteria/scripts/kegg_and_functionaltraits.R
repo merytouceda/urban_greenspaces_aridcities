@@ -32,7 +32,7 @@ ko_level2 <- read.table("ko_table_level2.txt", header = T, sep="\t", row.names =
 ko_level3 <- read.table("ko_table_level3.txt", header = T, sep="\t", row.names = 1)
 unknown <- read.table("ko_unknown.txt", header = T)
 ko2level <- read.table("ko2level_Jan2021.txt", header = T, sep="\t" )
-metadata <- read.csv("metadata.csv", row.names = 1)
+metadata <- read.csv("../metadata.csv", row.names = 1)
 
 
 #first let's get rid of the X at the beginning of the sample names
