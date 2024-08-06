@@ -22,7 +22,7 @@ pal1 = c("#FFC20A", "#0C7BDC")
 ######## SETUP
 ##############################################################################
 # Set working directory 
-setwd("Github/urban_greenspaces_aridcities/bacteria/data/")
+setwd("/Volumes/BunnyBike/GitHub/urban_greenspaces_aridcities/bacteria/data/")
 
 # Loa data: 
 ko_table <- read.table("ko_table.txt", header = T, row.names = 1)
@@ -32,7 +32,7 @@ ko_level2 <- read.table("ko_table_level2.txt", header = T, sep="\t", row.names =
 ko_level3 <- read.table("ko_table_level3.txt", header = T, sep="\t", row.names = 1)
 unknown <- read.table("ko_unknown.txt", header = T)
 ko2level <- read.table("ko2level_Jan2021.txt", header = T, sep="\t" )
-metadata <- read.csv("../metadata.csv", row.names = 1)
+metadata <- read.csv("../../metadata.csv", row.names = 1)
 
 
 #first let's get rid of the X at the beginning of the sample names
@@ -98,7 +98,7 @@ ggplot(metadata, aes(y = prop.unknown,x = urban.natural, fill = urban.natural, c
   scale_fill_manual(values = pal1)+
   theme_bw()+
   theme(legend.position = "none", text = element_text(size=16))
-
+ggsave("/Volumes/BunnyBike/GitHub/urban_greenspaces_aridcities/bacteria/figures/unknown_prop.pdf", device = "pdf", width = 5, height = 5 , units = "in")
 
 # STATS
 Anova(lmer(metadata$prop.unknown ~ urban.natural + (1|site) , data = metadata), type=3)
@@ -121,7 +121,7 @@ ggplot(data = metadata, aes(y = acn, x = urban.natural))+
   scale_x_discrete(labels=c('Natural', 'Urban greenspaces'))+
   theme_bw()+
   theme(legend.position = "none",  text = element_text(size=14))
-
+ggsave("/Volumes/BunnyBike/GitHub/urban_greenspaces_aridcities/bacteria/figures/acn.pdf", device = "pdf", width = 5, height = 5 , units = "in")
 
 # STATS
 Anova(lmer(metadata$acn ~ urban.natural + (1|site) , data = metadata), type=3)
@@ -146,6 +146,7 @@ ggplot(data = metadata, aes(y = ags, x = urban.natural))+
   scale_x_discrete(labels=c('Natural', 'Urban greenspaces'))+
   theme_bw()+
   theme(legend.position = "none",  text = element_text(size=14))
+ggsave("/Volumes/BunnyBike/GitHub/urban_greenspaces_aridcities/bacteria/figures/ags.pdf", device = "pdf", width = 5, height = 5 , units = "in")
 
 
 # STATS
@@ -173,6 +174,8 @@ ggplot(data = gc_mean, aes(y = V1, x = metadata$urban.natural))+
   ylab("Mean GC content (%)")+
   theme_bw()+
   theme(legend.position = "none", text = element_text(size=16))
+ggsave("/Volumes/BunnyBike/GitHub/urban_greenspaces_aridcities/bacteria/figures/gc_mean.pdf", device = "pdf", width = 5, height = 5 , units = "in")
+
 
 metadata$gc_content <- gc_mean
 anova(lmer(metadata$gc_content$V1 ~ urban.natural + (1|site) , data = metadata))
@@ -191,6 +194,7 @@ ggplot(data = gc_var, aes(y = V1, x = metadata$urban.natural))+
   ylab("Variance GC content (%)")+
   theme_bw()+
   theme(legend.position = "none", text = element_text(size=14))
+ggsave("/Volumes/BunnyBike/GitHub/urban_greenspaces_aridcities/bacteria/figures/gc_var.pdf", device = "pdf", width = 5, height = 5 , units = "in")
 
 # STATS
 metadata$gc_var <- gc_var
@@ -216,7 +220,7 @@ ggplot(data = growth, aes(y = cubhe, x = metadata$urban.natural))+
   scale_x_discrete(labels=c('Natural', 'Urban greenspaces'))+
   theme_bw()+
   theme(legend.position = "none", text = element_text(size=16))
-ggsave("codonusagebias.pdf", device = "pdf", width = 4, height = 4 , units = "in")
+ggsave("/Volumes/BunnyBike/GitHub/urban_greenspaces_aridcities/bacteria/figures/cub.pdf", device = "pdf", width = 5, height = 5 , units = "in")
 
 Anova(lmer(metadata$cubhe ~ urban.natural + (1|site) , data = metadata), type=3)
 
@@ -297,6 +301,8 @@ ggplot(data = metadata, aes(y = sugar_acid_ratio , x = urban.natural))+
   scale_x_discrete(labels=c('Natural', 'Urban greenspaces'))+
   theme_bw()+
   theme(legend.position = "none",  text = element_text(size=16))
+ggsave("/Volumes/BunnyBike/GitHub/urban_greenspaces_aridcities/bacteria/figures/sugaracid_ratio.pdf", device = "pdf", width = 5, height = 5 , units = "in")
+
 
 
 # STATS
@@ -330,6 +336,8 @@ ggplot(data = metadata, aes(y = SAP, x = urban.natural))+
   scale_x_discrete(labels=c('Natural', 'Urban'))+
   theme_bw()+
   theme(legend.position = "none",  text = element_text(size=16))
+ggsave("/Volumes/BunnyBike/GitHub/urban_greenspaces_aridcities/bacteria/figures/sap.pdf", device = "pdf", width = 5, height = 5 , units = "in")
+
 
 # STATS
 Anova(lmer(metadata$SAP ~ urban.natural + (1|site) , data = metadata), type=3)

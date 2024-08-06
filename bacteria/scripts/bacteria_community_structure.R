@@ -23,10 +23,11 @@ pal2 = c("#009E73","#E66100", "#5D3A9B")
 ############## SETUP
 ####################################################################################
 
-setwd("Github/urban_greenspaces_aridcities/bacteria/data")
+setwd("/Volumes/BunnyBike/GitHub/urban_greenspaces_aridcities/bacteria/data")
 bracken_lu <- read.csv("braken_all_samples.csv", header = T, row.names = 2)
 bracken_lu$X <- NULL
 bracken_lu <- as.data.frame(t(bracken_lu))
+metadata <- read.csv("../../metadata.csv", row.names = 1)
 
 # Make sure  that the row names are in the same order as in metadata
 rownames(bracken_lu) <- gsub(rownames(bracken_lu), pattern = "^X", replacement = "")
@@ -75,6 +76,8 @@ ggplot(metadata, aes(x = urban.natural, y = bact.species.rich.rar))+
   #scale_x_discrete(labels=c('Natural', 'Urban greenspaces'))+
   theme_classic()+
   theme(legend.position = "none", text = element_text(size=16))
+ggsave("/Volumes/BunnyBike/GitHub/urban_greenspaces_aridcities/bacteria/figures/bact_rich.pdf", device = "pdf", width = 5, height = 5 , units = "in")
+
 
 # STATS
 Anova(lmer(bact.species.rich.rar ~ urban.natural*landuse2 + (1|site) , data = metadata), type = 3)
@@ -101,6 +104,7 @@ ggplot(metadata, aes(Axis01, Axis02))+
   scale_color_manual(values=pal2)+
   theme_classic()+
   theme(legend.position="none", text = element_text(size=12))
+ggsave("/Volumes/BunnyBike/GitHub/urban_greenspaces_aridcities/bacteria/figures/bact_commcomp.pdf", device = "pdf", width = 5, height = 5 , units = "in")
 
 # STATS
 adonis2(counts.bray ~ urban.natural*landuse2, data = metadata, permutations = 999, method = "bray")
