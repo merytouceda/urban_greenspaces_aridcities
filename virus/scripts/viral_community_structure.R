@@ -21,10 +21,10 @@ pal2 = c("#009E73","#E66100", "#5D3A9B")
 ####################################################################################
 ############## SETUP
 ####################################################################################
-setwd("Github/urban_greenspaces_aridcities/virus/data")
+setwd("/Volumes/BunnyBike/GitHub/urban_greenspaces_aridcities/virus/data")
 counts <- read.table("viral_species_count_table.txt", header = T, row.names = 1, sep = "\t")
 counts <- as.data.frame(t(counts))
-metadata<- read.csv("metadata.csv", row.names = 1)
+metadata<- read.csv("../../metadata.csv", row.names = 1)
 
 # turn the variables of interest into factors 
 metadata$urban.natural <- as.factor(metadata$urban.natural)
@@ -98,6 +98,7 @@ ggplot(data = metadata, aes(x = urban.natural, y = viral.species.rich.rar, color
   scale_color_manual(values=pal1)+
   theme_bw()+
   theme(strip.text.x = element_blank(), legend.position = "none")
+ggsave("/Volumes/BunnyBike/GitHub/urban_greenspaces_aridcities/virus/figures/viral_rich.pdf", device = "pdf", width = 5, height = 5 , units = "in")
 
 
 # STATS
@@ -125,7 +126,7 @@ ggplot(metadata, aes(Axis01, Axis02))+
   scale_color_manual(values=pal2)+
   theme_classic()+
   theme(legend.position="none", text = element_text(size=12))
-ggsave("/Volumes/BunnyBike/landuse_functionaltraits/virus/figures/viral_spp_comcomp_lu_vegetation.pdf", device = "pdf", width = 7, height = 5 , units = "in")
+ggsave("/Volumes/BunnyBike/GitHub/urban_greenspaces_aridcities/virus/figures/viral_commcomp.pdf", device = "pdf", width = 5, height = 5 , units = "in")
 
 # stats: 
 adonis2(counts.bray ~ urban.natural*landuse2, data = metadata, permutations = 999, method = "bray")

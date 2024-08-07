@@ -10,9 +10,9 @@ library(performance)
 pal1 = c("#FFC20A", "#0C7BDC")
 pal2 = c("#009E73","#E66100", "#5D3A9B")
 
-setwd("Github/urban_greenspaces_aridcities/virus/data")
-phatype <- read.csv("landuse_phatype_out.csv", header = T)
-metadata<- read.csv("metadata.csv", row.names = 1)
+setwd("/Volumes/BunnyBike/GitHub/urban_greenspaces_aridcities/virus/data")
+phatype <- read.csv("phatype_out.csv", header = T)
+metadata<- read.csv("../../metadata.csv", row.names = 1)
 counts <- read.table("viral_species_count_table.txt", header = T, row.names = 1, sep = "\t")
 # remove X from before sample name
 colnames(counts) <- gsub(colnames(counts), pattern = "^X", replacement = "")
@@ -62,6 +62,7 @@ ggplot(phatype_sample, aes(x = Landuse, y = n))+
   theme_classic()+
   theme(legend.position = "none", text = element_text(size=16))+
   facet_wrap(~Pred)
+ggsave("/Volumes/BunnyBike/GitHub/urban_greenspaces_aridcities/virus/figures/viral_lifestyle_prev.pdf", device = "pdf", width = 5, height = 5 , units = "in")
 
 
 # boxplot for supplementary
@@ -75,6 +76,8 @@ ggplot(phatype_sample, aes(x = Landuse, y = n))+
   theme_classic()+
   theme(legend.position = "none", text = element_text(size=16))+
   facet_wrap(~Pred)
+ggsave("/Volumes/BunnyBike/GitHub/urban_greenspaces_aridcities/virus/figures/viral_lifestyle_prev_veg.pdf", device = "pdf", width = 5, height = 5 , units = "in")
+
 
 
 # stats
@@ -169,6 +172,8 @@ ggplot(phatype_counts, aes(x = landuse, y = n))+
   theme_classic()+
   theme(legend.position = "none", text = element_text(size=16))+
   facet_wrap(~Pred)
+ggsave("/Volumes/BunnyBike/GitHub/urban_greenspaces_aridcities/virus/figures/viral_lifestyle_ab.pdf", device = "pdf", width = 5, height = 5 , units = "in")
+
 
 
 phatype_counts <- phatype_counts %>%
@@ -207,6 +212,8 @@ ggplot(phatype_counts, aes(x = landuse, y = n))+
   theme_classic()+
   theme(legend.position = "none", text = element_text(size=16))+
   facet_wrap(~Pred)
+ggsave("/Volumes/BunnyBike/GitHub/urban_greenspaces_aridcities/virus/figures/viral_lifestyle_ab_veg.pdf", device = "pdf", width = 5, height = 5 , units = "in")
+
 
 
 
@@ -244,6 +251,8 @@ ggplot(metadata, aes(x = urban.natural, y = total_viral_abundance))+
   scale_color_manual(values=pal1)+
   theme_classic()+
   theme(legend.position = "none", text = element_text(size=16))
+ggsave("/Volumes/BunnyBike/GitHub/urban_greenspaces_aridcities/virus/figures/viral_abundance.pdf", device = "pdf", width = 5, height = 5 , units = "in")
+
 
 
 anova(lmer(total_viral_abundance ~ urban.natural + (1|site) , data = metadata))
@@ -258,6 +267,8 @@ ggplot(metadata, aes(x = urban.natural, y = total_viral_abundance))+
   scale_color_manual(values=pal2)+
   theme_classic()+
   theme(legend.position = "none", text = element_text(size=16))
+ggsave("/Volumes/BunnyBike/GitHub/urban_greenspaces_aridcities/virus/figures/viral_abundance_veg.pdf", device = "pdf", width = 5, height = 5 , units = "in")
+
 
 
 anova(lm(total_viral_abundance ~ vegetation_structure + (1|site) , data = metadata))

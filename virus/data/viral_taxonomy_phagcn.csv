@@ -1,0 +1,13 @@
+contig_name,idx,prediction,score
+SC-T1-6_contig.fa_viral_31,0_2,Herelleviridae,1
+RP-T1-3_contig.fa_viral_838,0_3,Herelleviridae,1
+SC-T1-3_contig.fa_viral_170,0_7,Mesyanzhinovviridae,0.8655685
+SC-T1-3_contig.fa_provirus_3,0_24,Casjensviridae,1
+HP-T1-9_contig.fa_viral_174,0_28,Autographiviridae,1
+RP-T1-6_contig.fa_viral_91,0_29,Mesyanzhinovviridae,0.6638609
+UAB-T1-6_contig.fa_viral_115,0_36,Casjensviridae,0.9084336
+HP-T1-6_contig.fa_viral_42,0_42,Kyanoviridae,1
+HP-T1-6_contig.fa_viral_53,0_45,Mesyanzhinovviridae,0.8655685
+RC-T1-9_contig.fa_viral_16,0_47,Mesyanzhinovviridae,0.6638609
+HP-T1-6_contig.fa_viral_272,0_85,Casjensviridae,1
+RP-T1-3_contig.fa_viral_8,0_88,Mesyanzhinovviridae,0.8655685
