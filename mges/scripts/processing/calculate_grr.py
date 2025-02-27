@@ -63,33 +63,40 @@ def main():
 
     # initialize command line arguments
     args = get_args()
-    
-    # Run the mixed filter
-    if args.filter_mixed: 
-        mixed_filtered_m8_file = filter_mixed_types_only(args.m8_file)
-        print(f"Kept {len(mixed_filtered_m8_file)} mixed matches after filtering")
-        print(mixed_filtered_m8_file)
-    else: 
-        mixed_filtered_m8_file = pd.read_csv(args.m8_file, sep='\s+') # just read input file into a DataFrame if not filtering
-        print("Skipping the extraction of different group matches (different group query and target). Use --filter_mixed flag to run the filtering.")
 
-    # Run the BBH filter
-    if args.filter_bbh:
-        bbh_m8_file = extract_bbh(mixed_filtered_m8_file)
-        print(f"Kept {len(bbh_m8_file)} BBHs  after filtering")
-        print(bbh_m8_file)
-    else:
-        bbh_m8_file = mixed_filtered_m8_file
-        print("Skipping the extraction of best bi-directional hits (BBH). Use --filter_mixed flag to run the filtering.")
+    # Open the output file in **append mode** so we don’t overwrite existing content
+    with open(args.out_file, "a") as f:
+        
+        # Run the mixed filter
+        if args.filter_mixed: 
+            mixed_filtered_m8_file = filter_mixed_types_only(args.m8_file)
+            print(f"Kept {len(mixed_filtered_m8_file)} mixed matches after filtering")
+            print(mixed_filtered_m8_file)
+        else: 
+            mixed_filtered_m8_file = pd.read_csv(args.m8_file, sep='\s+') # just read input file into a DataFrame if not filtering
+            print("Skipping the extraction of different group matches (different group query and target). Use --filter_mixed flag to run the filtering.")
 
-    # Calculate the wGRR
-    if args.wGRR:
-        wGRR = calculate_wGRR(bbh_m8_file, args.proteins_file_a, args.proteins_file_b)
-        print(wGRR)
+        # Run the BBH filter
+        if args.filter_bbh:
+            bbh_m8_file = extract_bbh(mixed_filtered_m8_file)
+            print(f"Kept {len(bbh_m8_file)} BBHs  after filtering")
+            print(bbh_m8_file)
+        else:
+            bbh_m8_file = mixed_filtered_m8_file
+            print("Skipping the extraction of best bi-directional hits (BBH). Use --filter_mixed flag to run the filtering.")
 
-    # Calculate Sorensen
+        # Calculate the wGRR
+        if args.wGRR:
+            wGRR = calculate_wGRR(bbh_m8_file, args.proteins_file_a, args.proteins_file_b)
+            print(wGRR)
+            
+            # Save the m8_file name and wGRR result to the output file
+            f.write(f"{args.m8_file}\n")  # Write input file name
+            f.write(f"{wGRR}\n")  # Write wGRR result
 
-    # Calculate Jaccard
+        # Calculate Sorensen
+
+        # Calculate Jaccard
     
                     
 # # -------------------------------------------------- 
