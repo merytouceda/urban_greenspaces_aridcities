@@ -1,0 +1,1379 @@
+Traceback (most recent call last):
+  File "/home/u14/mtoucedasuarez/.conda/envs/seqkit/bin/fargene", line 10, in <module>
+    sys.exit(main())
+  File "/home/u14/mtoucedasuarez/.conda/envs/seqkit/lib/python2.7/site-packages/fargene_analysis/fargene_analysis.py", line 149, in main
+    if not utils.remove_files(options.final_gene_dir, options.res_dir):
+  File "/home/u14/mtoucedasuarez/.conda/envs/seqkit/lib/python2.7/site-packages/fargene_analysis/utils.py", line 489, in remove_files
+    ans = str(raw_input("type [y]es to continue or [n]o to abort:"))
+EOFError: EOF when reading a line
+Traceback (most recent call last):
+  File "/home/u14/mtoucedasuarez/.conda/envs/seqkit/bin/fargene", line 10, in <module>
+    sys.exit(main())
+  File "/home/u14/mtoucedasuarez/.conda/envs/seqkit/lib/python2.7/site-packages/fargene_analysis/fargene_analysis.py", line 149, in main
+    if not utils.remove_files(options.final_gene_dir, options.res_dir):
+  File "/home/u14/mtoucedasuarez/.conda/envs/seqkit/lib/python2.7/site-packages/fargene_analysis/utils.py", line 489, in remove_files
+    ans = str(raw_input("type [y]es to continue or [n]o to abort:"))
+EOFError: EOF when reading a line
+Traceback (most recent call last):
+  File "/home/u14/mtoucedasuarez/.conda/envs/seqkit/bin/fargene", line 10, in <module>
+    sys.exit(main())
+  File "/home/u14/mtoucedasuarez/.conda/envs/seqkit/lib/python2.7/site-packages/fargene_analysis/fargene_analysis.py", line 149, in main
+    if not utils.remove_files(options.final_gene_dir, options.res_dir):
+  File "/home/u14/mtoucedasuarez/.conda/envs/seqkit/lib/python2.7/site-packages/fargene_analysis/utils.py", line 489, in remove_files
+    ans = str(raw_input("type [y]es to continue or [n]o to abort:"))
+EOFError: EOF when reading a line
+Traceback (most recent call last):
+  File "/home/u14/mtoucedasuarez/.conda/envs/seqkit/bin/fargene", line 10, in <module>
+    sys.exit(main())
+  File "/home/u14/mtoucedasuarez/.conda/envs/seqkit/lib/python2.7/site-packages/fargene_analysis/fargene_analysis.py", line 149, in main
+    if not utils.remove_files(options.final_gene_dir, options.res_dir):
+  File "/home/u14/mtoucedasuarez/.conda/envs/seqkit/lib/python2.7/site-packages/fargene_analysis/utils.py", line 489, in remove_files
+    ans = str(raw_input("type [y]es to continue or [n]o to abort:"))
+EOFError: EOF when reading a line
+Traceback (most recent call last):
+  File "/home/u14/mtoucedasuarez/.conda/envs/seqkit/bin/fargene", line 10, in <module>
+    sys.exit(main())
+  File "/home/u14/mtoucedasuarez/.conda/envs/seqkit/lib/python2.7/site-packages/fargene_analysis/fargene_analysis.py", line 149, in main
+    if not utils.remove_files(options.final_gene_dir, options.res_dir):
+  File "/home/u14/mtoucedasuarez/.conda/envs/seqkit/lib/python2.7/site-packages/fargene_analysis/utils.py", line 489, in remove_files
+    ans = str(raw_input("type [y]es to continue or [n]o to abort:"))
+EOFError: EOF when reading a line
+INFO: Starting fARGene
+INFO: Starting pipeline, planning to analyze 2 files
+INFO: Running on 40 processes
+INFO: Starting parse_fastq_input
+INFO: Processing and searching input files. This may take a while...
+INFO: Converting fastq to fasta
+INFO: Converting fastq to fasta
+INFO: Translating and searching
+INFO: Translating and searching
+INFO: Start to classify
+INFO:fargene_analysis.fargene_analysis.pooled_processing_fastq:Start to classify
+INFO: Translating, searching, and classification done
+INFO:fargene_analysis.fargene_analysis.pooled_processing_fastq:Translating, searching, and classification done
+INFO: Start to classify
+INFO:fargene_analysis.fargene_analysis.pooled_processing_fastq:Start to classify
+INFO: Translating, searching, and classification done
+INFO:fargene_analysis.fargene_analysis.pooled_processing_fastq:Translating, searching, and classification done
+INFO: Retrieving hits from input files.
+INFO: Retrieving fastqfiles
+INFO:fargene_analysis.fargene_analysis:Retrieving fastqfiles
+INFO: Performing quality control
+INFO:fargene_analysis.fargene_analysis:Performing quality control
+Multicore support not enabled. Proceeding with single-core trimming.
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 1.18
+single-core operation.
+Proceeding with 'gzip' for decompression
+To decrease CPU usage of decompression, please install 'igzip' and run again
+
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/class_d_2_out/retrievedFragments/trimmedReads/
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/class_d_2_out/retrievedFragments/A43_clean__1_retrieved.fastq <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Nextera	0	CTGTCTCTTATA	1651	0.00
+Illumina	0	AGATCGGAAGAGC	1651	0.00
+smallRNA	0	TGGAATTCTCGG	1651	0.00
+Unable to auto-detect most prominent adapter from the first specified file (count Nextera: 0, count Illumina: 0, count smallRNA: 0)
+Defaulting to Illumina universal adapter ( AGATCGGAAGAGC ). Specify -a SEQUENCE to avoid this behavior).
+
+Writing report to '/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/class_d_2_out/retrievedFragments/trimmedReads/A43_clean__1_retrieved.fastq_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/class_d_2_out/retrievedFragments/A43_clean__1_retrieved.fastq
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 1.18
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 30
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; default (inconclusive auto-detection))
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+
+Cutadapt seems to be reasonably up-to-date. Setting -j 1
+Writing final adapter and quality trimmed output to A43_clean__1_retrieved_trimmed.fq
+
+
+  >>> Now performing quality (cutoff '-q 30') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/class_d_2_out/retrievedFragments/A43_clean__1_retrieved.fastq <<< 
+This is cutadapt 1.18 with Python 2.7.15
+Command line parameters: -j 1 -e 0.1 -q 30 -O 1 -a AGATCGGAAGAGC /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/class_d_2_out/retrievedFragments/A43_clean__1_retrieved.fastq
+Processing reads on 1 core in single-end mode ...
+Finished in 0.02 s (14 us/read; 4.19 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                   1,651
+Reads with adapters:                       406 (24.6%)
+Reads written (passing filters):         1,651 (100.0%)
+
+Total basepairs processed:       246,408 bp
+Quality-trimmed:                     352 bp (0.1%)
+Total written (filtered):        245,505 bp (99.6%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 406 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 26.8%
+  C: 28.8%
+  G: 33.5%
+  T: 10.8%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	310	412.8	0	310
+2	71	103.2	0	71
+3	11	25.8	0	11
+4	9	6.4	0	9
+5	4	1.6	0	4
+10	1	0.0	1	0 1
+
+
+RUN STATISTICS FOR INPUT FILE: /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/class_d_2_out/retrievedFragments/A43_clean__1_retrieved.fastq
+=============================================
+1651 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/class_d_2_out/retrievedFragments/trimmedReads/A43_clean__2_retrieved.fastq_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/class_d_2_out/retrievedFragments/A43_clean__2_retrieved.fastq
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 1.18
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 30
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; default (inconclusive auto-detection))
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+
+Cutadapt seems to be reasonably up-to-date. Setting -j -j 1
+Writing final adapter and quality trimmed output to A43_clean__2_retrieved_trimmed.fq
+
+
+  >>> Now performing quality (cutoff '-q 30') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/class_d_2_out/retrievedFragments/A43_clean__2_retrieved.fastq <<< 
+This is cutadapt 1.18 with Python 2.7.15
+Command line parameters: -j 1 -e 0.1 -q 30 -O 1 -a AGATCGGAAGAGC /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/class_d_2_out/retrievedFragments/A43_clean__2_retrieved.fastq
+Processing reads on 1 core in single-end mode ...
+Finished in 0.02 s (13 us/read; 4.67 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                   1,651
+Reads with adapters:                       360 (21.8%)
+Reads written (passing filters):         1,651 (100.0%)
+
+Total basepairs processed:       246,508 bp
+Quality-trimmed:                     230 bp (0.1%)
+Total written (filtered):        245,797 bp (99.7%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 360 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 21.1%
+  C: 31.1%
+  G: 36.4%
+  T: 11.4%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	264	412.8	0	264
+2	78	103.2	0	78
+3	12	25.8	0	12
+4	5	6.4	0	5
+5	1	1.6	0	1
+
+
+RUN STATISTICS FOR INPUT FILE: /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/class_d_2_out/retrievedFragments/A43_clean__2_retrieved.fastq
+=============================================
+1651 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files A43_clean__1_retrieved_trimmed.fq and A43_clean__2_retrieved_trimmed.fq
+file_1: A43_clean__1_retrieved_trimmed.fq, file_2: A43_clean__2_retrieved_trimmed.fq
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: A43_clean__1_retrieved_trimmed.fq and A43_clean__2_retrieved_trimmed.fq <<<<<
+Writing validated paired-end Read 1 reads to A43_clean__1_retrieved_val_1.fq
+Writing validated paired-end Read 2 reads to A43_clean__2_retrieved_val_2.fq
+
+Total number of sequences analysed: 1651
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 1 (0.06%)
+
+Deleting both intermediate output files A43_clean__1_retrieved_trimmed.fq and A43_clean__2_retrieved_trimmed.fq
+
+====================================================================================================
+
+INFO: Done
+INFO:fargene_analysis.fargene_analysis:Done
+INFO: Running assembly using SPAdes
+INFO:fargene_analysis.fargene_analysis:Running assembly using SPAdes
+INFO: Done
+INFO:fargene_analysis.fargene_analysis:Done
+INFO: Running retrieval of assembled genes.
+INFO:fargene_analysis.fargene_analysis:Running retrieval of assembled genes.
+INFO: Predicting ORFS.
+INFO:fargene_analysis.fargene_analysis:Predicting ORFS.
+ERROR:root:The file /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/class_d_2_out/tmpdir/retrieved-contigs-long-orfs.fasta does not exist
+INFO: Done with pipeline
+INFO:fargene_analysis.fargene_analysis:Done with pipeline
+INFO: fARGene is done.
+Total number of retrieved contigs: 1
+Total number of predicted ORFS longer than 729.0 nt: 0
+Output can be found in /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/class_d_2_out
+INFO:fargene_analysis.fargene_analysis:fARGene is done.
+Total number of retrieved contigs: 1
+Total number of predicted ORFS longer than 729.0 nt: 0
+Output can be found in /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/class_d_2_out
+INFO: Starting fARGene
+INFO: Starting pipeline, planning to analyze 2 files
+INFO: Running on 40 processes
+INFO: Starting parse_fastq_input
+INFO: Processing and searching input files. This may take a while...
+INFO: Converting fastq to fasta
+INFO: Converting fastq to fasta
+INFO: Translating and searching
+INFO: Translating and searching
+INFO: Start to classify
+INFO:fargene_analysis.fargene_analysis.pooled_processing_fastq:Start to classify
+INFO: Translating, searching, and classification done
+INFO:fargene_analysis.fargene_analysis.pooled_processing_fastq:Translating, searching, and classification done
+INFO: Start to classify
+INFO:fargene_analysis.fargene_analysis.pooled_processing_fastq:Start to classify
+INFO: Translating, searching, and classification done
+INFO:fargene_analysis.fargene_analysis.pooled_processing_fastq:Translating, searching, and classification done
+INFO: Retrieving hits from input files.
+INFO: Retrieving fastqfiles
+INFO:fargene_analysis.fargene_analysis:Retrieving fastqfiles
+INFO: Performing quality control
+INFO:fargene_analysis.fargene_analysis:Performing quality control
+Multicore support not enabled. Proceeding with single-core trimming.
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 1.18
+single-core operation.
+Proceeding with 'gzip' for decompression
+To decrease CPU usage of decompression, please install 'igzip' and run again
+
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/qnr_out/retrievedFragments/trimmedReads/
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/qnr_out/retrievedFragments/A43_clean__1_retrieved.fastq <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+smallRNA	0	TGGAATTCTCGG	67	0.00
+Illumina	0	AGATCGGAAGAGC	67	0.00
+Nextera	0	CTGTCTCTTATA	67	0.00
+Unable to auto-detect most prominent adapter from the first specified file (count smallRNA: 0, count Illumina: 0, count Nextera: 0)
+Defaulting to Illumina universal adapter ( AGATCGGAAGAGC ). Specify -a SEQUENCE to avoid this behavior).
+
+Writing report to '/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/qnr_out/retrievedFragments/trimmedReads/A43_clean__1_retrieved.fastq_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/qnr_out/retrievedFragments/A43_clean__1_retrieved.fastq
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 1.18
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 30
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; default (inconclusive auto-detection))
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+
+Cutadapt seems to be reasonably up-to-date. Setting -j 1
+Writing final adapter and quality trimmed output to A43_clean__1_retrieved_trimmed.fq
+
+
+  >>> Now performing quality (cutoff '-q 30') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/qnr_out/retrievedFragments/A43_clean__1_retrieved.fastq <<< 
+This is cutadapt 1.18 with Python 2.7.15
+Command line parameters: -j 1 -e 0.1 -q 30 -O 1 -a AGATCGGAAGAGC /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/qnr_out/retrievedFragments/A43_clean__1_retrieved.fastq
+Processing reads on 1 core in single-end mode ...
+Finished in 0.00 s (58 us/read; 1.03 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                      67
+Reads with adapters:                        26 (38.8%)
+Reads written (passing filters):            67 (100.0%)
+
+Total basepairs processed:        10,049 bp
+Quality-trimmed:                      11 bp (0.1%)
+Total written (filtered):         10,002 bp (99.5%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 26 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 19.2%
+  C: 26.9%
+  G: 42.3%
+  T: 11.5%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	16	16.8	0	16
+2	10	4.2	0	10
+
+
+RUN STATISTICS FOR INPUT FILE: /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/qnr_out/retrievedFragments/A43_clean__1_retrieved.fastq
+=============================================
+67 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/qnr_out/retrievedFragments/trimmedReads/A43_clean__2_retrieved.fastq_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/qnr_out/retrievedFragments/A43_clean__2_retrieved.fastq
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 1.18
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 30
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; default (inconclusive auto-detection))
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+
+Cutadapt seems to be reasonably up-to-date. Setting -j -j 1
+Writing final adapter and quality trimmed output to A43_clean__2_retrieved_trimmed.fq
+
+
+  >>> Now performing quality (cutoff '-q 30') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/qnr_out/retrievedFragments/A43_clean__2_retrieved.fastq <<< 
+This is cutadapt 1.18 with Python 2.7.15
+Command line parameters: -j 1 -e 0.1 -q 30 -O 1 -a AGATCGGAAGAGC /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/qnr_out/retrievedFragments/A43_clean__2_retrieved.fastq
+Processing reads on 1 core in single-end mode ...
+Finished in 0.00 s (57 us/read; 1.05 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                      67
+Reads with adapters:                        14 (20.9%)
+Reads written (passing filters):            67 (100.0%)
+
+Total basepairs processed:         9,836 bp
+Quality-trimmed:                      34 bp (0.3%)
+Total written (filtered):          9,775 bp (99.4%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 14 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 35.7%
+  C: 42.9%
+  G: 14.3%
+  T: 7.1%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	8	16.8	0	8
+2	2	4.2	0	2
+3	1	1.0	0	1
+4	3	0.3	0	3
+
+
+RUN STATISTICS FOR INPUT FILE: /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/qnr_out/retrievedFragments/A43_clean__2_retrieved.fastq
+=============================================
+67 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files A43_clean__1_retrieved_trimmed.fq and A43_clean__2_retrieved_trimmed.fq
+file_1: A43_clean__1_retrieved_trimmed.fq, file_2: A43_clean__2_retrieved_trimmed.fq
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: A43_clean__1_retrieved_trimmed.fq and A43_clean__2_retrieved_trimmed.fq <<<<<
+Writing validated paired-end Read 1 reads to A43_clean__1_retrieved_val_1.fq
+Writing validated paired-end Read 2 reads to A43_clean__2_retrieved_val_2.fq
+
+Total number of sequences analysed: 67
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 0 (0.00%)
+
+Deleting both intermediate output files A43_clean__1_retrieved_trimmed.fq and A43_clean__2_retrieved_trimmed.fq
+
+====================================================================================================
+
+INFO: Done
+INFO:fargene_analysis.fargene_analysis:Done
+INFO: Running assembly using SPAdes
+INFO:fargene_analysis.fargene_analysis:Running assembly using SPAdes
+INFO: Done
+INFO:fargene_analysis.fargene_analysis:Done
+INFO: Running retrieval of assembled genes.
+INFO:fargene_analysis.fargene_analysis:Running retrieval of assembled genes.
+ERROR:root:No hits in file /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/qnr_out/spades_assembly/contigs.fasta
+INFO: Done with pipeline
+INFO:fargene_analysis.fargene_analysis:Done with pipeline
+INFO: fARGene is done.
+Total number of retrieved contigs: 0
+Total number of predicted ORFS longer than 586.0 nt: 0
+Output can be found in /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/qnr_out
+INFO:fargene_analysis.fargene_analysis:fARGene is done.
+Total number of retrieved contigs: 0
+Total number of predicted ORFS longer than 586.0 nt: 0
+Output can be found in /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/qnr_out
+INFO: Starting fARGene
+INFO: Starting pipeline, planning to analyze 2 files
+INFO: Running on 40 processes
+INFO: Starting parse_fastq_input
+INFO: Processing and searching input files. This may take a while...
+INFO: Converting fastq to fasta
+INFO: Converting fastq to fasta
+INFO: Translating and searching
+INFO: Translating and searching
+INFO: Start to classify
+INFO:fargene_analysis.fargene_analysis.pooled_processing_fastq:Start to classify
+INFO: Translating, searching, and classification done
+INFO:fargene_analysis.fargene_analysis.pooled_processing_fastq:Translating, searching, and classification done
+INFO: Start to classify
+INFO:fargene_analysis.fargene_analysis.pooled_processing_fastq:Start to classify
+INFO: Translating, searching, and classification done
+INFO:fargene_analysis.fargene_analysis.pooled_processing_fastq:Translating, searching, and classification done
+INFO: Retrieving hits from input files.
+INFO: Retrieving fastqfiles
+INFO:fargene_analysis.fargene_analysis:Retrieving fastqfiles
+INFO: Performing quality control
+INFO:fargene_analysis.fargene_analysis:Performing quality control
+Multicore support not enabled. Proceeding with single-core trimming.
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 1.18
+single-core operation.
+Proceeding with 'gzip' for decompression
+To decrease CPU usage of decompression, please install 'igzip' and run again
+
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_efflux_out/retrievedFragments/trimmedReads/
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_efflux_out/retrievedFragments/A43_clean__1_retrieved.fastq <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+smallRNA	1	TGGAATTCTCGG	25353	0.00
+Illumina	0	AGATCGGAAGAGC	25353	0.00
+Nextera	0	CTGTCTCTTATA	25353	0.00
+Using smallRNA adapter for trimming (count: 1). Second best hit was Illumina (count: 0)
+
+Reducing length cutoff to 18bp for small RNA-Seq reads because a cutoff of 20bp may remove some short species of small RNAs if they had been trimmed by 1,2 or 3bp
+Setting the Illumina smallRNA 5' adapter as adapter 2: 'GATCGTCGGACT'
+Writing report to '/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_efflux_out/retrievedFragments/trimmedReads/A43_clean__1_retrieved.fastq_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_efflux_out/retrievedFragments/A43_clean__1_retrieved.fastq
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 1.18
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 30
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'TGGAATTCTCGG' (Illumina small RNA adapter; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Optional adapter 2 sequence (only used for read 2 of paired-end files): 'GATCGTCGGACT'
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 18 bp
+
+Cutadapt seems to be reasonably up-to-date. Setting -j 1
+Writing final adapter and quality trimmed output to A43_clean__1_retrieved_trimmed.fq
+
+
+  >>> Now performing quality (cutoff '-q 30') and adapter trimming in a single pass for the adapter sequence: 'TGGAATTCTCGG' from file /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_efflux_out/retrievedFragments/A43_clean__1_retrieved.fastq <<< 
+This is cutadapt 1.18 with Python 2.7.15
+Command line parameters: -j 1 -e 0.1 -q 30 -O 1 -a TGGAATTCTCGG /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_efflux_out/retrievedFragments/A43_clean__1_retrieved.fastq
+Processing reads on 1 core in single-end mode ...
+Finished in 0.30 s (12 us/read; 5.11 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  25,353
+Reads with adapters:                     6,251 (24.7%)
+Reads written (passing filters):        25,353 (100.0%)
+
+Total basepairs processed:     3,784,123 bp
+Quality-trimmed:                   6,153 bp (0.2%)
+Total written (filtered):      3,767,868 bp (99.6%)
+
+=== Adapter 1 ===
+
+Sequence: TGGAATTCTCGG; Type: regular 3'; Length: 12; Trimmed: 6251 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 22.9%
+  C: 32.1%
+  G: 28.4%
+  T: 16.6%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	4152	6338.2	0	4152
+2	1598	1584.6	0	1598
+3	420	396.1	0	420
+4	46	99.0	0	46
+5	18	24.8	0	18
+6	1	6.2	0	1
+9	1	0.1	0	0 1
+10	1	0.0	1	0 1
+13	1	0.0	1	0 1
+29	2	0.0	1	0 2
+36	1	0.0	1	0 1
+67	1	0.0	1	0 1
+70	1	0.0	1	0 1
+99	1	0.0	1	0 1
+100	1	0.0	1	0 1
+106	1	0.0	1	0 1
+121	2	0.0	1	0 2
+128	1	0.0	1	0 1
+130	1	0.0	1	0 1
+146	1	0.0	1	1
+
+
+RUN STATISTICS FOR INPUT FILE: /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_efflux_out/retrievedFragments/A43_clean__1_retrieved.fastq
+=============================================
+25353 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_efflux_out/retrievedFragments/trimmedReads/A43_clean__2_retrieved.fastq_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_efflux_out/retrievedFragments/A43_clean__2_retrieved.fastq
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 1.18
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 30
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'TGGAATTCTCGG' (Illumina small RNA adapter; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Optional adapter 2 sequence (only used for read 2 of paired-end files): 'GATCGTCGGACT'
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 18 bp
+
+Cutadapt seems to be reasonably up-to-date. Setting -j -j 1
+Writing final adapter and quality trimmed output to A43_clean__2_retrieved_trimmed.fq
+
+
+  >>> Now performing quality (cutoff '-q 30') and adapter trimming in a single pass for the adapter sequence: 'GATCGTCGGACT' from file /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_efflux_out/retrievedFragments/A43_clean__2_retrieved.fastq <<< 
+This is cutadapt 1.18 with Python 2.7.15
+Command line parameters: -j 1 -e 0.1 -q 30 -O 1 -a GATCGTCGGACT /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_efflux_out/retrievedFragments/A43_clean__2_retrieved.fastq
+Processing reads on 1 core in single-end mode ...
+Finished in 0.33 s (13 us/read; 4.67 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  25,353
+Reads with adapters:                    11,128 (43.9%)
+Reads written (passing filters):        25,353 (100.0%)
+
+Total basepairs processed:     3,784,632 bp
+Quality-trimmed:                   5,840 bp (0.2%)
+Total written (filtered):      3,755,483 bp (99.2%)
+
+=== Adapter 1 ===
+
+Sequence: GATCGTCGGACT; Type: regular 3'; Length: 12; Trimmed: 11128 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 15.1%
+  C: 41.2%
+  G: 24.5%
+  T: 19.2%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	8449	6338.2	0	8449
+2	1587	1584.6	0	1587
+3	519	396.1	0	519
+4	305	99.0	0	305
+5	129	24.8	0	129
+6	15	6.2	0	15
+7	9	1.5	0	9
+8	2	0.4	0	2
+9	5	0.1	0	3 2
+10	8	0.0	1	0 8
+11	1	0.0	1	0 1
+16	2	0.0	1	0 2
+17	1	0.0	1	0 1
+26	1	0.0	1	0 1
+31	3	0.0	1	0 3
+32	2	0.0	1	0 2
+35	1	0.0	1	0 1
+38	1	0.0	1	0 1
+39	4	0.0	1	0 4
+40	2	0.0	1	0 2
+41	1	0.0	1	0 1
+43	4	0.0	1	0 4
+44	3	0.0	1	0 3
+46	2	0.0	1	0 2
+48	1	0.0	1	0 1
+50	1	0.0	1	0 1
+51	2	0.0	1	0 2
+52	1	0.0	1	0 1
+54	1	0.0	1	0 1
+55	2	0.0	1	0 2
+56	1	0.0	1	0 1
+58	2	0.0	1	0 2
+59	2	0.0	1	0 2
+61	1	0.0	1	0 1
+64	1	0.0	1	0 1
+66	1	0.0	1	0 1
+67	2	0.0	1	0 2
+69	1	0.0	1	1
+74	2	0.0	1	0 2
+76	2	0.0	1	2
+79	1	0.0	1	0 1
+82	2	0.0	1	0 2
+83	4	0.0	1	0 4
+84	1	0.0	1	0 1
+85	2	0.0	1	0 2
+87	1	0.0	1	1
+92	1	0.0	1	0 1
+93	2	0.0	1	0 2
+102	3	0.0	1	0 3
+103	1	0.0	1	0 1
+107	1	0.0	1	0 1
+109	2	0.0	1	0 2
+111	1	0.0	1	0 1
+112	2	0.0	1	0 2
+113	1	0.0	1	0 1
+116	1	0.0	1	0 1
+118	1	0.0	1	0 1
+123	1	0.0	1	1
+126	3	0.0	1	0 3
+127	3	0.0	1	0 3
+132	2	0.0	1	0 2
+133	1	0.0	1	0 1
+134	3	0.0	1	0 3
+136	1	0.0	1	0 1
+139	1	0.0	1	0 1
+141	2	0.0	1	0 2
+144	2	0.0	1	0 2
+147	1	0.0	1	0 1
+149	2	0.0	1	0 2
+
+
+RUN STATISTICS FOR INPUT FILE: /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_efflux_out/retrievedFragments/A43_clean__2_retrieved.fastq
+=============================================
+25353 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files A43_clean__1_retrieved_trimmed.fq and A43_clean__2_retrieved_trimmed.fq
+file_1: A43_clean__1_retrieved_trimmed.fq, file_2: A43_clean__2_retrieved_trimmed.fq
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: A43_clean__1_retrieved_trimmed.fq and A43_clean__2_retrieved_trimmed.fq <<<<<
+Writing validated paired-end Read 1 reads to A43_clean__1_retrieved_val_1.fq
+Writing validated paired-end Read 2 reads to A43_clean__2_retrieved_val_2.fq
+
+Total number of sequences analysed: 25353
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (18 bp): 40 (0.16%)
+
+Deleting both intermediate output files A43_clean__1_retrieved_trimmed.fq and A43_clean__2_retrieved_trimmed.fq
+
+====================================================================================================
+
+INFO: Done
+INFO:fargene_analysis.fargene_analysis:Done
+INFO: Running assembly using SPAdes
+INFO:fargene_analysis.fargene_analysis:Running assembly using SPAdes
+INFO: Done
+INFO:fargene_analysis.fargene_analysis:Done
+INFO: Running retrieval of assembled genes.
+INFO:fargene_analysis.fargene_analysis:Running retrieval of assembled genes.
+ERROR:root:No hits in file /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_efflux_out/spades_assembly/contigs.fasta
+INFO: Done with pipeline
+INFO:fargene_analysis.fargene_analysis:Done with pipeline
+INFO: fARGene is done.
+Total number of retrieved contigs: 0
+Total number of predicted ORFS longer than 1077.0 nt: 0
+Output can be found in /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_efflux_out
+INFO:fargene_analysis.fargene_analysis:fARGene is done.
+Total number of retrieved contigs: 0
+Total number of predicted ORFS longer than 1077.0 nt: 0
+Output can be found in /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_efflux_out
+INFO: Starting fARGene
+INFO: Starting pipeline, planning to analyze 2 files
+INFO: Running on 40 processes
+INFO: Starting parse_fastq_input
+INFO: Processing and searching input files. This may take a while...
+INFO: Converting fastq to fasta
+INFO: Converting fastq to fasta
+INFO: Translating and searching
+INFO: Translating and searching
+INFO: Start to classify
+INFO:fargene_analysis.fargene_analysis.pooled_processing_fastq:Start to classify
+INFO: Translating, searching, and classification done
+INFO:fargene_analysis.fargene_analysis.pooled_processing_fastq:Translating, searching, and classification done
+INFO: Start to classify
+INFO:fargene_analysis.fargene_analysis.pooled_processing_fastq:Start to classify
+INFO: Translating, searching, and classification done
+INFO:fargene_analysis.fargene_analysis.pooled_processing_fastq:Translating, searching, and classification done
+INFO: Retrieving hits from input files.
+INFO: Retrieving fastqfiles
+INFO:fargene_analysis.fargene_analysis:Retrieving fastqfiles
+INFO: Performing quality control
+INFO:fargene_analysis.fargene_analysis:Performing quality control
+Multicore support not enabled. Proceeding with single-core trimming.
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 1.18
+single-core operation.
+Proceeding with 'gzip' for decompression
+To decrease CPU usage of decompression, please install 'igzip' and run again
+
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_rpg_out/retrievedFragments/trimmedReads/
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_rpg_out/retrievedFragments/A43_clean__1_retrieved.fastq <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+Illumina	0	AGATCGGAAGAGC	20381	0.00
+smallRNA	0	TGGAATTCTCGG	20381	0.00
+Nextera	0	CTGTCTCTTATA	20381	0.00
+Unable to auto-detect most prominent adapter from the first specified file (count Illumina: 0, count smallRNA: 0, count Nextera: 0)
+Defaulting to Illumina universal adapter ( AGATCGGAAGAGC ). Specify -a SEQUENCE to avoid this behavior).
+
+Writing report to '/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_rpg_out/retrievedFragments/trimmedReads/A43_clean__1_retrieved.fastq_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_rpg_out/retrievedFragments/A43_clean__1_retrieved.fastq
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 1.18
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 30
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; default (inconclusive auto-detection))
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+
+Cutadapt seems to be reasonably up-to-date. Setting -j 1
+Writing final adapter and quality trimmed output to A43_clean__1_retrieved_trimmed.fq
+
+
+  >>> Now performing quality (cutoff '-q 30') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_rpg_out/retrievedFragments/A43_clean__1_retrieved.fastq <<< 
+This is cutadapt 1.18 with Python 2.7.15
+Command line parameters: -j 1 -e 0.1 -q 30 -O 1 -a AGATCGGAAGAGC /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_rpg_out/retrievedFragments/A43_clean__1_retrieved.fastq
+Processing reads on 1 core in single-end mode ...
+Finished in 0.23 s (11 us/read; 5.32 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  20,381
+Reads with adapters:                     4,648 (22.8%)
+Reads written (passing filters):        20,381 (100.0%)
+
+Total basepairs processed:     3,038,829 bp
+Quality-trimmed:                   4,419 bp (0.1%)
+Total written (filtered):      3,027,218 bp (99.6%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 4648 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 21.7%
+  C: 31.2%
+  G: 38.8%
+  T: 8.3%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	3355	5095.2	0	3355
+2	999	1273.8	0	999
+3	201	318.5	0	201
+4	50	79.6	0	50
+5	21	19.9	0	21
+6	11	5.0	0	11
+7	3	1.2	0	3
+12	1	0.0	1	0 1
+82	1	0.0	1	0 1
+105	1	0.0	1	0 1
+110	1	0.0	1	0 1
+119	1	0.0	1	0 1
+137	1	0.0	1	0 1
+139	1	0.0	1	0 1
+140	1	0.0	1	0 1
+
+
+RUN STATISTICS FOR INPUT FILE: /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_rpg_out/retrievedFragments/A43_clean__1_retrieved.fastq
+=============================================
+20381 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_rpg_out/retrievedFragments/trimmedReads/A43_clean__2_retrieved.fastq_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_rpg_out/retrievedFragments/A43_clean__2_retrieved.fastq
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 1.18
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 30
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; default (inconclusive auto-detection))
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+
+Cutadapt seems to be reasonably up-to-date. Setting -j -j 1
+Writing final adapter and quality trimmed output to A43_clean__2_retrieved_trimmed.fq
+
+
+  >>> Now performing quality (cutoff '-q 30') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_rpg_out/retrievedFragments/A43_clean__2_retrieved.fastq <<< 
+This is cutadapt 1.18 with Python 2.7.15
+Command line parameters: -j 1 -e 0.1 -q 30 -O 1 -a AGATCGGAAGAGC /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_rpg_out/retrievedFragments/A43_clean__2_retrieved.fastq
+Processing reads on 1 core in single-end mode ...
+Finished in 0.23 s (11 us/read; 5.32 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  20,381
+Reads with adapters:                     4,664 (22.9%)
+Reads written (passing filters):        20,381 (100.0%)
+
+Total basepairs processed:     3,041,302 bp
+Quality-trimmed:                   5,855 bp (0.2%)
+Total written (filtered):      3,028,448 bp (99.6%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 4664 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 20.6%
+  C: 31.4%
+  G: 39.6%
+  T: 8.4%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	3306	5095.2	0	3306
+2	1015	1273.8	0	1015
+3	218	318.5	0	218
+4	71	79.6	0	71
+5	29	19.9	0	29
+6	15	5.0	0	15
+7	3	1.2	0	3
+10	1	0.0	1	1
+17	1	0.0	1	0 1
+34	1	0.0	1	0 1
+72	1	0.0	1	0 1
+94	1	0.0	1	0 1
+108	1	0.0	1	0 1
+134	1	0.0	1	0 1
+
+
+RUN STATISTICS FOR INPUT FILE: /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_rpg_out/retrievedFragments/A43_clean__2_retrieved.fastq
+=============================================
+20381 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files A43_clean__1_retrieved_trimmed.fq and A43_clean__2_retrieved_trimmed.fq
+file_1: A43_clean__1_retrieved_trimmed.fq, file_2: A43_clean__2_retrieved_trimmed.fq
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: A43_clean__1_retrieved_trimmed.fq and A43_clean__2_retrieved_trimmed.fq <<<<<
+Writing validated paired-end Read 1 reads to A43_clean__1_retrieved_val_1.fq
+Writing validated paired-end Read 2 reads to A43_clean__2_retrieved_val_2.fq
+
+Total number of sequences analysed: 20381
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 24 (0.12%)
+
+Deleting both intermediate output files A43_clean__1_retrieved_trimmed.fq and A43_clean__2_retrieved_trimmed.fq
+
+====================================================================================================
+
+INFO: Done
+INFO:fargene_analysis.fargene_analysis:Done
+INFO: Running assembly using SPAdes
+INFO:fargene_analysis.fargene_analysis:Running assembly using SPAdes
+INFO: Done
+INFO:fargene_analysis.fargene_analysis:Done
+INFO: Running retrieval of assembled genes.
+INFO:fargene_analysis.fargene_analysis:Running retrieval of assembled genes.
+INFO: Predicting ORFS.
+INFO:fargene_analysis.fargene_analysis:Predicting ORFS.
+ERROR:root:The file /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_rpg_out/tmpdir/retrieved-contigs-long-orfs.fasta does not exist
+INFO: Done with pipeline
+INFO:fargene_analysis.fargene_analysis:Done with pipeline
+INFO: fARGene is done.
+Total number of retrieved contigs: 2
+Total number of predicted ORFS longer than 1744.0 nt: 0
+Output can be found in /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_rpg_out
+INFO:fargene_analysis.fargene_analysis:fARGene is done.
+Total number of retrieved contigs: 2
+Total number of predicted ORFS longer than 1744.0 nt: 0
+Output can be found in /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_rpg_out
+INFO: Starting fARGene
+INFO: Starting pipeline, planning to analyze 2 files
+INFO: Running on 40 processes
+INFO: Starting parse_fastq_input
+INFO: Processing and searching input files. This may take a while...
+INFO: Converting fastq to fasta
+INFO: Converting fastq to fasta
+INFO: Translating and searching
+INFO: Translating and searching
+INFO: Start to classify
+INFO:fargene_analysis.fargene_analysis.pooled_processing_fastq:Start to classify
+INFO: Translating, searching, and classification done
+INFO:fargene_analysis.fargene_analysis.pooled_processing_fastq:Translating, searching, and classification done
+INFO: Start to classify
+INFO:fargene_analysis.fargene_analysis.pooled_processing_fastq:Start to classify
+INFO: Translating, searching, and classification done
+INFO:fargene_analysis.fargene_analysis.pooled_processing_fastq:Translating, searching, and classification done
+INFO: Retrieving hits from input files.
+INFO: Retrieving fastqfiles
+INFO:fargene_analysis.fargene_analysis:Retrieving fastqfiles
+INFO: Performing quality control
+INFO:fargene_analysis.fargene_analysis:Performing quality control
+Multicore support not enabled. Proceeding with single-core trimming.
+Path to Cutadapt set as: 'cutadapt' (default)
+Cutadapt seems to be working fine (tested command 'cutadapt --version')
+Cutadapt version: 1.18
+single-core operation.
+Proceeding with 'gzip' for decompression
+To decrease CPU usage of decompression, please install 'igzip' and run again
+
+No quality encoding type selected. Assuming that the data provided uses Sanger encoded Phred scores (default)
+
+Output will be written into the directory: /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_enzyme_out/retrievedFragments/trimmedReads/
+
+
+AUTO-DETECTING ADAPTER TYPE
+===========================
+Attempting to auto-detect adapter type from the first 1 million sequences of the first file (>> /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_enzyme_out/retrievedFragments/A43_clean__1_retrieved.fastq <<)
+
+Found perfect matches for the following adapter sequences:
+Adapter type	Count	Sequence	Sequences analysed	Percentage
+smallRNA	0	TGGAATTCTCGG	15043	0.00
+Nextera	0	CTGTCTCTTATA	15043	0.00
+Illumina	0	AGATCGGAAGAGC	15043	0.00
+Unable to auto-detect most prominent adapter from the first specified file (count smallRNA: 0, count Nextera: 0, count Illumina: 0)
+Defaulting to Illumina universal adapter ( AGATCGGAAGAGC ). Specify -a SEQUENCE to avoid this behavior).
+
+Writing report to '/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_enzyme_out/retrievedFragments/trimmedReads/A43_clean__1_retrieved.fastq_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_enzyme_out/retrievedFragments/A43_clean__1_retrieved.fastq
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 1.18
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 30
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; default (inconclusive auto-detection))
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+
+Cutadapt seems to be reasonably up-to-date. Setting -j 1
+Writing final adapter and quality trimmed output to A43_clean__1_retrieved_trimmed.fq
+
+
+  >>> Now performing quality (cutoff '-q 30') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_enzyme_out/retrievedFragments/A43_clean__1_retrieved.fastq <<< 
+This is cutadapt 1.18 with Python 2.7.15
+Command line parameters: -j 1 -e 0.1 -q 30 -O 1 -a AGATCGGAAGAGC /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_enzyme_out/retrievedFragments/A43_clean__1_retrieved.fastq
+Processing reads on 1 core in single-end mode ...
+Finished in 0.17 s (11 us/read; 5.35 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  15,043
+Reads with adapters:                     3,282 (21.8%)
+Reads written (passing filters):        15,043 (100.0%)
+
+Total basepairs processed:     2,242,203 bp
+Quality-trimmed:                   4,515 bp (0.2%)
+Total written (filtered):      2,233,171 bp (99.6%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 3282 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 16.8%
+  C: 35.8%
+  G: 38.6%
+  T: 8.7%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	2337	3760.8	0	2337
+2	764	940.2	0	764
+3	111	235.0	0	111
+4	42	58.8	0	42
+5	20	14.7	0	20
+6	5	3.7	0	5
+7	3	0.9	0	3
+
+
+RUN STATISTICS FOR INPUT FILE: /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_enzyme_out/retrievedFragments/A43_clean__1_retrieved.fastq
+=============================================
+15043 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Writing report to '/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_enzyme_out/retrievedFragments/trimmedReads/A43_clean__2_retrieved.fastq_trimming_report.txt'
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_enzyme_out/retrievedFragments/A43_clean__2_retrieved.fastq
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 1.18
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 30
+Quality encoding type selected: ASCII+33
+Adapter sequence: 'AGATCGGAAGAGC' (Illumina TruSeq, Sanger iPCR; default (inconclusive auto-detection))
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 1 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+
+Cutadapt seems to be reasonably up-to-date. Setting -j -j 1
+Writing final adapter and quality trimmed output to A43_clean__2_retrieved_trimmed.fq
+
+
+  >>> Now performing quality (cutoff '-q 30') and adapter trimming in a single pass for the adapter sequence: 'AGATCGGAAGAGC' from file /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_enzyme_out/retrievedFragments/A43_clean__2_retrieved.fastq <<< 
+This is cutadapt 1.18 with Python 2.7.15
+Command line parameters: -j 1 -e 0.1 -q 30 -O 1 -a AGATCGGAAGAGC /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_enzyme_out/retrievedFragments/A43_clean__2_retrieved.fastq
+Processing reads on 1 core in single-end mode ...
+Finished in 0.17 s (11 us/read; 5.37 M reads/minute).
+
+=== Summary ===
+
+Total reads processed:                  15,043
+Reads with adapters:                     3,226 (21.4%)
+Reads written (passing filters):        15,043 (100.0%)
+
+Total basepairs processed:     2,246,875 bp
+Quality-trimmed:                   3,638 bp (0.2%)
+Total written (filtered):      2,238,521 bp (99.6%)
+
+=== Adapter 1 ===
+
+Sequence: AGATCGGAAGAGC; Type: regular 3'; Length: 13; Trimmed: 3226 times.
+
+No. of allowed errors:
+0-9 bp: 0; 10-13 bp: 1
+
+Bases preceding removed adapters:
+  A: 18.0%
+  C: 34.8%
+  G: 38.4%
+  T: 8.9%
+  none/other: 0.0%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+1	2293	3760.8	0	2293
+2	755	940.2	0	755
+3	101	235.0	0	101
+4	47	58.8	0	47
+5	20	14.7	0	20
+6	3	3.7	0	3
+7	4	0.9	0	4
+11	1	0.0	1	0 1
+120	1	0.0	1	0 1
+145	1	0.0	1	0 1
+
+
+RUN STATISTICS FOR INPUT FILE: /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_enzyme_out/retrievedFragments/A43_clean__2_retrieved.fastq
+=============================================
+15043 sequences processed in total
+The length threshold of paired-end sequences gets evaluated later on (in the validation step)
+
+Validate paired-end files A43_clean__1_retrieved_trimmed.fq and A43_clean__2_retrieved_trimmed.fq
+file_1: A43_clean__1_retrieved_trimmed.fq, file_2: A43_clean__2_retrieved_trimmed.fq
+
+
+>>>>> Now validing the length of the 2 paired-end infiles: A43_clean__1_retrieved_trimmed.fq and A43_clean__2_retrieved_trimmed.fq <<<<<
+Writing validated paired-end Read 1 reads to A43_clean__1_retrieved_val_1.fq
+Writing validated paired-end Read 2 reads to A43_clean__2_retrieved_val_2.fq
+
+Total number of sequences analysed: 15043
+
+Number of sequence pairs removed because at least one read was shorter than the length cutoff (20 bp): 19 (0.13%)
+
+Deleting both intermediate output files A43_clean__1_retrieved_trimmed.fq and A43_clean__2_retrieved_trimmed.fq
+
+====================================================================================================
+
+INFO: Done
+INFO:fargene_analysis.fargene_analysis:Done
+INFO: Running assembly using SPAdes
+INFO:fargene_analysis.fargene_analysis:Running assembly using SPAdes
+INFO: Done
+INFO:fargene_analysis.fargene_analysis:Done
+INFO: Running retrieval of assembled genes.
+INFO:fargene_analysis.fargene_analysis:Running retrieval of assembled genes.
+ERROR:root:No hits in file /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_enzyme_out/spades_assembly/contigs.fasta
+INFO: Done with pipeline
+INFO:fargene_analysis.fargene_analysis:Done with pipeline
+INFO: fARGene is done.
+Total number of retrieved contigs: 0
+Total number of predicted ORFS longer than 1050.0 nt: 0
+Output can be found in /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_enzyme_out
+INFO:fargene_analysis.fargene_analysis:fARGene is done.
+Total number of retrieved contigs: 0
+Total number of predicted ORFS longer than 1050.0 nt: 0
+Output can be found in /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A43_out/tet_enzyme_out
+CRITICAL: 
+The HMM file erm_type_a could not be found.
+Either provide a valid path to a HMM or choose one of the following pre-defined models:
+b1
+class_b_1_2
+class_b_3
+class_a
+class_c
+class_d_1
+class_d_2
+qnr
+tet_efflux
+tet_rpg
+tet_enzyme
+INFO: Exiting pipeline
+CRITICAL: 
+The HMM file erm_type_f could not be found.
+Either provide a valid path to a HMM or choose one of the following pre-defined models:
+b1
+class_b_1_2
+class_b_3
+class_a
+class_c
+class_d_1
+class_d_2
+qnr
+tet_efflux
+tet_rpg
+tet_enzyme
+INFO: Exiting pipeline
+CRITICAL: 
+The HMM file mph could not be found.
+Either provide a valid path to a HMM or choose one of the following pre-defined models:
+b1
+class_b_1_2
+class_b_3
+class_a
+class_c
+class_d_1
+class_d_2
+qnr
+tet_efflux
+tet_rpg
+tet_enzyme
+INFO: Exiting pipeline
+CRITICAL: 
+The HMM file aminoglycoside_model_a could not be found.
+Either provide a valid path to a HMM or choose one of the following pre-defined models:
+b1
+class_b_1_2
+class_b_3
+class_a
+class_c
+class_d_1
+class_d_2
+qnr
+tet_efflux
+tet_rpg
+tet_enzyme
+INFO: Exiting pipeline
+CRITICAL: 
+The HMM file aminoglycoside_model_b could not be found.
+Either provide a valid path to a HMM or choose one of the following pre-defined models:
+b1
+class_b_1_2
+class_b_3
+class_a
+class_c
+class_d_1
+class_d_2
+qnr
+tet_efflux
+tet_rpg
+tet_enzyme
+INFO: Exiting pipeline
+CRITICAL: 
+The HMM file aminoglycoside_model_c could not be found.
+Either provide a valid path to a HMM or choose one of the following pre-defined models:
+b1
+class_b_1_2
+class_b_3
+class_a
+class_c
+class_d_1
+class_d_2
+qnr
+tet_efflux
+tet_rpg
+tet_enzyme
+INFO: Exiting pipeline
+CRITICAL: 
+The HMM file aminoglycoside_model_d could not be found.
+Either provide a valid path to a HMM or choose one of the following pre-defined models:
+b1
+class_b_1_2
+class_b_3
+class_a
+class_c
+class_d_1
+class_d_2
+qnr
+tet_efflux
+tet_rpg
+tet_enzyme
+INFO: Exiting pipeline
+CRITICAL: 
+The HMM file aminoglycoside_model_e could not be found.
+Either provide a valid path to a HMM or choose one of the following pre-defined models:
+b1
+class_b_1_2
+class_b_3
+class_a
+class_c
+class_d_1
+class_d_2
+qnr
+tet_efflux
+tet_rpg
+tet_enzyme
+INFO: Exiting pipeline
+CRITICAL: 
+The HMM file aminoglycoside_model_f could not be found.
+Either provide a valid path to a HMM or choose one of the following pre-defined models:
+b1
+class_b_1_2
+class_b_3
+class_a
+class_c
+class_d_1
+class_d_2
+qnr
+tet_efflux
+tet_rpg
+tet_enzyme
+INFO: Exiting pipeline
+CRITICAL: 
+The HMM file aminoglycoside_model_g could not be found.
+Either provide a valid path to a HMM or choose one of the following pre-defined models:
+b1
+class_b_1_2
+class_b_3
+class_a
+class_c
+class_d_1
+class_d_2
+qnr
+tet_efflux
+tet_rpg
+tet_enzyme
+INFO: Exiting pipeline
+CRITICAL: 
+The HMM file aminoglycoside_model_h could not be found.
+Either provide a valid path to a HMM or choose one of the following pre-defined models:
+b1
+class_b_1_2
+class_b_3
+class_a
+class_c
+class_d_1
+class_d_2
+qnr
+tet_efflux
+tet_rpg
+tet_enzyme
+INFO: Exiting pipeline
+CRITICAL: 
+The HMM file aminoglycoside_model_i could not be found.
+Either provide a valid path to a HMM or choose one of the following pre-defined models:
+b1
+class_b_1_2
+class_b_3
+class_a
+class_c
+class_d_1
+class_d_2
+qnr
+tet_efflux
+tet_rpg
+tet_enzyme
+INFO: Exiting pipeline

@@ -1,0 +1,9 @@
+2023-06-13 15:51:22,308 - The log file is created at annotation/distilled/distill.log
+2023-06-13 15:51:22,381 - Retrieved database locations and descriptions
+2023-06-13 15:51:22,393 - Note: the fallowing id fields were not in the annotations file and are not being used: ['kegg_genes_id', 'kegg_id', 'camper_id', 'fegenie_id', 'sulfur_id', 'methyl_id'], but these are ['ko_id', 'kegg_hit', 'peptidase_family', 'cazy_best_hit', 'pfam_hits']
+2023-06-13 15:51:22,393 - Determined potential amgs
+2023-06-13 15:51:23,591 - Calculated viral genome statistics
+2023-06-13 15:51:23,620 - No distillate information found for 0 genes.
+2023-06-13 15:51:23,627 - Generated AMG summary
+2023-06-13 15:51:23,933 - Generated product heatmap
+2023-06-13 15:51:23,933 - Completed distillation

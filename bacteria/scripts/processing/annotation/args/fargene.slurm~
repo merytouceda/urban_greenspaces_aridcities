@@ -1,0 +1,36 @@
+#!/bin/bash
+# --------------------------------------------------
+# Request resources here
+# --------------------------------------------------
+#SBATCH --job-name=lu_fargene_test
+#SBATCH --output=lu_fargene_test.out
+#SBATCH --account=barberan
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=mtoucedasuarez@hpc.arizona.edu
+#SBATCH --partition=standard
+#SBATCH --ntasks=1
+#SBATCH --nodes=1
+#SBATCH --mem-per-cpu=4000
+#SBATCH --cpus-per-task=40
+#SBATCH --time=16:00:00
+
+
+# --------------------------------------------------
+# Load modules
+# --------------------------------------------------
+module load anaconda
+source ~/.bashrc && conda activate
+conda activate seqkit
+
+# --------------------------------------------------
+# Execute
+# --------------------------------------------------
+
+# test on on sample only
+
+TEST_IN_DIR="/xdisk/barberan/mtoucedasuarez/landuse/clean/uncompressed/test"
+TEST_OUT_DIR="/xdisk/barberan/mtoucedasuarez/landuse/args/fargene/test"
+
+cd /groups/barberan/software/fargene
+
+fargene --infiles $TEST_IN_DIR/*.fastq --meta --hmm-model class_a -o $TEST_OUT_DIR -p 40  

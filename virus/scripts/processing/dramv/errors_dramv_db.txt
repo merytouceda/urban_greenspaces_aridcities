@@ -1,0 +1,64 @@
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:126: UserWarning: Database does not exist at path /xdisk/egornish/mtoucedasuarez/databases/description_db.sqlite
+  warnings.warn("Database does not exist at path %s" % description_loc)
+2023-10-26 17:36:59,340 - Starting the process of downloading data
+2023-10-26 17:36:59,340 - Skipping UniRef
+2023-10-26 17:36:59,340 - The kegg_loc argument was not used to specify a downloaded kegg file, and dram can not download it its self. So it is assumed that the user wants to set up DRAM without it
+2023-10-26 17:36:59,340 - The gene_ko_link_loc argument was not used to specify a downloaded gene_ko_link file, and dram can not download it its self. So it is assumed that the user wants to set up DRAM without it
+2023-10-26 17:36:59,340 - Database preparation started
+2023-10-26 17:36:59,340 - Downloading kofam_hmm
+2023-10-26 17:40:47,232 - Downloading kofam_ko_list
+2023-10-26 17:40:49,108 - Downloading pfam
+2023-10-26 17:55:27,597 - Downloading pfam_hmm
+2023-10-26 17:55:29,692 - Downloading dbcan
+2023-10-26 17:55:31,697 - Downloading dbcan_fam_activities
+2023-10-26 17:55:31,697 - Downloading dbCAN family activities from : https://bcb.unl.edu/dbCAN2/download/Databases/V11/CAZyDB.08062022.fam-activities.txt
+2023-10-26 17:55:31,981 - Downloading dbcan_subfam_ec
+2023-10-26 17:55:31,981 - Downloading dbCAN sub-family encumber from : https://bcb.unl.edu/dbCAN2/download/Databases/V11/CAZyDB.08062022.fam.subfam.ec.txt
+2023-10-26 17:55:32,297 - Downloading vogdb
+2023-10-26 17:56:09,913 - Downloading vog_annotations
+2023-10-26 17:56:11,485 - Downloading viral
+2023-10-26 17:56:16,999 - Downloading peptidase
+2023-10-26 17:56:40,907 - Downloading genome_summary_form
+2023-10-26 17:56:41,324 - Downloading module_step_form
+2023-10-26 17:56:41,639 - Downloading function_heatmap_form
+2023-10-26 17:56:41,859 - Downloading amg_database
+2023-10-26 17:56:42,087 - Downloading etc_module_database
+2023-10-26 17:56:42,307 - All raw data files were downloaded successfully
+2023-10-26 17:56:42,307 - Processing kofam_hmm
+2023-10-26 18:04:34,134 - KOfam database processed
+2023-10-26 18:04:34,263 - Moved kofam_hmm to final destination, configuration updated
+2023-10-26 18:04:34,263 - Processing kofam_ko_list
+2023-10-26 18:04:34,360 - KOfam ko list processed
+2023-10-26 18:04:34,369 - Moved kofam_ko_list to final destination, configuration updated
+2023-10-26 18:04:34,369 - Processing pfam
+2023-10-26 18:46:33,142 - PFAM database processed
+2023-10-26 18:46:33,163 - Moved pfam to final destination, configuration updated
+2023-10-26 18:46:33,170 - Moved pfam_hmm to final destination, configuration updated
+2023-10-26 18:46:33,170 - Processing dbcan
+2023-10-26 18:46:36,008 - dbCAN database processed
+2023-10-26 18:46:36,021 - Moved dbcan to final destination, configuration updated
+2023-10-26 18:46:36,027 - Moved dbcan_fam_activities to final destination, configuration updated
+2023-10-26 18:46:36,034 - Moved dbcan_subfam_ec to final destination, configuration updated
+2023-10-26 18:46:36,034 - Processing vogdb
+2023-10-26 18:52:54,734 - VOGdb database processed
+2023-10-26 18:52:54,766 - Moved vogdb to final destination, configuration updated
+2023-10-26 18:52:54,773 - Moved vog_annotations to final destination, configuration updated
+2023-10-26 18:52:54,773 - Processing viral
+2023-10-26 18:53:08,000 - RefSeq viral database processed
+2023-10-26 18:53:08,009 - Moved viral to final destination, configuration updated
+2023-10-26 18:53:08,009 - Processing peptidase
+2023-10-26 18:53:26,772 - MEROPS database processed
+2023-10-26 18:53:26,779 - Moved peptidase to final destination, configuration updated
+2023-10-26 18:53:26,785 - Moved genome_summary_form to final destination, configuration updated
+2023-10-26 18:53:26,792 - Moved module_step_form to final destination, configuration updated
+2023-10-26 18:53:26,798 - Moved function_heatmap_form to final destination, configuration updated
+2023-10-26 18:53:26,804 - Moved amg_database to final destination, configuration updated
+2023-10-26 18:53:26,811 - Moved etc_module_database to final destination, configuration updated
+2023-10-26 18:53:26,811 - Populating the description db, this may take some time
+2023-10-26 18:53:46,685 - Description updated for the viral database
+2023-10-26 18:54:23,202 - Description updated for the peptidase database
+2023-10-26 18:54:23,700 - Description updated for the pfam database
+2023-10-26 18:54:24,015 - Description updated for the dbcan database
+2023-10-26 18:54:27,239 - Description updated for the vogdb database
+2023-10-26 18:54:27,244 - DRAM description database populated
+2023-10-26 18:54:28,150 - Database preparation completed

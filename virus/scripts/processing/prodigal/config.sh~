@@ -1,0 +1,7 @@
+#!/bin/bash -l
+# conda directory
+#CONDA=""
+# INPUT LIST and  DIRECTORY
+IN_LIST="/groups/egornish/mtoucedasuarez/scripts/jobs/landuse/virus/prodigal/sample_list.txt" # list of files to process
+IN_DIR="/xdisk/barberan/mtoucedasuarez/landuse/virus/final/fasta"
+OUT_DIR="/xdisk/barberan/mtoucedasuarez/landuse/virus/prodigal"

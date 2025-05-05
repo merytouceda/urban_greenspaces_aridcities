@@ -1,0 +1,163 @@
+diamond v2.0.9.147 (C) Max Planck Society for the Advancement of Science
+Documentation, support and updates available at http://www.diamondsearch.org
+Please cite: http://dx.doi.org/10.1038/s41592-021-01101-x Nature Methods (2021)
+
+#CPU threads: 96
+Scoring parameters: (Matrix=BLOSUM62 Lambda=0.267 K=0.041 Penalties=11/1)
+Database input file: /groups/egornish/mtoucedasuarez/scripts/jobs/landuse/args/databases/CARD/protein_fasta_protein_homolog_model.fasta
+Opening the database file...  [0.042s]
+Loading sequences...  [0.009s]
+Masking sequences...  [0.023s]
+Writing sequences...  [0s]
+Hashing sequences...  [0s]
+Loading sequences...  [0s]
+Writing trailer...  [0s]
+Closing the input file...  [0s]
+Closing the database file...  [0.012s]
+
+Database sequences  4661
+  Database letters  1482682
+     Database hash  10f991824fa799fbc78d4eef47292078
+        Total time  0.089000s
+diamond v2.0.9.147 (C) Max Planck Society for the Advancement of Science
+Documentation, support and updates available at http://www.diamondsearch.org
+Please cite: http://dx.doi.org/10.1038/s41592-021-01101-x Nature Methods (2021)
+
+#CPU threads: 96
+Scoring parameters: (Matrix=BLOSUM62 Lambda=0.267 K=0.041 Penalties=11/1)
+Database input file: /xdisk/egornish/mtoucedasuarez/databases/bacmet/BacMet2_EXP_database.fasta
+Opening the database file... No such file or directory
+ [0.004s]
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/BacMet2_EXP_database.fasta
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db
+No such file or directory
+Error: Error calling stat on file /xdisk/egornish/mtoucedasuarez/databases/bacmet/bacmet_db

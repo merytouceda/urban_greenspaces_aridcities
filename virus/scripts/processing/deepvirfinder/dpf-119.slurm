@@ -1,0 +1,32 @@
+#!/bin/bash
+# --------------------------------------------------
+# Request resources here
+# --------------------------------------------------
+#SBATCH --job-name=dpf119
+#SBATCH --output=dpf119.out
+#SBATCH --account=laurameredith
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=mtoucedasuarez@hpc.arizona.edu
+#SBATCH --partition=standard
+#SBATCH --ntasks=1
+#SBATCH --nodes=1
+#SBATCH --mem-per-cpu=4000
+#SBATCH --cpus-per-task=40
+#SBATCH --time=16:00:00
+
+# --------------------------------------------------
+# Load modules here
+# --------------------------------------------------
+#module load anaconda
+#source ~/.bashrc && conda activate
+#conda activate deepvirfinder
+#module load tensorflow/nvidia/2.9.1
+
+# --------------------------------------------------
+# Execute commands here
+# --------------------------------------------------
+cd /groups/egornish/mtoucedasuarez/scripts/jobs/landuse/virus
+
+
+singularity exec --nv /contrib/singularity/shared/sarawillis/biotensor.sif python3 /groups/barberan/software/DeepVirFinder/dvf.py -i /xdisk/barberan/mtoucedasuarez/landuse/assembly/contigs/11B-T1-9_contig.fa -o /xdisk/barberan/mtoucedasuarez/landuse/virus/deepvirfinder/  -l 1500 -c 8
+

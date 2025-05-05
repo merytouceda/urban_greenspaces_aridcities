@@ -1,0 +1,12 @@
+
+
+Building a new DB, current time: 11/20/2023 16:56:02
+New DB name:   /groups/egornish/mtoucedasuarez/scripts/jobs/urban/virus/host_prediction/blast_mags/urban_mags_db
+New DB title:  Urban mags
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 3000000000B
+Adding sequences from FASTA; added 54254 sequences in 2.4496 seconds.
+
+
+Detailed performance metrics for this job will be available at https://metrics.hpc.arizona.edu/#job_viewer?action=show&realm=SUPREMM&resource_id=73&local_job_id=8596012 by 8am on 2023/11/21.

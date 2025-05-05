@@ -1,0 +1,31 @@
+#!/bin/bash
+# --------------------------------------------------
+# Request resources here
+# --------------------------------------------------
+#SBATCH --job-name=diamondcazy_urb
+#SBATCH --output=diamondcazy_urb.out
+#SBATCH --account=barberan
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=mtoucedasuarez@hpc.arizona.edu
+#SBATCH --partition=standard
+#SBATCH --ntasks=28
+#SBATCH --nodes=1
+#SBATCH --mem=112gb
+#SBATCH --time=20:00:00
+
+# --------------------------------------------------
+# Load modules here
+# --------------------------------------------------
+module load diamond/2.0.9
+
+OUT_DIR="/xdisk/barberan/mtoucedasuarez/urban/carbon"
+READS_OUT="/xdisk/barberan/mtoucedasuarez/urban/clean_reads"
+
+# for loop over samples:
+for sample in `awk '{print $1}' /groups/egornish/mtoucedasuarez/scripts/jobs/urban/virus/sample_id_list.txt`
+do
+    if [ "$sample" == "sample" ]; then continue; fi
+
+    diamond blastx --db /xdisk/egornish/mtoucedasuarez/databases/CAZyDB.09242021.fa --query $READS_OUT/${sample}_clean_1.fastq --outfmt 6 --max-target-seqs 1 --evalue 0.000001 --out $OUT_DIR/${sample}_blastx.out --salltitles  --quiet --more-sensitive
+
+done

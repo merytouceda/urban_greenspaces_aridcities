@@ -1,0 +1,42 @@
+#!/bin/bash
+# --------------------------------------------------
+# Request resources here
+# --------------------------------------------------
+#SBATCH --job-name=dpf_forloop
+#SBATCH --output=dpf_forloop.out
+#SBATCH --account=gornish
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=mtoucedasuarez@hpc.arizona.edu
+#SBATCH --partition=standard
+#SBATCH --ntasks=1
+#SBATCH --nodes=1
+#SBATCH --mem-per-cpu=4000
+#SBATCH --cpus-per-task=80
+#SBATCH --time=200:00:00
+
+# --------------------------------------------------
+# Load modules here
+# --------------------------------------------------
+#module load anaconda
+#source ~/.bashrc && conda activate
+#conda activate deepvirfinder
+#module load tensorflow/nvidia/2.9.1
+
+# --------------------------------------------------
+# Execute commands here
+# --------------------------------------------------
+
+# this code is in case the array doesn't work and I need to send it in this loop
+
+for sample in `awk '{print $1}' /xdisk/barberan/mtoucedasuarez/landuse/s_regex.txt`
+do
+   if [ "$sample" == "sample" ]; then continue; fi
+
+   singularity exec --nv /contrib/singularity/shared/sarawillis/biotensor.sif \
+   python3 /groups/barberan/software/DeepVirFinder/dvf.py \
+   -i /xdisk/barberan/mtoucedasuarez/landuse/assembly/contigs/${sample}_contig.fa \
+   -o /xdisk/barberan/mtoucedasuarez/landuse/virus/deepvirfinder/ \
+   -l 1500 \
+   -c 8
+
+done

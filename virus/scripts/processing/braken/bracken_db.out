@@ -1,0 +1,24 @@
+hash.k2d
+opts.k2d
+taxo.k2d
+seqid2taxid.map
+inspect.txt
+database100mers.kmer_distrib
+database150mers.kmer_distrib
+database200mers.kmer_distrib
+database250mers.kmer_distrib
+database300mers.kmer_distrib
+database50mers.kmer_distrib
+database75mers.kmer_distrib
+ktaxonomy.tsv
+library_report.tsv
+unmapped_accessions.txt
+ >> Selected Options:
+       kmer length = 35
+       read length = 150
+       database    = /xdisk/egornish/mtoucedasuarez/databases/kraken/standard
+       threads     = 24
+       kraken type = kraken2
+ >> Checking for Valid Options...
+ ERROR: Database library /xdisk/egornish/mtoucedasuarez/databases/kraken/standard/library does not exist
+Detailed performance metrics for this job will be available at https://metrics.hpc.arizona.edu/#job_viewer?action=show&realm=SUPREMM&resource_id=5&local_job_id=2624215 by 8am on 2023/12/13.

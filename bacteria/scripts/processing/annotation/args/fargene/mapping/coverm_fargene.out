@@ -1,0 +1,28 @@
+[2023-09-18T23:35:59Z INFO  coverm] CoverM version 0.6.1
+[2023-09-18T23:35:59Z INFO  coverm] Using min-read-percent-identity 95%
+[2023-09-18T23:35:59Z INFO  coverm] Writing output to file: lu_orfs_count_table.txt
+[2023-09-18T23:35:59Z INFO  coverm] Using min-covered-fraction 0%
+[2023-09-18T23:35:59Z INFO  coverm::contig] In sample '11B-T1-3', found 299 reads mapped out of 870 total (34.37%)
+[2023-09-18T23:35:59Z INFO  coverm::contig] In sample '11B-T1-6', found 155 reads mapped out of 658 total (23.56%)
+[2023-09-18T23:35:59Z INFO  coverm::contig] In sample '11B-T1-9', found 62 reads mapped out of 406 total (15.27%)
+[2023-09-18T23:35:59Z INFO  coverm::contig] In sample '8-T1-3', found 168 reads mapped out of 976 total (17.21%)
+[2023-09-18T23:35:59Z INFO  coverm::contig] In sample '8-T1-6', found 77 reads mapped out of 429 total (17.95%)
+[2023-09-18T23:35:59Z INFO  coverm::contig] In sample '8-T1-9', found 314 reads mapped out of 1583 total (19.84%)
+[2023-09-18T23:35:59Z INFO  coverm::contig] In sample 'Ex45-T1-3', found 194 reads mapped out of 685 total (28.32%)
+[2023-09-18T23:35:59Z INFO  coverm::contig] In sample 'Ex45-T1-6', found 228 reads mapped out of 775 total (29.42%)
+[2023-09-18T23:35:59Z INFO  coverm::contig] In sample 'Ex45-T1-9', found 205 reads mapped out of 1291 total (15.88%)
+[2023-09-18T23:35:59Z INFO  coverm::contig] In sample 'HP-T1-3', found 654 reads mapped out of 4007 total (16.32%)
+[2023-09-18T23:35:59Z INFO  coverm::contig] In sample 'HP-T1-6', found 1172 reads mapped out of 7514 total (15.60%)
+[2023-09-18T23:35:59Z INFO  coverm::contig] In sample 'HP-T1-9', found 436 reads mapped out of 2710 total (16.09%)
+[2023-09-18T23:35:59Z INFO  coverm::contig] In sample 'RC-T1-3', found 417 reads mapped out of 755 total (55.23%)
+[2023-09-18T23:35:59Z INFO  coverm::contig] In sample 'RC-T1-6', found 95 reads mapped out of 257 total (36.96%)
+[2023-09-18T23:35:59Z INFO  coverm::contig] In sample 'RC-T1-9', found 416 reads mapped out of 1031 total (40.35%)
+[2023-09-18T23:35:59Z INFO  coverm::contig] In sample 'RP-T1-3', found 3673 reads mapped out of 13820 total (26.58%)
+[2023-09-18T23:35:59Z INFO  coverm::contig] In sample 'RP-T1-9', found 537 reads mapped out of 3745 total (14.34%)
+[2023-09-18T23:35:59Z INFO  coverm::contig] In sample 'SC-T1-3', found 556 reads mapped out of 2004 total (27.74%)
+[2023-09-18T23:35:59Z INFO  coverm::contig] In sample 'SC-T1-6', found 445 reads mapped out of 1373 total (32.41%)
+[2023-09-18T23:35:59Z INFO  coverm::contig] In sample 'SC-T1-9', found 298 reads mapped out of 1357 total (21.96%)
+[2023-09-18T23:35:59Z INFO  coverm::contig] In sample 'UAB-T1-3', found 144 reads mapped out of 683 total (21.08%)
+[2023-09-18T23:35:59Z INFO  coverm::contig] In sample 'UAB-T1-6', found 462 reads mapped out of 1390 total (33.24%)
+[2023-09-18T23:35:59Z INFO  coverm::contig] In sample 'UAB-T1-9', found 157 reads mapped out of 715 total (21.96%)
+Detailed performance metrics for this job will be available at https://metrics.hpc.arizona.edu/#job_viewer?action=show&realm=SUPREMM&resource_id=73&local_job_id=8184765 by 8am on 2023/09/19.

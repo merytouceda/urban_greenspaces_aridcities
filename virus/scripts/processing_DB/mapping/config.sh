@@ -1,0 +1,5 @@
+#!/bin/bash -l   
+SLURM_SUBMIT_DIR="/groups/egornish/mtoucedasuarez/scripts/jobs/urban/virus/mapping"
+IN_LIST="/groups/egornish/mtoucedasuarez/scripts/jobs/urban/virus/mapping/sample_list.txt" # list of files to process  
+READS_DIR="/xdisk/barberan/mtoucedasuarez/urban/clean_reads/"
+MAPPING_DIR="/xdisk/barberan/mtoucedasuarez/urban/virus/mapping"

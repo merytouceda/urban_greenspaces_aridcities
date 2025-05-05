@@ -1,0 +1,13 @@
+
+
+Building a new DB, current time: 11/09/2023 17:25:07
+New DB name:   /xdisk/egornish/mtoucedasuarez/databases/bacmet/BacMet2_EXP_database.fasta
+New DB title:  /xdisk/egornish/mtoucedasuarez/databases/bacmet/BacMet2_EXP_database.fasta
+Sequence type: Protein
+Deleted existing Protein BLAST database named /xdisk/egornish/mtoucedasuarez/databases/bacmet/BacMet2_EXP_database.fasta
+Keep MBits: T
+Maximum file size: 3000000000B
+Adding sequences from FASTA; added 753 sequences in 0.0437422 seconds.
+
+
+Detailed performance metrics for this job will be available at https://metrics.hpc.arizona.edu/#job_viewer?action=show&realm=SUPREMM&resource_id=73&local_job_id=8543476 by 8am on 2023/11/10.

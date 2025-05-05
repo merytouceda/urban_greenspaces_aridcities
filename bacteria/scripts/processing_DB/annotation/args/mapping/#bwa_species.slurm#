@@ -1,0 +1,44 @@
+#!/bin/bash
+# --------------------------------------------------
+# Request resources here
+# --------------------------------------------------
+#SBATCH --job-name=bwa_mapping1
+#SBATCH --output=%x.out
+#SBATCH --account=barberan
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=mtoucedasuarez@hpc.arizona.edu
+#SBATCH --partition=standard
+#SBATCH --ntasks=28
+#SBATCH --nodes=1
+#SBATCH --mem=168gb
+#SBATCH --time=50:00:00
+
+# --------------------------------------------------
+# Load modules here
+# --------------------------------------------------
+module load samtools
+# --------------------------------------------------
+# Execute commands here
+# --------------------------------------------------
+
+
+
+do
+    if [ "$sample" == "sample" ]; then continue; fi
+    # mapping
+    ~/software/bwa/bwa mem mapping/catalog_index \
+    /xdisk/egornish/mtoucedasuarez/vocs/assembly/reads_bwa/${sample}-clean_R1.fq.gz \
+    /xdisk/egornish/mtoucedasuarez/vocs/assembly/reads_bwa/${sample}-clean_R2.fq.gz \
+    -t 28 > mapping/${sample}.sam
+    
+    # convert sam to bam
+    samtools view -@ 28 -F 4 -bo mapping/${sample}_raw.bam  mapping/${sample}.sam
+    # sort bam file
+    samtools sort -@ 28 -m 6G -o mapping/${sample}.bam mapping/${sample}_raw.bam
+    # index bam file, this is optional
+    samtools index mapping/${sample}.bam
+
+    # remove intermediate files
+    rm mapping/${sample}.sam
+    rm mapping/${sample}_raw.bam
+done

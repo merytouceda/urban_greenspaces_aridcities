@@ -1,0 +1,35 @@
+#!/bin/bash -l
+#SBATCH --job-name=bracken
+#SBATCH --account=gornish
+#SBATCH --output=outputr%j.txt
+#SBATCH --error=errors_%j.txt
+#SBATCH --mail-user=mtoucedasuarez@hpc.arizona.edu                                                                                                                                                         
+#SBATCH --partition=standard  
+#SBATCH --time=06:00:00
+#SBATCH --ntasks=1
+#SBATCH --nodes=1
+#SBATCH --cpus-per-task=20
+#SBATCH --mem-per-cpu=4000
+
+
+# load job configuration
+cd /groups/egornish/mtoucedasuarez/scripts/jobs/urban/virus/braken
+source config.sh
+
+# load environment
+#source $CONDA/etc/profile.d/conda.sh
+module load anaconda
+source ~/.bashrc && conda activate
+conda activate kraken2
+
+# echo for log
+echo "job started"; hostname; date
+
+# Get sample ID
+export SAMPLE=`head -n +${SLURM_ARRAY_TASK_ID} $IN_LIST | tail -n 1`
+
+# run kraken2 outputing a report
+$KRAKEN_DIR/kraken2 --db $KRAKEN_DB --threads 10 --report $KRAKEN_OUT/${SAMPLE}.kreport --paired $READS_DIR/${SAMPLE}_clean_1.fastq.gz $READS_DIR/${SAMPLE}_clean_2.fastq.gz > $KRAKEN_OUT/${SAMPLE}.kraken
+
+# run braken on the kraken report
+$BRACKEN_DIR/bracken -d $KRAKEN_DB -i $KRAKEN_OUT/${SAMPLE}.kreport -o $KRAKEN_OUT/${SAMPLE}.bracken -r 150 

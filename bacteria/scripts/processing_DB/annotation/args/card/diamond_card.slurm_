@@ -1,0 +1,31 @@
+#!/bin/bash
+# --------------------------------------------------
+# Request resources here
+# --------------------------------------------------
+#SBATCH --job-name=diamondcard
+#SBATCH --output=diamondacard.out
+#SBATCH --account=b2
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=mtoucedasuarez@hpc.arizona.edu
+#SBATCH --partition=standard
+#SBATCH --ntasks=1
+#SBATCH --nodes=1
+#SBATCH --mem-per-cpu=4000
+#SBATCH --cpus-per-task=40
+#SBATCH --time=16:00:00
+
+# --------------------------------------------------
+# Load modules here
+# --------------------------------------------------
+module load diamond/2.0.9
+source /groups/egornish/mtoucedasuarez/scripts/jobs/urban/args/card/config.sh
+
+export SMPLE=`head -n +${SLURM_ARRAY_TASK_ID} $IN_LIST | tail -n 1`
+$QUERY=$READS_DIR/${SMPLE}_clean_1.fastq.gz
+
+# array command
+diamond blastx --db $DB_DIR/protein_fasta_protein_homolog_model.fasta --query $QUERY --outfmt 6 --out $OUT_PATH/${SMPLE}_blastx.out --max-target-seqs 1 --evalue 0.000001 --salltitles --quiet --more-sensitive
+
+
+
+

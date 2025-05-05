@@ -1,0 +1,85 @@
+fasta	Name	tRNA #	Begin	End	Type	Codon	Score	Note
+final-viral-combined-for-dramv	HP-T1-9_contig.fa_viral_318__0_partial-cat_4 	1	884	957	Val	GAC	74.4	
+final-viral-combined-for-dramv	11B-T1-3_contig.fa_viral_8__full-cat_1       	1	3255	3183	Arg	ACG	77.0	
+final-viral-combined-for-dramv	11B-T1-6_contig.fa_viral_5__full-cat_1       	1	78	149	Val	TAC	83.0	
+final-viral-combined-for-dramv	8-T1-6_contig.fa_viral_5__full-cat_2         	1	130	219	Ser	GCT	75.0	
+final-viral-combined-for-dramv	8-T1-6_contig.fa_viral_5__full-cat_2         	2	258	330	Arg	ACG	75.0	
+final-viral-combined-for-dramv	8-T1-9_contig.fa_viral_16__full-cat_2        	1	3149	3076	Pro	TGG	45.6	
+final-viral-combined-for-dramv	8-T1-9_contig.fa_viral_16__full-cat_2        	2	3067	2988	Gly	GCC	50.0	
+final-viral-combined-for-dramv	8-T1-9_contig.fa_viral_16__full-cat_2        	3	2884	2812	Cys	GCA	68.2	
+final-viral-combined-for-dramv	8-T1-9_contig.fa_viral_16__full-cat_2        	4	2022	1947	Thr	CGT	69.9	
+final-viral-combined-for-dramv	8-T1-9_contig.fa_viral_23__full-cat_1        	1	21105	20978	Ala	GGC	22.2	pseudo
+final-viral-combined-for-dramv	Ex45-T1-3_contig.fa_viral_5__full-cat_2      	1	4263	4338	Glu	TTC	58.1	
+final-viral-combined-for-dramv	Ex45-T1-3_contig.fa_viral_42__full-cat_2     	1	2303	2376	Met	CAT	77.8	
+final-viral-combined-for-dramv	Ex45-T1-6_contig.fa_viral_49__full-cat_2     	1	1	76	Asn	GTT	69.8	
+final-viral-combined-for-dramv	Ex45-T1-6_contig.fa_viral_49__full-cat_2     	2	103	182	Thr	CGT	71.3	
+final-viral-combined-for-dramv	Ex45-T1-6_contig.fa_viral_49__full-cat_2     	3	334	404	Met	CAT	32.4	
+final-viral-combined-for-dramv	Ex45-T1-6_contig.fa_viral_49__full-cat_2     	4	434	506	Phe	GAA	52.6	
+final-viral-combined-for-dramv	Ex45-T1-6_contig.fa_viral_49__full-cat_2     	5	615	689	Gln	TTG	54.4	
+final-viral-combined-for-dramv	Ex45-T1-6_contig.fa_viral_49__full-cat_2     	6	741	834	Ile	TAT	61.2	
+final-viral-combined-for-dramv	Ex45-T1-6_contig.fa_viral_49__full-cat_2     	7	846	920	Gln	CTG	48.5	
+final-viral-combined-for-dramv	Ex45-T1-6_contig.fa_viral_49__full-cat_2     	8	1030	1103	Ile	GAT	47.5	
+final-viral-combined-for-dramv	Ex45-T1-6_contig.fa_viral_49__full-cat_2     	9	1185	1255	Cys	GCA	58.7	
+final-viral-combined-for-dramv	Ex45-T1-6_contig.fa_viral_49__full-cat_2     	10	2684	2760	Ser	GGA	58.7	
+final-viral-combined-for-dramv	Ex45-T1-6_contig.fa_viral_81__full-cat_2     	1	2475	2550	Glu	CTC	72.7	
+final-viral-combined-for-dramv	Ex45-T1-6_contig.fa_viral_121__full-cat_2    	1	1895	1823	Arg	CCT	73.8	
+final-viral-combined-for-dramv	Ex45-T1-9_contig.fa_viral_114__full-cat_2    	1	1465	1317	Trp	CCA	53.9	
+final-viral-combined-for-dramv	HP-T1-6_contig.fa_viral_37__full-cat_1       	1	10970	11050	Cys	GCA	23.2	pseudo
+final-viral-combined-for-dramv	HP-T1-6_contig.fa_viral_162__full-cat_2      	1	162	235	Met	CAT	80.3	
+final-viral-combined-for-dramv	HP-T1-9_contig.fa_viral_85__full-cat_1       	1	7807	7876	Met	CAT	24.8	
+final-viral-combined-for-dramv	HP-T1-9_contig.fa_viral_331__full-cat_2      	1	93	165	Arg	CCG	84.8	
+final-viral-combined-for-dramv	HP-T1-9_contig.fa_viral_338__full-cat_2      	1	91	5	Ser	CGA	60.1	
+final-viral-combined-for-dramv	HP-T1-9_contig.fa_viral_343__full-cat_2      	1	64	137	Ala	TGC	83.1	
+final-viral-combined-for-dramv	HP-T1-9_contig.fa_viral_386__full-cat_2      	1	3785	3857	His	GTG	48.6	
+final-viral-combined-for-dramv	HP-T1-9_contig.fa_viral_386__full-cat_2      	2	3894	3964	Lys	CTT	36.1	
+final-viral-combined-for-dramv	HP-T1-9_contig.fa_viral_390__full-cat_2      	1	3764	3659	Ser	TGA	30.9	pseudo
+final-viral-combined-for-dramv	RC-T1-3_contig.fa_viral_86__full-cat_1       	1	1034	1105	Met	CAT	69.2	
+final-viral-combined-for-dramv	RC-T1-3_contig.fa_viral_93__full-cat_2       	1	2574	2501	Met	CAT	89.4	
+final-viral-combined-for-dramv	RC-T1-9_contig.fa_viral_6__full-cat_2        	1	144	220	Cys	GCA	60.0	
+final-viral-combined-for-dramv	RC-T1-9_contig.fa_viral_6__full-cat_2        	2	1907	1984	Met	CAT	70.3	
+final-viral-combined-for-dramv	RC-T1-9_contig.fa_viral_81__full-cat_2       	1	288	362	Asn	GTT	73.5	
+final-viral-combined-for-dramv	RP-T1-3_contig.fa_viral_13__full-cat_2       	1	100	174	Pro	GGG	77.0	
+final-viral-combined-for-dramv	RP-T1-3_contig.fa_viral_315__full-cat_1      	1	15240	15167	Met	CAT	81.8	
+final-viral-combined-for-dramv	RP-T1-3_contig.fa_viral_316__full-cat_2      	1	142	70	Asn	GTT	35.9	
+final-viral-combined-for-dramv	RP-T1-3_contig.fa_viral_338__full-cat_2      	1	69	140	Val	GAC	68.7	
+final-viral-combined-for-dramv	RP-T1-3_contig.fa_viral_705__full-cat_2      	1	2995	2922	Arg	TCG	75.0	
+final-viral-combined-for-dramv	RP-T1-3_contig.fa_viral_836__full-cat_2      	1	176	245	Leu	TAG	23.5	
+final-viral-combined-for-dramv	RP-T1-3_contig.fa_viral_839__full-cat_2      	1	62	134	Ala	TGC	80.7	
+final-viral-combined-for-dramv	RP-T1-6_contig.fa_viral_116__full-cat_2      	1	1480	1552	Gln	CTG	64.9	
+final-viral-combined-for-dramv	RP-T1-6_contig.fa_viral_142__full-cat_1      	1	6238	6167	Met	CAT	36.6	
+final-viral-combined-for-dramv	RP-T1-6_contig.fa_viral_155__full-cat_2      	1	3874	4021	Arg	GCG	20.8	pseudo
+final-viral-combined-for-dramv	RP-T1-6_contig.fa_viral_161__full-cat_2      	1	2986	3056	Arg	GCG	23.4	pseudo
+final-viral-combined-for-dramv	RP-T1-6_contig.fa_viral_205__full-cat_2      	1	2772	2700	Arg	CCG	65.4	
+final-viral-combined-for-dramv	RP-T1-6_contig.fa_viral_205__full-cat_2      	2	2659	2586	Sup	CTA	57.6	
+final-viral-combined-for-dramv	RP-T1-6_contig.fa_viral_280__full-cat_2      	1	61	132	Gly	TCC	72.4	
+final-viral-combined-for-dramv	RP-T1-6_contig.fa_viral_373__full-cat_2      	1	2352	2438	Leu	CAA	65.2	
+final-viral-combined-for-dramv	RP-T1-6_contig.fa_viral_476__full-cat_1      	1	846	918	Arg	CCT	67.3	
+final-viral-combined-for-dramv	RP-T1-6_contig.fa_viral_507__full-cat_2      	1	67	140	Pro	GGG	77.1	
+final-viral-combined-for-dramv	RP-T1-9_contig.fa_viral_66__full-cat_2       	1	927	999	Arg	CCT	73.8	
+final-viral-combined-for-dramv	RP-T1-9_contig.fa_viral_121__full-cat_1      	1	2950	2878	Arg	CCT	67.3	
+final-viral-combined-for-dramv	RP-T1-9_contig.fa_viral_184__full-cat_2      	1	3594	3529	Arg	TCG	11.9	pseudo
+final-viral-combined-for-dramv	RP-T1-9_contig.fa_viral_190__full-cat_2      	1	3575	3503	Arg	CCT	69.8	
+final-viral-combined-for-dramv	SC-T1-3_contig.fa_viral_33__full-cat_2       	1	824	896	Gly	CCC	83.3	
+final-viral-combined-for-dramv	SC-T1-3_contig.fa_viral_134__full-cat_2      	1	66	141	Arg	ACG	75.5	
+final-viral-combined-for-dramv	SC-T1-3_contig.fa_viral_273__full-cat_2      	1	1351	1278	Met	CAT	77.8	
+final-viral-combined-for-dramv	SC-T1-6_contig.fa_viral_183__full-cat_2      	1	4531	4458	Arg	ACG	78.9	
+final-viral-combined-for-dramv	SC-T1-6_contig.fa_viral_183__full-cat_2      	2	4451	4376	Leu	TAG	59.4	
+final-viral-combined-for-dramv	SC-T1-6_contig.fa_viral_183__full-cat_2      	3	4363	4291	Glu	TTC	53.7	
+final-viral-combined-for-dramv	SC-T1-6_contig.fa_viral_183__full-cat_2      	4	4273	4201	His	GTG	47.7	
+final-viral-combined-for-dramv	SC-T1-6_contig.fa_viral_183__full-cat_2      	5	4176	4104	Asp	GTC	65.4	
+final-viral-combined-for-dramv	SC-T1-6_contig.fa_viral_183__full-cat_2      	6	3963	3889	Lys	TTT	79.2	
+final-viral-combined-for-dramv	SC-T1-6_contig.fa_viral_183__full-cat_2      	7	3872	3798	Pro	TGG	70.8	
+final-viral-combined-for-dramv	SC-T1-6_contig.fa_viral_183__full-cat_2      	8	3780	3707	Ala	TGC	55.2	
+final-viral-combined-for-dramv	SC-T1-6_contig.fa_viral_183__full-cat_2      	9	3688	3614	Gly	GCC	61.3	
+final-viral-combined-for-dramv	SC-T1-6_contig.fa_viral_183__full-cat_2      	10	3516	3442	Val	TAC	70.4	
+final-viral-combined-for-dramv	SC-T1-6_contig.fa_viral_183__full-cat_2      	11	3427	3355	Asn	GTT	62.9	
+final-viral-combined-for-dramv	SC-T1-6_contig.fa_viral_183__full-cat_2      	12	3336	3263	Met	CAT	62.8	
+final-viral-combined-for-dramv	SC-T1-6_contig.fa_viral_183__full-cat_2      	13	3236	3164	Phe	GAA	52.2	
+final-viral-combined-for-dramv	SC-T1-6_contig.fa_viral_183__full-cat_2      	14	3160	3089	Gln	CTG	46.5	
+final-viral-combined-for-dramv	SC-T1-6_contig.fa_viral_183__full-cat_2      	15	3067	2995	Thr	TGT	61.1	
+final-viral-combined-for-dramv	SC-T1-6_contig.fa_viral_183__full-cat_2      	16	2972	2896	Arg	TCT	77.3	
+final-viral-combined-for-dramv	SC-T1-6_contig.fa_viral_183__full-cat_2      	17	2877	2805	Cys	GCA	62.4	
+final-viral-combined-for-dramv	SC-T1-6_contig.fa_viral_183__full-cat_2      	18	1942	1868	Gln	TTG	21.3	pseudo
+final-viral-combined-for-dramv	SC-T1-6_contig.fa_viral_183__full-cat_2      	19	1710	1646	Phe	GAA	49.2	
+final-viral-combined-for-dramv	SC-T1-9_contig.fa_viral_42__full-cat_2       	1	2110	2184	Val	GAC	69.8	
+final-viral-combined-for-dramv	UAB-T1-3_contig.fa_viral_11__full-cat_2      	1	1897	1825	Arg	CCT	73.8	

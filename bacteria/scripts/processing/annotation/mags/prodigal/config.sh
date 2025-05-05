@@ -1,0 +1,7 @@
+#!/bin/bash -l
+# conda directory
+#CONDA=""
+# INPUT LIST and  DIRECTORY
+IN_LIST="/xdisk/barberan/mtoucedasuarez/landuse/mags/bin_refinement/all_bins/bins_for_virhostmatcher.txt" # list of files to process
+IN_DIR="/xdisk/barberan/mtoucedasuarez/landuse/mags/bin_refinement/all_bins/bins_for_virhostmatcher"
+OUT_DIR="/xdisk/barberan/mtoucedasuarez/landuse/mags/bin_refinement/all_bins/orfs_mags"

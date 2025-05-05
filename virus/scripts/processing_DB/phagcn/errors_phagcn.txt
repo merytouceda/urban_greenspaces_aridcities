@@ -1,0 +1,74 @@
+.................................................. 1M
+.................................................. 2M
+.............................
+[mclIO] writing <out/merged.mci>
+.......................................
+[mclIO] wrote native interchange 141003x141003 matrix with 3370096 entries to stream <out/merged.mci>
+[mclIO] wrote 141003 tab entries to stream <out/merged_mcxload.tab>
+[mcxload] tab has 141003 entries
+[mclIO] reading <out/merged.mci>
+.......................................
+[mclIO] read native interchange 141003x141003 matrix with 3370096 entries
+[mcl] pid 25492
+ ite -------------------  chaos  time hom(avg,lo,hi) m-ie m-ex i-ex fmv
+  1  ...................  35.90  1.83 1.02/0.10/4.57 2.26 2.20 2.20   0
+  2  ...................  41.94  5.45 0.86/0.14/4.76 2.02 0.99 2.17   9
+  3  ...................  30.28  5.22 0.79/0.14/7.49 1.53 0.80 1.73  11
+  4  ...................  15.93  3.05 0.78/0.13/7.80 1.38 0.72 1.25   2
+  5  ...................  17.08  1.41 0.78/0.08/4.77 1.26 0.68 0.84   0
+  6  ...................  11.25  0.67 0.78/0.10/3.69 1.13 0.70 0.59   0
+  7  ...................  10.54  0.39 0.79/0.13/2.63 1.05 0.74 0.43   0
+  8  ...................   6.87  0.28 0.81/0.22/1.31 1.02 0.78 0.34   0
+  9  ...................   4.64  0.20 0.84/0.21/1.25 1.01 0.78 0.26   0
+ 10  ...................   3.96  0.16 0.89/0.20/1.46 1.00 0.79 0.21   0
+ 11  ...................   3.87  0.12 0.92/0.25/1.04 1.00 0.79 0.17   0
+ 12  ...................   3.60  0.11 0.95/0.30/1.09 1.00 0.81 0.13   0
+ 13  ...................   3.46  0.08 0.97/0.31/1.20 1.00 0.85 0.11   0
+ 14  ...................   2.80  0.09 0.98/0.27/1.38 1.00 0.89 0.10   0
+ 15  ...................   3.37  0.07 0.99/0.28/1.00 1.00 0.93 0.09   0
+ 16  ...................   3.77  0.08 0.99/0.35/1.00 1.00 0.96 0.09   0
+ 17  ...................   3.85  0.07 1.00/0.36/1.00 1.00 0.98 0.09   0
+ 18  ...................   2.78  0.06 1.00/0.57/1.00 1.00 0.98 0.09   0
+ 19  ...................   0.60  0.07 1.00/0.68/1.00 1.00 0.99 0.09   0
+ 20  ...................   0.35  0.06 1.00/0.71/1.00 1.00 1.00 0.09   0
+ 21  ...................   0.34  0.07 1.00/0.73/1.00 1.00 1.00 0.09   0
+ 22  ...................   0.49  0.07 1.00/0.63/1.00 1.00 1.00 0.09   0
+ 23  ...................   0.35  0.07 1.00/0.76/1.00 1.00 1.00 0.09   0
+ 24  ...................   0.20  0.06 1.00/0.85/1.00 1.00 1.00 0.09   0
+ 25  ...................   0.25  0.07 1.00/0.76/1.00 1.00 1.00 0.09   0
+ 26  ...................   0.24  0.07 1.00/0.76/1.00 1.00 1.00 0.09   0
+ 27  ...................   0.11  0.07 1.00/0.89/1.00 1.00 1.00 0.09   0
+ 28  ...................   0.01  0.06 1.00/0.99/1.00 1.00 1.00 0.09   0
+ 29  ...................   0.00  0.07 1.00/1.00/1.00 1.00 1.00 0.09   0
+[mcl] jury pruning marks: <99,99,99>, out of 100
+[mcl] jury pruning synopsis: <99.0 or perfect> (cf -scheme, -do log)
+[mcl] output is in out/merged_mcl20.clusters
+[mcl] 12534 clusters found
+[mcl] output is in out/merged_mcl20.clusters
+
+Please cite:
+    Stijn van Dongen, Graph Clustering by Flow Simulation.  PhD thesis,
+    University of Utrecht, May 2000.
+       (  http://www.library.uu.nl/digiarchief/dip/diss/1895620/full.pdf
+       or  http://micans.org/mcl/lit/svdthesis.pdf.gz)
+OR
+    Stijn van Dongen, A cluster algorithm for graphs. Technical
+    Report INS-R0010, National Research Institute for Mathematics
+    and Computer Science in the Netherlands, Amsterdam, May 2000.
+       (  http://www.cwi.nl/ftp/CWIreports/INS/INS-R0010.ps.Z
+       or  http://micans.org/mcl/lit/INS-R0010.ps.Z)
+
+/home/u14/mtoucedasuarez/.conda/envs/phagcn/lib/python3.8/site-packages/Bio/Seq.py:2334: BiopythonWarning: Partial codon, len(sequence) not a multiple of three. Explicitly trim the sequence or add trailing N before translation. This may become an error in future.
+  warnings.warn(
+run_KnowledgeGraph.py:414: RuntimeWarning: divide by zero encountered in log10
+  sig = min(max_sig, np.nan_to_num(-np.log10(pval) - logT))
+run_GCN.py:83: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  train_mask = torch.from_numpy(train_mask.astype(np.bool))
+run_GCN.py:85: DeprecationWarning: `np.bool` is a deprecated alias for the builtin `bool`. To silence this warning, use `bool` by itself. Doing this will not modify any behavior and is safe. If you specifically wanted the numpy scalar type, use `np.bool_` here.
+Deprecated in NumPy 1.20; for more details and guidance: https://numpy.org/devdocs/release/1.20.0-notes.html#deprecations
+  test_mask = torch.from_numpy(test_mask.astype(np.bool))
+/groups/barberan/software/PhaGCN_newICTV/utils.py:52: UserWarning: indexing with dtype torch.uint8 is now deprecated, please use a dtype torch.bool instead. (Triggered internally at  /opt/conda/conda-bld/pytorch_1614378083779/work/aten/src/ATen/native/IndexingUtils.h:30.)
+  i = i[:, dropout_mask]
+/groups/barberan/software/PhaGCN_newICTV/utils.py:53: UserWarning: indexing with dtype torch.uint8 is now deprecated, please use a dtype torch.bool instead. (Triggered internally at  /opt/conda/conda-bld/pytorch_1614378083779/work/aten/src/ATen/native/IndexingUtils.h:30.)
+  v = v[dropout_mask]

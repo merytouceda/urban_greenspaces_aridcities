@@ -1,0 +1,30 @@
+#!/bin/bash
+# --------------------------------------------------
+# Request resources here
+# --------------------------------------------------
+#SBATCH --job-name=deepvirfinder1
+#SBATCH --output=deepvirfinder1.out
+#SBATCH --account=laurameredith
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=mtoucedasuarez@hpc.arizona.edu
+#SBATCH --partition=standard
+#SBATCH --ntasks=1
+#SBATCH --nodes=1
+#SBATCH --mem=5gb
+#SBATCH --time=1:00:00
+
+# --------------------------------------------------
+# Load modules here
+# --------------------------------------------------
+#module load anaconda
+#source ~/.bashrc && conda activate
+#conda activate deepvirfinder
+#module load tensorflow/nvidia/2.9.1
+
+# --------------------------------------------------
+# Execute commands here
+# --------------------------------------------------
+
+singularity exec --nv /contrib/singularity/shared/sarawillis/biotensor.sif python3 /groups/barberan/software/DeepVirFinder/dvf.py -i /xdisk/barberan/mtoucedasuarez/landuse/assembly/contigs/11B-T1-3_contig.fa -o /xdisk/barberan/mtoucedasuarez/landuse/virus/deepvirfinder/ -l 1500 -c 8
+
+   

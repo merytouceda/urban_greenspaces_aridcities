@@ -1,0 +1,16 @@
+[bwa_index] Pack FASTA... 0.33 sec
+[bwa_index] Construct BWT for the packed sequence...
+[BWTIncCreate] textLength=116070606, availableWord=20166852
+[BWTIncConstructFromPacked] 10 iterations done. 33265598 characters processed.
+[BWTIncConstructFromPacked] 20 iterations done. 61454206 characters processed.
+[BWTIncConstructFromPacked] 30 iterations done. 86504238 characters processed.
+[BWTIncConstructFromPacked] 40 iterations done. 108764766 characters processed.
+[bwt_gen] Finished constructing BWT in 44 iterations.
+[bwa_index] 21.53 seconds elapse.
+[bwa_index] Update BWT... 0.21 sec
+[bwa_index] Pack forward-only FASTA... 0.17 sec
+[bwa_index] Construct SA from BWT and Occ... 11.89 sec
+[main] Version: 0.7.17-r1198-dirty
+[main] CMD: /home/u14/mtoucedasuarez/software/bwa/bwa index -p /xdisk/barberan/mtoucedasuarez/urban/virus/mapping/species_index /xdisk/barberan/mtoucedasuarez/urban/virus/cluster/viral_contigs_rep_seq.fasta
+[main] Real time: 34.338 sec; CPU: 34.146 sec
+Detailed performance metrics for this job will be available at https://metrics.hpc.arizona.edu/#job_viewer?action=show&realm=SUPREMM&resource_id=73&local_job_id=7242306 by 8am on 2023/05/16.

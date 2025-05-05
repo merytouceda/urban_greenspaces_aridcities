@@ -1,0 +1,443 @@
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.0     ✔ readr     2.1.4
+✔ forcats   1.0.0     ✔ stringr   1.5.0
+✔ ggplot2   3.4.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.2     ✔ tidyr     1.3.0
+✔ purrr     1.0.1     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+Rows: 437495 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 375426 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 377797 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 463069 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 433488 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 506995 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 436378 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 484834 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 489366 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 388411 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 521868 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 506514 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 442250 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 457035 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 439251 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 415577 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 472739 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 414023 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 462124 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 473573 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 392439 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 373402 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 480552 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 481630 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 454977 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 515151 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 417604 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 411067 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 429650 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 505346 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 388951 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 528099 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 406704 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 524823 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 408360 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 542827 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 435424 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 412852 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 431521 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 377961 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 287315 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 450884 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 420225 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 410774 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 411586 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 467899 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 458353 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 475951 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 444068 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 511897 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 402519 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 415751 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 436019 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Rows: 421059 Columns: 12
+── Column specification ────────────────────────────────────────────────────────
+Delimiter: "\t"
+chr  (2): X1, X2
+dbl (10): X3, X4, X5, X6, X7, X8, X9, X10, X11, X12
+
+ℹ Use `spec()` to retrieve the full column specification for this data.
+ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.
+Detailed performance metrics for this job will be available at https://metrics.hpc.arizona.edu/#job_viewer?action=show&realm=SUPREMM&resource_id=73&local_job_id=7938946 by 8am on 2023/08/22.

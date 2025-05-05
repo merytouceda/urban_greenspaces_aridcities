@@ -1,0 +1,3 @@
+BLAST Database creation error: Error: Duplicate seq_ids are found: 
+LCL|39946.BGIOSGA039077-PA
+

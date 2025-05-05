@@ -1,0 +1,5 @@
+#!/bin/bash -l  
+BINS_DIR="/xdisk/barberan/mtoucedasuarez/urban/metawrap/single"
+REASSEMBLY_DIR="/xdisk/barberan/mtoucedasuarez/urban/metawrap/reassembly"
+IN_LIST="/groups/egornish/mtoucedasuarez/scripts/jobs/urban/virus/sample_id_list.txt" # list of samples 
+READS_DIR="/xdisk/barberan/mtoucedasuarez/urban/clean_reads"

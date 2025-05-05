@@ -1,0 +1,8 @@
+scaffold	fasta	begin	end	strand	type	e-value	note
+11B-T1-3_contig.fa_viral_15__full-cat_2	final-viral-combined-for-dramv	2053	2931	+	16S rRNA	4.7e-216	aligned only 55 percent of the 16S ribosomal RNA
+HP-T1-6_contig.fa_viral_162__full-cat_2	final-viral-combined-for-dramv	5	111	+	5S rRNA	1.1e-16	
+HP-T1-6_contig.fa_viral_4__full-cat_2	final-viral-combined-for-dramv	4	3037	+	23S rRNA	0.0	
+HP-T1-6_contig.fa_viral_98__full-cat_2	final-viral-combined-for-dramv	4	2919	+	23S rRNA	0.0	
+RC-T1-9_contig.fa_viral_21__full-cat_2	final-viral-combined-for-dramv	1	2809	+	23S rRNA	0.0	
+RP-T1-3_contig.fa_viral_285__full-cat_2	final-viral-combined-for-dramv	2658	3594	+	16S rRNA	2.8e-246	aligned only 59 percent of the 16S ribosomal RNA
+RP-T1-3_contig.fa_viral_462__full-cat_2	final-viral-combined-for-dramv	439	550	+	5S rRNA	1.7e-13	

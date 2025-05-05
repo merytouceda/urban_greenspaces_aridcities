@@ -1,0 +1,71 @@
+
+The following files will be DELETED!!
+
+ /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/class_a_out/predictedGenes/retrieved-contigs-peptides.fasta
+/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/class_a_out/predictedGenes/predicted-orfs-amino.fasta
+/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/class_a_out/predictedGenes/predicted-orfs.fasta
+/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/class_a_out/predictedGenes/retrieved-contigs.fasta
+/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/class_a_out/retrievedFragments/A50_clean__1_retrieved.fastq
+/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/class_a_out/retrievedFragments/A50_clean__2_retrieved.fastq
+/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/class_a_out/retrievedFragments/all_retrieved_1.fastq
+/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/class_a_out/retrievedFragments/all_retrieved_2.fastq
+/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/class_a_out/retrievedFragments/trimmedReads/A50_clean__1_retrieved_val_1.fq
+/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/class_a_out/retrievedFragments/trimmedReads/A50_clean__2_retrieved_val_2.fq
+
+type [y]es to continue or [n]o to abort:
+The following files will be DELETED!!
+
+ /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/class_b_1_2_out/predictedGenes/retrieved-contigs-peptides.fasta
+/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/class_b_1_2_out/predictedGenes/retrieved-contigs.fasta
+/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/class_b_1_2_out/retrievedFragments/A50_clean__1_retrieved.fastq
+/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/class_b_1_2_out/retrievedFragments/A50_clean__2_retrieved.fastq
+/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/class_b_1_2_out/retrievedFragments/all_retrieved_1.fastq
+/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/class_b_1_2_out/retrievedFragments/all_retrieved_2.fastq
+/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/class_b_1_2_out/retrievedFragments/trimmedReads/A50_clean__1_retrieved_val_1.fq
+/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/class_b_1_2_out/retrievedFragments/trimmedReads/A50_clean__2_retrieved_val_2.fq
+
+type [y]es to continue or [n]o to abort:
+The following files will be DELETED!!
+
+ /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/class_b_3_out/predictedGenes/retrieved-contigs-peptides.fasta
+/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/class_b_3_out/predictedGenes/predicted-orfs-amino.fasta
+/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/class_b_3_out/predictedGenes/predicted-orfs.fasta
+/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/class_b_3_out/predictedGenes/retrieved-contigs.fasta
+/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/class_b_3_out/retrievedFragments/A50_clean__1_retrieved.fastq
+/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/class_b_3_out/retrievedFragments/A50_clean__2_retrieved.fastq
+/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/class_b_3_out/retrievedFragments/all_retrieved_1.fastq
+/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/class_b_3_out/retrievedFragments/all_retrieved_2.fastq
+/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/class_b_3_out/retrievedFragments/trimmedReads/A50_clean__1_retrieved_val_1.fq
+/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/class_b_3_out/retrievedFragments/trimmedReads/A50_clean__2_retrieved_val_2.fq
+
+type [y]es to continue or [n]o to abort:
+The following files will be DELETED!!
+
+ /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/class_c_out/retrievedFragments/A50_clean__1_retrieved.fastq
+/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/class_c_out/retrievedFragments/A50_clean__2_retrieved.fastq
+/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/class_c_out/retrievedFragments/all_retrieved_1.fastq
+/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/class_c_out/retrievedFragments/all_retrieved_2.fastq
+/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/class_c_out/retrievedFragments/trimmedReads/A50_clean__1_retrieved_val_1.fq
+/xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/class_c_out/retrievedFragments/trimmedReads/A50_clean__2_retrieved_val_2.fq
+
+type [y]es to continue or [n]o to abort:
+No hits in file /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/class_d_1_out/spades_assembly/contigs.fasta
+
+[]
+[]
+
+No hits in file /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/qnr_out/spades_assembly/contigs.fasta
+
+[]
+[]
+
+No hits in file /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/tet_efflux_out/spades_assembly/contigs.fasta
+
+[]
+[]
+
+No hits in file /xdisk/barberan/mtoucedasuarez/urban/args/fargene/A50_out/tet_enzyme_out/spades_assembly/contigs.fasta
+
+[]
+[]
+Detailed performance metrics for this job will be available at https://metrics.hpc.arizona.edu/#job_viewer?action=show&realm=SUPREMM&resource_id=73&local_job_id=7844178 by 8am on 2023/08/09.

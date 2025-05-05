@@ -1,0 +1,38 @@
+job started
+r5u33n1.puma.hpc.arizona.edu
+Wed May 17 16:10:26 MST 2023
+
+============================This is vConTACT2 0.11.3============================
+
+
+
+----------------------------------Pre-Analysis----------------------------------
+
+
+------------------------------Reference databases-------------------------------
+
+
+-------------------------------Protein clustering-------------------------------
+
+
+----------------------------------Loading data----------------------------------
+
+
+--------------------------------Adding Taxonomy---------------------------------
+
+
+------------------------Calculating Similarity Networks-------------------------
+
+
+------------------------Contig Clustering & Affiliation-------------------------
+
+
+--------------------------------Protein modules---------------------------------
+
+
+---------------------------Link modules and clusters----------------------------
+
+
+----------------------------Exporting results files-----------------------------
+There were 15186 genomes (including refs) that were singleton, outlier or overlaps.
+Detailed performance metrics for this job will be available at https://metrics.hpc.arizona.edu/#job_viewer?action=show&realm=SUPREMM&resource_id=73&local_job_id=7257779 by 8am on 2023/05/18.

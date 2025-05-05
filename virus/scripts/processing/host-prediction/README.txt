@@ -1,0 +1,2 @@
+1.  Create a db (full fasta) of the mags
+2. Blast the viral clustered species against that database

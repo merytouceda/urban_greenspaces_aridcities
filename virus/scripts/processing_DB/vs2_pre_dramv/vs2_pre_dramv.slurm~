@@ -1,0 +1,28 @@
+#!/bin/bash -l
+#SBATCH --job-name=vs2_pre_dramv
+#SBATCH --account=gornish
+#SBATCH --output=output_vs2_pre_dramv.txt
+#SBATCH --error=errors_vs2_pre_dramv.txt
+#SBATCH --partition=standard
+#SBATCH --time=24:00:00
+#SBATCH --ntasks=28
+#SBATCH --nodes=1
+#SBATCH --mem=112gb
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=mtoucedasuarez@hpc.arizona.edu
+
+# --------------------------------------------------
+# Load modules here
+# --------------------------------------------------
+module load anaconda
+source ~/.bashrc && conda activate
+conda activate vs2
+# --------------------------------------------------
+# Execute commands here
+# --------------------------------------------------
+cd /groups/egornish/mtoucedasuarez/scripts/jobs/landuse/virus/vs2_pre_dramv 
+
+OUT_PATH="/xdisk/barberan/mtoucedasuarez/landuse/virus/dramv"
+IN_DIR="/xdisk/barberan/mtoucedasuarez/landuse/virus/final/fasta"
+
+virsorter run --prep-for-dramv -w $OUT_PATH/vs2_pre_dramV_viralcatalog.out -i $IN_DIR/all_viral_contigs.fa -j 4 all 

@@ -1,0 +1,931 @@
+2023-11-01 12:07:26,904 - The log file is created at /xdisk/barberan/mtoucedasuarez/landuse/mags/bin_refinement/all_bins/bins_for_virhostmatcher/annotation/annotate.log.
+2023-11-01 12:07:26,905 - 66 FASTAs found
+2023-11-01 12:07:26,979 - Starting the Annotation of Bins with database configuration: 
+ 
+
+KOfam db:
+    Citation: T. Aramaki, R. Blanc-Mathieu, H. Endo, K. Ohkubo, M. Kanehisa, S. Goto, and H. Ogata, "Kofamkoala: Kegg ortholog assignment based on profile hmm and adaptive score threshold," Bioinformatics, vol. 36, no. 7, pp. 2251–2252, 2020.
+    Download Time: 10/26/2023, 17:40:47
+    Origin: Downloaded by DRAM
+KOfam KO list:
+    Citation: T. Aramaki, R. Blanc-Mathieu, H. Endo, K. Ohkubo, M. Kanehisa, S. Goto, and H. Ogata, "Kofamkoala: Kegg ortholog assignment based on profile hmm and adaptive score threshold," Bioinformatics, vol. 36, no. 7, pp. 2251–2252, 2020.
+    Download Time: 10/26/2023, 17:40:49
+    Origin: Downloaded by DRAM
+Pfam db:
+    Citation: J. Mistry, S. Chuguransky, L. Williams, M. Qureshi, G. A. Salazar, E. L. Sonnhammer, S. C. Tosatto, L. Paladin, S. Raj, L. J. Richardson et al., "Pfam: The protein families database in 2021," Nucleic acids research, vol. 49, no. D1, pp. D412–D419, 2021.
+    Download Time: 10/26/2023, 17:55:27
+    Origin: Downloaded by DRAM
+    Description_Db_Updated: 10/26/2023, 18:54:23
+dbCAN db:
+    Citation: Y. Yin, X. Mao, J. Yang, X. Chen, F. Mao, and Y. Xu, "dbcan: a web resource for automated carbohydrate-active enzyme annotation," Nucleic acids research, vol. 40, no. W1, pp. W445–W451, 2012.
+    Version: 11
+    Download Time: 10/26/2023, 17:55:31
+    Origin: Downloaded by DRAM
+    Description_Db_Updated: 10/26/2023, 18:54:24
+MEROPS peptidase db:
+    Description_Db_Updated: 10/26/2023, 18:54:23
+    Citation: N. D. Rawlings, A. J. Barrett, P. D. Thomas, X. Huang, A. Bateman, and R. D. Finn, "The merops database of proteolytic enzymes, their substrates and inhibitors in 2017 and a comparison with peptidases in the panther database," Nucleic acids research, vol. 46, no. D1, pp. D624–D632, 2018.
+    Download Time: 10/26/2023, 17:56:40
+    Origin: Downloaded by DRAM
+
+Pfam hmm dat:
+    Description_Db_Updated: Unknown, or Never
+    Citation: J. Mistry, S. Chuguransky, L. Williams, M. Qureshi, G. A. Salazar, E. L. Sonnhammer, S. C. Tosatto, L. Paladin, S. Raj, L. J. Richardson et al., "Pfam: The protein families database in 2021," Nucleic acids research, vol. 49, no. D1, pp. D412–D419, 2021.
+    Download Time: 10/26/2023, 17:55:29
+    Origin: Downloaded by DRAM
+dbCAN family activities:
+    Citation: Y. Yin, X. Mao, J. Yang, X. Chen, F. Mao, and Y. Xu, "dbcan: a web resource for automated carbohydrate-active enzyme annotation," Nucleic acids research, vol. 40, no. W1, pp. W445–W451, 2012.
+    Version: 11
+    Upload_Date: 08062022
+    Download Time: 10/26/2023, 17:55:31
+    Origin: Downloaded by DRAM
+dbCAN subfamily EC numbers:
+    Citation: Y. Yin, X. Mao, J. Yang, X. Chen, F. Mao, and Y. Xu, "dbcan: a web resource for automated carbohydrate-active enzyme annotation," Nucleic acids research, vol. 40, no. W1, pp. W445–W451, 2012.
+    Version: 11
+    Upload_Date: 08062022
+    Download Time: 10/26/2023, 17:55:32
+    Origin: Downloaded by DRAM
+VOG annotations:
+    Description_Db_Updated: Unknown, or Never
+    Citation: J. Thannesberger, H.-J. Hellinger, I. Klymiuk, M.-T. Kastner, F. J. Rieder, M. Schneider, S. Fister, T. Lion, K. Kosulin, J. Laengle et al., "Viruses comprise an extensive pool of mobile genetic elements in eukaryote cell cultures and human clinical samples," The FASEB Journal, vol. 31, no. 5, pp. 1987–2000, 2017.
+    Version: latest
+    Download Time: 10/26/2023, 17:56:11
+    Origin: Downloaded by DRAM
+
+Genome summary form:
+    Branch: master
+    Download Time: 10/26/2023, 17:56:41
+    Origin: Downloaded by DRAM
+Module step form:
+    Branch: master
+    Download Time: 10/26/2023, 17:56:41
+    Origin: Downloaded by DRAM
+ETC module database:
+    Branch: master
+    Download Time: 10/26/2023, 17:56:42
+    Origin: Downloaded by DRAM
+Function heatmap form:
+    Branch: master
+    Download Time: 10/26/2023, 17:56:41
+    Origin: Downloaded by DRAM
+AMG database:
+    Branch: master
+    Download Time: 10/26/2023, 17:56:42
+    Origin: Downloaded by DRAM
+2023-11-01 12:07:26,983 - Retrieved database locations and descriptions
+2023-11-01 12:07:26,983 - Annotating HP-T1-6_bin7_
+2023-11-01 12:07:46,105 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 12:07:48,552 - Getting hits from kofam
+2023-11-01 12:22:15,012 - Getting forward best hits from peptidase
+2023-11-01 12:22:26,391 - Getting reverse best hits from peptidase
+2023-11-01 12:22:29,932 - Getting descriptions of hits from peptidase
+2023-11-01 12:22:30,390 - Getting hits from pfam
+2023-11-01 12:22:46,007 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this SLH look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this SLH look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glyco_tranf_2_2 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glyco_tranf_2_3 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 12:23:02,384 - Merging ORF annotations
+2023-11-01 12:23:45,477 - Annotating SC-T1-9_bin1_
+2023-11-01 12:23:59,855 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 12:24:02,368 - Getting hits from kofam
+2023-11-01 12:33:48,933 - Getting forward best hits from peptidase
+2023-11-01 12:33:55,985 - Getting reverse best hits from peptidase
+2023-11-01 12:33:58,894 - Getting descriptions of hits from peptidase
+2023-11-01 12:33:59,218 - Getting hits from pfam
+2023-11-01 12:34:07,001 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 12:34:14,611 - Merging ORF annotations
+2023-11-01 12:34:53,015 - Annotating HP-T1-9_bin6_
+2023-11-01 12:34:57,184 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 12:34:59,879 - Getting hits from kofam
+2023-11-01 12:42:53,142 - Getting forward best hits from peptidase
+2023-11-01 12:42:59,339 - Getting reverse best hits from peptidase
+2023-11-01 12:43:02,718 - Getting descriptions of hits from peptidase
+2023-11-01 12:43:03,038 - Getting hits from pfam
+2023-11-01 12:43:10,388 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 12:43:18,548 - Merging ORF annotations
+2023-11-01 12:43:38,710 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-11-01 12:43:44,034 - Annotating HP-T1-9_bin3_
+2023-11-01 12:43:52,621 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 12:43:55,091 - Getting hits from kofam
+2023-11-01 12:55:24,884 - Getting forward best hits from peptidase
+2023-11-01 12:55:32,962 - Getting reverse best hits from peptidase
+2023-11-01 12:55:36,087 - Getting descriptions of hits from peptidase
+2023-11-01 12:55:36,504 - Getting hits from pfam
+2023-11-01 12:55:44,517 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 12:55:57,554 - Merging ORF annotations
+2023-11-01 12:56:18,890 - Annotating Ex45-T1-6_bin2_
+2023-11-01 12:56:26,896 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 12:56:29,207 - Getting hits from kofam
+2023-11-01 13:04:26,396 - Getting forward best hits from peptidase
+2023-11-01 13:04:31,685 - Getting reverse best hits from peptidase
+2023-11-01 13:04:34,794 - Getting descriptions of hits from peptidase
+2023-11-01 13:04:35,039 - Getting hits from pfam
+2023-11-01 13:04:45,947 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glyco_tranf_2_3 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 13:04:54,030 - Merging ORF annotations
+2023-11-01 13:05:14,900 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-11-01 13:05:19,146 - Annotating RC-T1-9_bin1_
+2023-11-01 13:05:41,682 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 13:05:44,126 - Getting hits from kofam
+2023-11-01 13:25:21,212 - Getting forward best hits from peptidase
+2023-11-01 13:25:35,266 - Getting reverse best hits from peptidase
+2023-11-01 13:25:38,935 - Getting descriptions of hits from peptidase
+2023-11-01 13:25:39,667 - Getting hits from pfam
+2023-11-01 13:25:50,290 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 13:26:09,011 - Merging ORF annotations
+2023-11-01 13:26:55,791 - Annotating HP-T1-3_bin3_
+2023-11-01 13:27:20,836 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 13:27:23,523 - Getting hits from kofam
+2023-11-01 13:47:04,432 - Getting forward best hits from peptidase
+2023-11-01 13:47:18,840 - Getting reverse best hits from peptidase
+2023-11-01 13:47:22,328 - Getting descriptions of hits from peptidase
+2023-11-01 13:47:23,130 - Getting hits from pfam
+2023-11-01 13:47:33,856 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glyco_tranf_2_3 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 13:47:51,796 - Merging ORF annotations
+2023-11-01 13:48:23,811 - Annotating HP-T1-6_bin5_
+2023-11-01 13:48:32,254 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 13:48:34,996 - Getting hits from kofam
+2023-11-01 14:01:42,085 - Getting forward best hits from peptidase
+2023-11-01 14:01:50,948 - Getting reverse best hits from peptidase
+2023-11-01 14:01:54,099 - Getting descriptions of hits from peptidase
+2023-11-01 14:01:54,620 - Getting hits from pfam
+2023-11-01 14:02:03,403 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 14:02:13,848 - Merging ORF annotations
+2023-11-01 14:02:55,920 - Annotating SC-T1-6_bin2_
+2023-11-01 14:03:40,915 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 14:03:43,664 - Getting hits from kofam
+2023-11-01 14:20:35,227 - Getting forward best hits from peptidase
+2023-11-01 14:20:46,297 - Getting reverse best hits from peptidase
+2023-11-01 14:20:49,474 - Getting descriptions of hits from peptidase
+2023-11-01 14:20:50,099 - Getting hits from pfam
+2023-11-01 14:20:59,604 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 14:21:13,857 - Merging ORF annotations
+2023-11-01 14:21:41,748 - Annotating 8-T1-9_bin1_
+2023-11-01 14:21:54,972 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 14:21:59,354 - Getting hits from kofam
+2023-11-01 14:32:27,510 - Getting forward best hits from peptidase
+2023-11-01 14:32:36,073 - Getting reverse best hits from peptidase
+2023-11-01 14:32:39,272 - Getting descriptions of hits from peptidase
+2023-11-01 14:32:39,684 - Getting hits from pfam
+2023-11-01 14:32:47,810 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glyco_tranf_2_3 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 14:32:56,931 - Merging ORF annotations
+2023-11-01 14:33:37,077 - Annotating 11B-T1-6_bin3_
+2023-11-01 14:33:42,595 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 14:33:45,277 - Getting hits from kofam
+2023-11-01 14:42:38,535 - Getting forward best hits from peptidase
+2023-11-01 14:42:45,228 - Getting reverse best hits from peptidase
+2023-11-01 14:42:48,720 - Getting descriptions of hits from peptidase
+2023-11-01 14:42:48,955 - Getting hits from pfam
+2023-11-01 14:42:56,708 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glyco_tranf_2_3 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 14:43:03,621 - Merging ORF annotations
+2023-11-01 14:43:27,841 - Annotating RP-T1-9_bin1_
+2023-11-01 14:43:35,755 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 14:43:38,265 - Getting hits from kofam
+2023-11-01 14:55:30,937 - Getting forward best hits from peptidase
+2023-11-01 14:55:46,742 - Getting reverse best hits from peptidase
+2023-11-01 14:55:53,438 - Getting descriptions of hits from peptidase
+2023-11-01 14:55:55,734 - Getting hits from pfam
+2023-11-01 14:56:08,856 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glyco_tranf_2_4 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glyco_tranf_2_3 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 14:56:20,379 - Merging ORF annotations
+2023-11-01 14:56:38,767 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-11-01 14:56:43,498 - Annotating UAB-T1-6_bin1_
+2023-11-01 14:56:46,596 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 14:56:52,722 - Getting hits from kofam
+2023-11-01 15:04:04,654 - Getting forward best hits from peptidase
+2023-11-01 15:04:09,991 - Getting reverse best hits from peptidase
+2023-11-01 15:04:13,149 - Getting descriptions of hits from peptidase
+2023-11-01 15:04:13,348 - Getting hits from pfam
+2023-11-01 15:04:20,319 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glyco_tranf_2_3 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 15:04:26,001 - Merging ORF annotations
+2023-11-01 15:04:40,095 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-11-01 15:04:43,031 - Annotating HP-T1-6_bin10_
+2023-11-01 15:05:43,245 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 15:05:45,949 - Getting hits from kofam
+2023-11-01 15:28:47,213 - Getting forward best hits from peptidase
+2023-11-01 15:29:09,220 - Getting reverse best hits from peptidase
+2023-11-01 15:29:24,073 - Getting descriptions of hits from peptidase
+2023-11-01 15:29:27,477 - Getting hits from pfam
+2023-11-01 15:29:42,794 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this SLH look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this SLH look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 15:30:06,732 - Merging ORF annotations
+2023-11-01 15:30:32,928 - Annotating HP-T1-6_bin6_
+2023-11-01 15:30:40,218 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 15:30:45,588 - Getting hits from kofam
+2023-11-01 15:41:44,270 - Getting forward best hits from peptidase
+2023-11-01 15:41:52,246 - Getting reverse best hits from peptidase
+2023-11-01 15:41:55,191 - Getting descriptions of hits from peptidase
+2023-11-01 15:41:55,611 - Getting hits from pfam
+2023-11-01 15:42:03,917 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glyco_tranf_2_3 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 15:42:14,895 - Merging ORF annotations
+2023-11-01 15:42:41,154 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-11-01 15:42:48,214 - Annotating HP-T1-9_bin5_
+2023-11-01 15:42:54,647 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 15:42:57,330 - Getting hits from kofam
+2023-11-01 15:53:04,943 - Getting forward best hits from peptidase
+2023-11-01 15:53:16,935 - Getting reverse best hits from peptidase
+2023-11-01 15:53:26,753 - Getting descriptions of hits from peptidase
+2023-11-01 15:53:27,139 - Getting hits from pfam
+2023-11-01 15:53:41,564 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 15:53:51,319 - Merging ORF annotations
+2023-11-01 15:54:14,559 - Annotating Ex45-T1-6_bin1_
+2023-11-01 15:54:23,168 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 15:54:25,658 - Getting hits from kofam
+2023-11-01 16:03:15,725 - Getting forward best hits from peptidase
+2023-11-01 16:03:22,633 - Getting reverse best hits from peptidase
+2023-11-01 16:03:25,939 - Getting descriptions of hits from peptidase
+2023-11-01 16:03:26,383 - Getting hits from pfam
+2023-11-01 16:03:34,098 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glyco_tranf_2_3 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 16:03:43,114 - Merging ORF annotations
+2023-11-01 16:04:11,558 - Annotating 11B-T1-3_bin1_
+2023-11-01 16:04:22,895 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 16:04:25,235 - Getting hits from kofam
+2023-11-01 16:16:22,427 - Getting forward best hits from peptidase
+2023-11-01 16:16:31,178 - Getting reverse best hits from peptidase
+2023-11-01 16:16:34,365 - Getting descriptions of hits from peptidase
+2023-11-01 16:16:34,789 - Getting hits from pfam
+2023-11-01 16:16:43,597 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glyco_tranf_2_3 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Cellulose_synt look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 16:16:56,713 - Merging ORF annotations
+2023-11-01 16:17:19,131 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-11-01 16:17:25,370 - Annotating RC-T1-6_bin1_
+2023-11-01 16:17:34,486 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 16:17:36,707 - Getting hits from kofam
+2023-11-01 16:27:09,025 - Getting forward best hits from peptidase
+2023-11-01 16:27:15,716 - Getting reverse best hits from peptidase
+2023-11-01 16:27:18,741 - Getting descriptions of hits from peptidase
+2023-11-01 16:27:19,030 - Getting hits from pfam
+2023-11-01 16:27:26,616 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glyco_tranf_2_3 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 16:27:34,764 - Merging ORF annotations
+2023-11-01 16:27:49,442 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-11-01 16:27:51,741 - Annotating 8-T1-9_bin2_
+2023-11-01 16:28:09,681 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 16:28:12,219 - Getting hits from kofam
+2023-11-01 16:42:38,324 - Getting forward best hits from peptidase
+2023-11-01 16:42:46,580 - Getting reverse best hits from peptidase
+2023-11-01 16:42:49,781 - Getting descriptions of hits from peptidase
+2023-11-01 16:42:50,254 - Getting hits from pfam
+2023-11-01 16:42:58,201 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 16:43:08,568 - Merging ORF annotations
+2023-11-01 16:43:46,723 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-11-01 16:43:59,170 - Annotating RC-T1-9_bin4_
+2023-11-01 16:44:36,620 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 16:44:39,841 - Getting hits from kofam
+2023-11-01 17:02:21,018 - Getting forward best hits from peptidase
+2023-11-01 17:02:32,657 - Getting reverse best hits from peptidase
+2023-11-01 17:02:35,799 - Getting descriptions of hits from peptidase
+2023-11-01 17:02:36,397 - Getting hits from pfam
+2023-11-01 17:02:45,484 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 17:02:59,448 - Merging ORF annotations
+2023-11-01 17:03:42,654 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-11-01 17:03:59,402 - Annotating SC-T1-3_bin3_
+2023-11-01 17:04:23,262 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 17:04:25,984 - Getting hits from kofam
+2023-11-01 17:18:04,831 - Getting forward best hits from peptidase
+2023-11-01 17:18:13,146 - Getting reverse best hits from peptidase
+2023-11-01 17:18:16,730 - Getting descriptions of hits from peptidase
+2023-11-01 17:18:17,132 - Getting hits from pfam
+2023-11-01 17:18:25,351 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glyco_tranf_2_3 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 17:18:35,998 - Merging ORF annotations
+2023-11-01 17:18:55,299 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-11-01 17:18:58,268 - Annotating SC-T1-3_bin2_
+2023-11-01 17:19:23,954 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 17:19:26,466 - Getting hits from kofam
+2023-11-01 17:31:20,803 - Getting forward best hits from peptidase
+2023-11-01 17:31:29,554 - Getting reverse best hits from peptidase
+2023-11-01 17:31:32,260 - Getting descriptions of hits from peptidase
+2023-11-01 17:31:32,633 - Getting hits from pfam
+2023-11-01 17:31:41,058 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glyco_tranf_2_3 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 17:31:52,910 - Merging ORF annotations
+2023-11-01 17:32:18,469 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-11-01 17:32:23,812 - Annotating HP-T1-3_bin2_
+2023-11-01 17:32:29,061 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 17:32:31,463 - Getting hits from kofam
+2023-11-01 17:40:36,385 - Getting forward best hits from peptidase
+2023-11-01 17:40:42,322 - Getting reverse best hits from peptidase
+2023-11-01 17:40:45,159 - Getting descriptions of hits from peptidase
+2023-11-01 17:40:45,444 - Getting hits from pfam
+2023-11-01 17:40:52,426 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glyco_tranf_2_3 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 17:41:00,353 - Merging ORF annotations
+2023-11-01 17:41:16,646 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-11-01 17:41:19,708 - Annotating 11B-T1-6_bin4_
+2023-11-01 17:41:30,537 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 17:41:32,935 - Getting hits from kofam
+2023-11-01 17:54:30,765 - Getting forward best hits from peptidase
+2023-11-01 17:54:39,413 - Getting reverse best hits from peptidase
+2023-11-01 17:54:42,488 - Getting descriptions of hits from peptidase
+2023-11-01 17:54:42,896 - Getting hits from pfam
+2023-11-01 17:54:51,246 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Cellulose_synt look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glyco_tranf_2_3 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 17:55:02,950 - Merging ORF annotations
+2023-11-01 17:55:27,397 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-11-01 17:55:34,797 - Annotating SC-T1-3_bin7_
+2023-11-01 17:55:48,765 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 17:55:51,810 - Getting hits from kofam
+2023-11-01 18:11:26,303 - Getting forward best hits from peptidase
+2023-11-01 18:11:38,045 - Getting reverse best hits from peptidase
+2023-11-01 18:11:42,775 - Getting descriptions of hits from peptidase
+2023-11-01 18:11:43,246 - Getting hits from pfam
+2023-11-01 18:11:52,883 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 18:12:08,779 - Merging ORF annotations
+2023-11-01 18:12:58,028 - Annotating 8-T1-9_bin4_
+2023-11-01 18:13:32,443 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 18:13:35,373 - Getting hits from kofam
+2023-11-01 18:29:56,946 - Getting forward best hits from peptidase
+2023-11-01 18:30:09,260 - Getting reverse best hits from peptidase
+2023-11-01 18:30:12,377 - Getting descriptions of hits from peptidase
+2023-11-01 18:30:13,317 - Getting hits from pfam
+2023-11-01 18:30:22,747 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 18:30:38,670 - Merging ORF annotations
+2023-11-01 18:31:19,802 - Annotating UAB-T1-6_bin2_
+2023-11-01 18:31:29,144 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 18:31:31,940 - Getting hits from kofam
+2023-11-01 18:39:53,523 - Getting forward best hits from peptidase
+2023-11-01 18:39:59,564 - Getting reverse best hits from peptidase
+2023-11-01 18:40:02,921 - Getting descriptions of hits from peptidase
+2023-11-01 18:40:03,187 - Getting hits from pfam
+2023-11-01 18:40:10,273 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 18:40:16,507 - Merging ORF annotations
+2023-11-01 18:40:36,678 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-11-01 18:40:41,203 - Annotating UAB-T1-3_bin1_
+2023-11-01 18:40:52,265 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 18:40:54,963 - Getting hits from kofam
+2023-11-01 18:49:33,291 - Getting forward best hits from peptidase
+2023-11-01 18:49:40,573 - Getting reverse best hits from peptidase
+2023-11-01 18:49:43,296 - Getting descriptions of hits from peptidase
+2023-11-01 18:49:43,600 - Getting hits from pfam
+2023-11-01 18:49:50,955 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glyco_tranf_2_3 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 18:49:57,921 - Merging ORF annotations
+2023-11-01 18:50:24,719 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-11-01 18:50:31,280 - Annotating RC-T1-9_bin3_
+2023-11-01 18:50:38,606 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 18:50:40,970 - Getting hits from kofam
+2023-11-01 18:59:55,946 - Getting forward best hits from peptidase
+2023-11-01 19:00:02,966 - Getting reverse best hits from peptidase
+2023-11-01 19:00:05,880 - Getting descriptions of hits from peptidase
+2023-11-01 19:00:06,107 - Getting hits from pfam
+2023-11-01 19:00:14,181 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glyco_tranf_2_3 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 19:00:21,951 - Merging ORF annotations
+2023-11-01 19:00:37,508 - Annotating HP-T1-6_bin1_
+2023-11-01 19:00:42,434 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 19:00:44,930 - Getting hits from kofam
+2023-11-01 19:08:50,779 - Getting forward best hits from peptidase
+2023-11-01 19:08:57,401 - Getting reverse best hits from peptidase
+2023-11-01 19:09:00,738 - Getting descriptions of hits from peptidase
+2023-11-01 19:09:01,140 - Getting hits from pfam
+2023-11-01 19:09:08,784 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 19:09:15,686 - Merging ORF annotations
+2023-11-01 19:09:37,292 - Annotating UAB-T1-9_bin2_
+2023-11-01 19:09:44,005 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 19:09:46,335 - Getting hits from kofam
+2023-11-01 19:18:04,851 - Getting forward best hits from peptidase
+2023-11-01 19:18:11,725 - Getting reverse best hits from peptidase
+2023-11-01 19:18:15,115 - Getting descriptions of hits from peptidase
+2023-11-01 19:18:15,371 - Getting hits from pfam
+2023-11-01 19:18:23,398 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glyco_tranf_2_3 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 19:18:30,580 - Merging ORF annotations
+2023-11-01 19:18:50,523 - Annotating 8-T1-6_bin1_
+2023-11-01 19:19:21,727 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 19:19:24,273 - Getting hits from kofam
+2023-11-01 19:33:01,235 - Getting forward best hits from peptidase
+2023-11-01 19:33:12,813 - Getting reverse best hits from peptidase
+2023-11-01 19:33:16,213 - Getting descriptions of hits from peptidase
+2023-11-01 19:33:16,748 - Getting hits from pfam
+2023-11-01 19:33:26,122 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glyco_tranf_2_3 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 19:33:38,586 - Merging ORF annotations
+2023-11-01 19:34:15,384 - Annotating RC-T1-3_bin3_
+2023-11-01 19:34:26,489 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 19:34:28,877 - Getting hits from kofam
+2023-11-01 19:43:29,682 - Getting forward best hits from peptidase
+2023-11-01 19:43:36,184 - Getting reverse best hits from peptidase
+2023-11-01 19:43:38,982 - Getting descriptions of hits from peptidase
+2023-11-01 19:43:39,177 - Getting hits from pfam
+2023-11-01 19:43:46,685 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 19:43:53,179 - Merging ORF annotations
+2023-11-01 19:44:13,771 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-11-01 19:44:18,905 - Annotating HP-T1-9_bin4_
+2023-11-01 19:44:24,258 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 19:44:26,556 - Getting hits from kofam
+2023-11-01 19:52:52,076 - Getting forward best hits from peptidase
+2023-11-01 19:52:58,880 - Getting reverse best hits from peptidase
+2023-11-01 19:53:02,178 - Getting descriptions of hits from peptidase
+2023-11-01 19:53:02,504 - Getting hits from pfam
+2023-11-01 19:53:10,235 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 19:53:17,645 - Merging ORF annotations
+2023-11-01 19:53:37,807 - Annotating SC-T1-9_bin2_
+2023-11-01 19:53:45,151 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 19:53:47,390 - Getting hits from kofam
+2023-11-01 20:00:39,678 - Getting forward best hits from peptidase
+2023-11-01 20:00:45,394 - Getting reverse best hits from peptidase
+2023-11-01 20:00:49,099 - Getting descriptions of hits from peptidase
+2023-11-01 20:00:49,300 - Getting hits from pfam
+2023-11-01 20:00:56,591 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glyco_tranf_2_3 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 20:01:01,433 - Merging ORF annotations
+2023-11-01 20:01:18,921 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-11-01 20:01:22,434 - Annotating SC-T1-6_bin3_
+2023-11-01 20:01:31,114 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 20:01:33,371 - Getting hits from kofam
+2023-11-01 20:09:31,278 - Getting forward best hits from peptidase
+2023-11-01 20:09:37,877 - Getting reverse best hits from peptidase
+2023-11-01 20:09:40,946 - Getting descriptions of hits from peptidase
+2023-11-01 20:09:41,215 - Getting hits from pfam
+2023-11-01 20:09:48,901 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 20:09:54,698 - Merging ORF annotations
+2023-11-01 20:10:23,571 - Annotating RC-T1-9_bin2_
+2023-11-01 20:10:54,651 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 20:10:57,237 - Getting hits from kofam
+2023-11-01 20:24:11,631 - Getting forward best hits from peptidase
+2023-11-01 20:24:22,880 - Getting reverse best hits from peptidase
+2023-11-01 20:24:26,288 - Getting descriptions of hits from peptidase
+2023-11-01 20:24:27,039 - Getting hits from pfam
+2023-11-01 20:24:37,414 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 20:24:51,344 - Merging ORF annotations
+2023-11-01 20:25:39,882 - Annotating SC-T1-3_bin1_
+2023-11-01 20:26:00,199 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 20:26:02,992 - Getting hits from kofam
+2023-11-01 20:46:18,027 - Getting forward best hits from peptidase
+2023-11-01 20:46:34,467 - Getting reverse best hits from peptidase
+2023-11-01 20:46:38,244 - Getting descriptions of hits from peptidase
+2023-11-01 20:46:38,967 - Getting hits from pfam
+2023-11-01 20:46:50,919 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glyco_tranf_2_3 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 20:47:09,884 - Merging ORF annotations
+2023-11-01 20:47:48,573 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-11-01 20:48:08,698 - Annotating HP-T1-3_bin7_
+2023-11-01 20:48:14,047 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 20:48:16,641 - Getting hits from kofam
+2023-11-01 20:56:00,737 - Getting forward best hits from peptidase
+2023-11-01 20:56:07,746 - Getting reverse best hits from peptidase
+2023-11-01 20:56:11,459 - Getting descriptions of hits from peptidase
+2023-11-01 20:56:11,824 - Getting hits from pfam
+2023-11-01 20:56:19,823 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this PL12_3 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 20:56:28,247 - Merging ORF annotations
+2023-11-01 20:56:45,967 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-11-01 20:56:50,742 - Annotating 8-T1-3_bin1_
+2023-11-01 20:56:55,331 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 20:56:58,129 - Getting hits from kofam
+2023-11-01 21:05:05,124 - Getting forward best hits from peptidase
+2023-11-01 21:05:11,748 - Getting reverse best hits from peptidase
+2023-11-01 21:05:15,199 - Getting descriptions of hits from peptidase
+2023-11-01 21:05:15,453 - Getting hits from pfam
+2023-11-01 21:05:23,510 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 21:05:30,268 - Merging ORF annotations
+2023-11-01 21:05:47,453 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-11-01 21:05:51,351 - Annotating SC-T1-3_bin4_
+2023-11-01 21:05:59,885 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 21:06:02,426 - Getting hits from kofam
+2023-11-01 21:16:43,045 - Getting forward best hits from peptidase
+2023-11-01 21:16:51,860 - Getting reverse best hits from peptidase
+2023-11-01 21:16:54,791 - Getting descriptions of hits from peptidase
+2023-11-01 21:16:55,091 - Getting hits from pfam
+2023-11-01 21:17:03,979 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 21:17:13,787 - Merging ORF annotations
+2023-11-01 21:17:37,639 - Annotating HP-T1-9_bin2_
+2023-11-01 21:17:43,901 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 21:17:46,290 - Getting hits from kofam
+2023-11-01 21:26:51,708 - Getting forward best hits from peptidase
+2023-11-01 21:26:59,670 - Getting reverse best hits from peptidase
+2023-11-01 21:27:02,777 - Getting descriptions of hits from peptidase
+2023-11-01 21:27:03,145 - Getting hits from pfam
+2023-11-01 21:27:11,311 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glyco_tranf_2_3 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 21:27:19,579 - Merging ORF annotations
+2023-11-01 21:27:41,142 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-11-01 21:27:47,455 - Annotating HP-T1-3_bin1_
+2023-11-01 21:27:57,797 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 21:28:00,258 - Getting hits from kofam
+2023-11-01 21:37:26,634 - Getting forward best hits from peptidase
+2023-11-01 21:37:34,931 - Getting reverse best hits from peptidase
+2023-11-01 21:37:37,960 - Getting descriptions of hits from peptidase
+2023-11-01 21:37:38,401 - Getting hits from pfam
+2023-11-01 21:37:47,104 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glyco_tranf_2_3 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 21:37:55,672 - Merging ORF annotations
+2023-11-01 21:38:23,573 - Annotating SC-T1-3_bin6_
+2023-11-01 21:38:30,251 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 21:38:32,701 - Getting hits from kofam
+2023-11-01 21:47:12,812 - Getting forward best hits from peptidase
+2023-11-01 21:47:21,008 - Getting reverse best hits from peptidase
+2023-11-01 21:47:24,298 - Getting descriptions of hits from peptidase
+2023-11-01 21:47:24,700 - Getting hits from pfam
+2023-11-01 21:47:32,884 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 21:47:41,957 - Merging ORF annotations
+2023-11-01 21:48:15,979 - Annotating UAB-T1-9_bin1_
+2023-11-01 21:48:24,452 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 21:48:26,990 - Getting hits from kofam
+2023-11-01 21:58:32,385 - Getting forward best hits from peptidase
+2023-11-01 21:58:40,949 - Getting reverse best hits from peptidase
+2023-11-01 21:58:44,047 - Getting descriptions of hits from peptidase
+2023-11-01 21:58:44,461 - Getting hits from pfam
+2023-11-01 21:58:52,838 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Cellulose_synt look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glyco_tranf_2_3 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 21:59:02,516 - Merging ORF annotations
+2023-11-01 21:59:30,213 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-11-01 21:59:38,595 - Annotating RC-T1-3_bin4_
+2023-11-01 22:00:03,561 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 22:00:06,122 - Getting hits from kofam
+2023-11-01 22:19:01,405 - Getting forward best hits from peptidase
+2023-11-01 22:19:18,343 - Getting reverse best hits from peptidase
+2023-11-01 22:19:21,645 - Getting descriptions of hits from peptidase
+2023-11-01 22:19:22,396 - Getting hits from pfam
+2023-11-01 22:19:33,648 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 22:19:50,961 - Merging ORF annotations
+2023-11-01 22:20:29,012 - Annotating 8-T1-3_bin2_
+2023-11-01 22:20:47,684 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 22:20:50,158 - Getting hits from kofam
+2023-11-01 22:35:20,587 - Getting forward best hits from peptidase
+2023-11-01 22:35:33,740 - Getting reverse best hits from peptidase
+2023-11-01 22:35:37,004 - Getting descriptions of hits from peptidase
+2023-11-01 22:35:37,658 - Getting hits from pfam
+2023-11-01 22:35:47,363 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 22:36:01,719 - Merging ORF annotations
+2023-11-01 22:36:30,889 - Annotating HP-T1-6_bin2_
+2023-11-01 22:36:35,131 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 22:36:37,668 - Getting hits from kofam
+2023-11-01 22:44:54,497 - Getting forward best hits from peptidase
+2023-11-01 22:45:02,418 - Getting reverse best hits from peptidase
+2023-11-01 22:45:05,473 - Getting descriptions of hits from peptidase
+2023-11-01 22:45:05,785 - Getting hits from pfam
+2023-11-01 22:45:13,671 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 22:45:21,564 - Merging ORF annotations
+2023-11-01 22:45:42,981 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-11-01 22:45:48,850 - Annotating HP-T1-6_bin3_
+2023-11-01 22:45:54,648 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 22:45:57,019 - Getting hits from kofam
+2023-11-01 22:53:06,524 - Getting forward best hits from peptidase
+2023-11-01 22:53:12,884 - Getting reverse best hits from peptidase
+2023-11-01 22:53:16,068 - Getting descriptions of hits from peptidase
+2023-11-01 22:53:16,347 - Getting hits from pfam
+2023-11-01 22:53:23,794 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glyco_tranf_2_3 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 22:53:30,855 - Merging ORF annotations
+2023-11-01 22:53:49,625 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-11-01 22:53:53,818 - Annotating RC-T1-3_bin5_
+2023-11-01 22:54:09,030 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 22:54:11,520 - Getting hits from kofam
+2023-11-01 23:05:12,570 - Getting forward best hits from peptidase
+2023-11-01 23:05:21,639 - Getting reverse best hits from peptidase
+2023-11-01 23:05:24,925 - Getting descriptions of hits from peptidase
+2023-11-01 23:05:25,347 - Getting hits from pfam
+2023-11-01 23:05:34,299 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glyco_tranf_2_3 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 23:05:44,364 - Merging ORF annotations
+2023-11-01 23:06:14,015 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-11-01 23:06:22,682 - Annotating SC-T1-3_bin5_
+2023-11-01 23:06:59,093 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 23:07:01,568 - Getting hits from kofam
+2023-11-01 23:20:05,646 - Getting forward best hits from peptidase
+2023-11-01 23:20:16,735 - Getting reverse best hits from peptidase
+2023-11-01 23:20:20,185 - Getting descriptions of hits from peptidase
+2023-11-01 23:20:20,652 - Getting hits from pfam
+2023-11-01 23:20:29,872 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glyco_tranf_2_3 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 23:20:42,054 - Merging ORF annotations
+2023-11-01 23:21:17,398 - Annotating 11B-T1-6_bin1_
+2023-11-01 23:21:29,889 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 23:21:32,379 - Getting hits from kofam
+2023-11-01 23:37:14,361 - Getting forward best hits from peptidase
+2023-11-01 23:37:26,127 - Getting reverse best hits from peptidase
+2023-11-01 23:37:29,332 - Getting descriptions of hits from peptidase
+2023-11-01 23:37:29,945 - Getting hits from pfam
+2023-11-01 23:37:39,390 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 23:37:54,209 - Merging ORF annotations
+2023-11-01 23:38:51,283 - Annotating RP-T1-9_bin3_
+2023-11-01 23:38:57,287 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 23:38:59,654 - Getting hits from kofam
+2023-11-01 23:46:49,610 - Getting forward best hits from peptidase
+2023-11-01 23:46:55,921 - Getting reverse best hits from peptidase
+2023-11-01 23:46:59,182 - Getting descriptions of hits from peptidase
+2023-11-01 23:46:59,470 - Getting hits from pfam
+2023-11-01 23:47:07,022 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glyco_tranf_2_4 look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 23:47:13,324 - Merging ORF annotations
+2023-11-01 23:47:32,678 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-11-01 23:47:37,198 - Annotating 11B-T1-6_bin2_
+2023-11-01 23:47:48,407 - Turning genes from prodigal to mmseqs2 db
+2023-11-01 23:47:51,045 - Getting hits from kofam
+2023-11-01 23:59:24,589 - Getting forward best hits from peptidase
+2023-11-01 23:59:34,375 - Getting reverse best hits from peptidase
+2023-11-01 23:59:37,404 - Getting descriptions of hits from peptidase
+2023-11-01 23:59:37,874 - Getting hits from pfam
+2023-11-01 23:59:46,766 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glyco_tranf_2_3 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Cellulose_synt look like an id from dbcan_description
+  warnings.warn(
+2023-11-01 23:59:58,056 - Merging ORF annotations
+2023-11-02 00:00:25,026 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-11-02 00:00:32,892 - Annotating 8-T1-9_bin3_
+2023-11-02 00:00:39,218 - Turning genes from prodigal to mmseqs2 db
+2023-11-02 00:00:41,776 - Getting hits from kofam
+2023-11-02 00:09:58,574 - Getting forward best hits from peptidase
+2023-11-02 00:10:07,013 - Getting reverse best hits from peptidase
+2023-11-02 00:10:10,408 - Getting descriptions of hits from peptidase
+2023-11-02 00:10:10,855 - Getting hits from pfam
+2023-11-02 00:10:19,161 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glyco_tranf_2_3 look like an id from dbcan_description
+  warnings.warn(
+2023-11-02 00:10:28,790 - Merging ORF annotations
+2023-11-02 00:10:51,079 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-11-02 00:10:57,288 - Annotating RP-T1-9_bin4_
+2023-11-02 00:11:10,913 - Turning genes from prodigal to mmseqs2 db
+2023-11-02 00:11:13,325 - Getting hits from kofam
+2023-11-02 00:20:42,465 - Getting forward best hits from peptidase
+2023-11-02 00:20:51,102 - Getting reverse best hits from peptidase
+2023-11-02 00:20:54,576 - Getting descriptions of hits from peptidase
+2023-11-02 00:20:54,928 - Getting hits from pfam
+2023-11-02 00:21:03,489 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-02 00:21:12,026 - Merging ORF annotations
+2023-11-02 00:21:36,603 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-11-02 00:21:42,918 - Annotating Ex45-T1-3_bin1_
+2023-11-02 00:21:57,103 - Turning genes from prodigal to mmseqs2 db
+2023-11-02 00:21:59,940 - Getting hits from kofam
+2023-11-02 00:31:30,748 - Getting forward best hits from peptidase
+2023-11-02 00:31:38,690 - Getting reverse best hits from peptidase
+2023-11-02 00:31:41,790 - Getting descriptions of hits from peptidase
+2023-11-02 00:31:42,117 - Getting hits from pfam
+2023-11-02 00:31:50,451 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-02 00:31:58,219 - Merging ORF annotations
+2023-11-02 00:32:33,128 - Annotating SC-T1-3_bin8_
+2023-11-02 00:32:41,004 - Turning genes from prodigal to mmseqs2 db
+2023-11-02 00:32:43,694 - Getting hits from kofam
+2023-11-02 00:41:35,446 - Getting forward best hits from peptidase
+2023-11-02 00:41:43,019 - Getting reverse best hits from peptidase
+2023-11-02 00:41:46,318 - Getting descriptions of hits from peptidase
+2023-11-02 00:41:46,613 - Getting hits from pfam
+2023-11-02 00:41:54,706 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glyco_tranf_2_3 look like an id from dbcan_description
+  warnings.warn(
+2023-11-02 00:42:03,152 - Merging ORF annotations
+2023-11-02 00:42:22,523 - Annotating HP-T1-6_bin9_
+2023-11-02 00:42:30,724 - Turning genes from prodigal to mmseqs2 db
+2023-11-02 00:42:33,424 - Getting hits from kofam
+2023-11-02 00:53:51,773 - Getting forward best hits from peptidase
+2023-11-02 00:54:00,831 - Getting reverse best hits from peptidase
+2023-11-02 00:54:04,191 - Getting descriptions of hits from peptidase
+2023-11-02 00:54:04,609 - Getting hits from pfam
+2023-11-02 00:54:13,543 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-02 00:54:24,633 - Merging ORF annotations
+2023-11-02 00:54:44,838 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-11-02 00:54:50,230 - Annotating SC-T1-3_bin9_
+2023-11-02 00:54:58,949 - Turning genes from prodigal to mmseqs2 db
+2023-11-02 00:55:01,395 - Getting hits from kofam
+2023-11-02 01:03:29,791 - Getting forward best hits from peptidase
+2023-11-02 01:03:37,798 - Getting reverse best hits from peptidase
+2023-11-02 01:03:42,048 - Getting descriptions of hits from peptidase
+2023-11-02 01:03:42,452 - Getting hits from pfam
+2023-11-02 01:03:51,135 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glyco_tranf_2_3 look like an id from dbcan_description
+  warnings.warn(
+2023-11-02 01:03:58,330 - Merging ORF annotations
+2023-11-02 01:04:15,524 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-11-02 01:04:19,307 - Annotating RC-T1-3_bin2_
+2023-11-02 01:04:23,978 - Turning genes from prodigal to mmseqs2 db
+2023-11-02 01:04:26,580 - Getting hits from kofam
+2023-11-02 01:12:29,708 - Getting forward best hits from peptidase
+2023-11-02 01:12:36,810 - Getting reverse best hits from peptidase
+2023-11-02 01:12:40,201 - Getting descriptions of hits from peptidase
+2023-11-02 01:12:40,432 - Getting hits from pfam
+2023-11-02 01:12:48,726 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-02 01:12:56,436 - Merging ORF annotations
+2023-11-02 01:13:17,522 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-11-02 01:13:22,915 - Annotating HP-T1-9_bin1_
+2023-11-02 01:13:38,407 - Turning genes from prodigal to mmseqs2 db
+2023-11-02 01:13:41,024 - Getting hits from kofam
+2023-11-02 01:23:35,958 - Getting forward best hits from peptidase
+2023-11-02 01:23:43,700 - Getting reverse best hits from peptidase
+2023-11-02 01:23:47,081 - Getting descriptions of hits from peptidase
+2023-11-02 01:23:47,497 - Getting hits from pfam
+2023-11-02 01:23:55,591 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-02 01:24:04,459 - Merging ORF annotations
+2023-11-02 01:24:23,032 - Annotating HP-T1-6_bin4_
+2023-11-02 01:24:27,907 - Turning genes from prodigal to mmseqs2 db
+2023-11-02 01:24:30,570 - Getting hits from kofam
+2023-11-02 01:32:33,091 - Getting forward best hits from peptidase
+2023-11-02 01:32:40,179 - Getting reverse best hits from peptidase
+2023-11-02 01:32:44,135 - Getting descriptions of hits from peptidase
+2023-11-02 01:32:44,440 - Getting hits from pfam
+2023-11-02 01:32:52,469 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-02 01:33:00,799 - Merging ORF annotations
+2023-11-02 01:33:18,683 - No rRNAs were detected, no rrnas.tsv file will be created.
+2023-11-02 01:33:22,755 - Annotating RC-T1-3_bin1_
+2023-11-02 01:33:29,751 - Turning genes from prodigal to mmseqs2 db
+2023-11-02 01:33:32,711 - Getting hits from kofam
+2023-11-02 01:42:44,183 - Getting forward best hits from peptidase
+2023-11-02 01:42:51,705 - Getting reverse best hits from peptidase
+2023-11-02 01:42:54,944 - Getting descriptions of hits from peptidase
+2023-11-02 01:42:55,235 - Getting hits from pfam
+2023-11-02 01:43:03,446 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+2023-11-02 01:43:11,224 - Merging ORF annotations
+2023-11-02 01:43:29,626 - Annotating HP-T1-3_bin5_
+2023-11-02 01:43:39,596 - Turning genes from prodigal to mmseqs2 db
+2023-11-02 01:43:42,118 - Getting hits from kofam
+2023-11-02 01:55:56,141 - Getting forward best hits from peptidase
+2023-11-02 01:56:06,321 - Getting reverse best hits from peptidase
+2023-11-02 01:56:09,841 - Getting descriptions of hits from peptidase
+2023-11-02 01:56:10,338 - Getting hits from pfam
+2023-11-02 01:56:19,804 - Getting hits from dbCAN
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glycos_transf_2 look like an id from dbcan_description
+  warnings.warn(
+/home/u14/mtoucedasuarez/.conda/envs/DRAM/lib/python3.10/site-packages/mag_annotator/database_handler.py:215: UserWarning: No descriptions were found for your id's. Does this GT2_Glyco_tranf_2_3 look like an id from dbcan_description
+  warnings.warn(
+2023-11-02 01:56:31,461 - Merging ORF annotations
+2023-11-02 01:57:07,633 - Annotations complete, processing annotations
+2023-11-02 01:57:16,853 - Completed annotations
+2023-11-02 01:57:25,140 - The log file is created at /xdisk/barberan/mtoucedasuarez/landuse/mags/bin_refinement/all_bins/bins_for_virhostmatcher/annotation/genome_summaries/distill.log
+2023-11-02 01:57:25,711 - Note: the fallowing id fields were not in the annotations file and are not being used: ['kegg_genes_id', 'kegg_id', 'camper_id', 'fegenie_id', 'sulfur_id', 'methyl_id'], but these are ['ko_id', 'kegg_hit', 'peptidase_family', 'cazy_best_hit', 'pfam_hits']
+2023-11-02 01:57:25,909 - Retrieved database locations and descriptions
+2023-11-02 01:57:25,980 - Calculated genome statistics
+2023-11-02 01:57:38,649 - Generated genome metabolism summary
+2023-11-02 01:59:26,785 - Generated product heatmap and table
+2023-11-02 01:59:26,787 - Completed distillation

@@ -1,0 +1,313 @@
+Collecting package metadata (current_repodata.json): ...working... done
+Solving environment: ...working... failed with initial frozen solve. Retrying with flexible solve.
+Solving environment: ...working... failed with repodata from current_repodata.json, will retry with next repodata source.
+Collecting package metadata (repodata.json): ...working... done
+Solving environment: ...working... done
+
+
+==> WARNING: A newer version of conda exists. <==
+  current version: 4.12.0
+  latest version: 23.5.2
+
+Please update conda by running
+
+    $ conda update -n base -c defaults conda
+
+
+
+## Package Plan ##
+
+  environment location: /home/u14/mtoucedasuarez/.conda/envs/seqkit
+
+  added / updated specs:
+    - fargene
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    _libgcc_mutex-0.1          |      conda_forge           3 KB  conda-forge
+    _openmp_mutex-4.5          |            2_gnu          23 KB  conda-forge
+    argtable2-2.13             |    h14c3975_1001         2.7 MB  conda-forge
+    backports-1.0              |     pyhd8ed1ab_3           6 KB  conda-forge
+    backports.functools_lru_cache-1.6.1|             py_0           8 KB  conda-forge
+    backports_abc-0.5          |             py_1           5 KB  conda-forge
+    biopython-1.76             |   py27h516909a_0         2.6 MB  conda-forge
+    bz2file-0.98               |             py_0           9 KB  conda-forge
+    bzip2-1.0.8                |       h7f98852_4         484 KB  conda-forge
+    ca-certificates-2023.7.22  |       hbcca054_0         146 KB  conda-forge
+    certifi-2019.11.28         |   py27h8c360ce_1         149 KB  conda-forge
+    clustalo-1.2.4             |       hdbdd923_7         315 KB  bioconda
+    cutadapt-1.18              |   py27h14c3975_1         199 KB  bioconda
+    cycler-0.10.0              |             py_2           9 KB  conda-forge
+    dbus-1.13.6                |       hfdff14a_1         585 KB  conda-forge
+    emboss-6.5.7               |       ha92aebf_5        80.0 MB  bioconda
+    expat-2.5.0                |       hcb278e6_1         134 KB  conda-forge
+    fargene-0.1                |   py27h21c881e_4         6.8 MB  bioconda
+    fastqc-0.11.4              |                0         9.5 MB  bioconda
+    fontconfig-2.14.2          |       h14ed4e7_0         266 KB  conda-forge
+    freetype-2.12.1            |       hca18f0e_1         611 KB  conda-forge
+    functools32-3.2.3.2        |             py_3          15 KB  conda-forge
+    futures-3.3.0              |   py27h8c360ce_1          26 KB  conda-forge
+    gettext-0.21.1             |       h27087fc_0         4.1 MB  conda-forge
+    glib-2.66.3                |       h58526e2_0         500 KB  conda-forge
+    gst-plugins-base-1.14.5    |       h0935bb2_2         6.8 MB  conda-forge
+    gstreamer-1.14.5           |       h36ae1b5_2         4.5 MB  conda-forge
+    hmmer-3.3.2                |       hdbdd923_4         9.8 MB  bioconda
+    icu-64.2                   |       he1b5a44_1        12.6 MB  conda-forge
+    jpeg-9e                    |       h0b41bf4_3         235 KB  conda-forge
+    kiwisolver-1.1.0           |   py27h9e3301b_1          88 KB  conda-forge
+    ld_impl_linux-64-2.40      |       h41732ed_0         688 KB  conda-forge
+    libblas-3.9.0              |17_linux64_openblas          14 KB  conda-forge
+    libcblas-3.9.0             |17_linux64_openblas          14 KB  conda-forge
+    libexpat-2.5.0             |       hcb278e6_1          76 KB  conda-forge
+    libffi-3.2.1               |    he1b5a44_1007          47 KB  conda-forge
+    libgcc-ng-13.1.0           |       he5830b7_0         758 KB  conda-forge
+    libgfortran-ng-13.1.0      |       h69a702a_0          23 KB  conda-forge
+    libgfortran5-13.1.0        |       h15d22d2_0         1.4 MB  conda-forge
+    libglib-2.66.3             |       hbe7bbb4_0         3.0 MB  conda-forge
+    libgomp-13.1.0             |       he5830b7_0         409 KB  conda-forge
+    libiconv-1.17              |       h166bdaf_0         1.4 MB  conda-forge
+    liblapack-3.9.0            |17_linux64_openblas          14 KB  conda-forge
+    libnsl-2.0.0               |       h7f98852_0          31 KB  conda-forge
+    libopenblas-0.3.23         |pthreads_h80387f5_0         5.2 MB  conda-forge
+    libpng-1.6.39              |       h753d276_0         276 KB  conda-forge
+    libsqlite-3.42.0           |       h2797004_0         809 KB  conda-forge
+    libstdcxx-ng-13.1.0        |       hfd8a6a1_0         3.7 MB  conda-forge
+    libuuid-2.38.1             |       h0b41bf4_0          33 KB  conda-forge
+    libxcb-1.15                |       h0b41bf4_0         375 KB  conda-forge
+    libxml2-2.9.10             |       hee79883_0         1.3 MB  conda-forge
+    libzlib-1.2.13             |       hd590300_5          60 KB  conda-forge
+    matplotlib-2.2.5           |       ha770c72_3           7 KB  conda-forge
+    matplotlib-base-2.2.5      |   py27h250f245_1         6.6 MB  conda-forge
+    ncurses-6.4                |       hcb278e6_0         860 KB  conda-forge
+    numpy-1.16.5               |   py27h95a1406_0         4.3 MB  conda-forge
+    openssl-1.1.1u             |       hd590300_0         1.9 MB  conda-forge
+    pcre-8.45                  |       h9c3ff4c_0         253 KB  conda-forge
+    perl-5.32.1                | 4_hd590300_perl5        12.7 MB  conda-forge
+    pigz-2.6                   |       h27826a3_0          87 KB  conda-forge
+    pip-20.1.1                 |     pyh9f0ad1d_0         1.1 MB  conda-forge
+    pthread-stubs-0.4          |    h36c2ea0_1001           5 KB  conda-forge
+    pyparsing-2.4.7            |     pyh9f0ad1d_0          60 KB  conda-forge
+    pyqt-5.9.2                 |   py27hcca6a23_4         5.5 MB  conda-forge
+    python-2.7.15              |h5a48372_1011_cpython        12.2 MB  conda-forge
+    python-dateutil-2.8.1      |             py_0         220 KB  conda-forge
+    python_abi-2.7             |         1_cp27mu           4 KB  conda-forge
+    pytz-2020.1                |     pyh9f0ad1d_0         227 KB  conda-forge
+    pyyaml-5.3.1               |   py27hdf8410d_0         174 KB  conda-forge
+    qt-5.9.7                   |       h0c104cb_3        80.8 MB  conda-forge
+    readline-8.2               |       h8228510_1         275 KB  conda-forge
+    seqtk-1.4                  |       he4a0461_1          43 KB  bioconda
+    setuptools-44.0.0          |           py27_0         663 KB  conda-forge
+    singledispatch-3.6.1       |     pyh44b312d_0          12 KB  conda-forge
+    sip-4.19.8                 |py27hf484d3e_1000         290 KB  conda-forge
+    six-1.16.0                 |     pyh6c4a22f_0          14 KB  conda-forge
+    spades-3.14.1              |       h95f258a_2        13.1 MB  bioconda
+    sqlite-3.42.0              |       h2c6b66d_0         799 KB  conda-forge
+    subprocess32-3.5.4         |   py27h516909a_0          46 KB  conda-forge
+    tk-8.6.12                  |       h27826a3_0         3.3 MB  conda-forge
+    tornado-5.1.1              |py27h14c3975_1000         642 KB  conda-forge
+    trim-galore-0.6.10         |       hdfd78af_0          45 KB  bioconda
+    wheel-0.37.1               |     pyhd8ed1ab_0          31 KB  conda-forge
+    xopen-0.8.4                |   py27h8c360ce_1          15 KB  conda-forge
+    xorg-libxau-1.0.11         |       hd590300_0          14 KB  conda-forge
+    xorg-libxdmcp-1.1.3        |       h7f98852_0          19 KB  conda-forge
+    xz-5.2.6                   |       h166bdaf_0         409 KB  conda-forge
+    yaml-0.2.5                 |       h7f98852_2          87 KB  conda-forge
+    zlib-1.2.13                |       hd590300_5          91 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:       309.1 MB
+
+The following NEW packages will be INSTALLED:
+
+  _libgcc_mutex      conda-forge/linux-64::_libgcc_mutex-0.1-conda_forge
+  _openmp_mutex      conda-forge/linux-64::_openmp_mutex-4.5-2_gnu
+  argtable2          conda-forge/linux-64::argtable2-2.13-h14c3975_1001
+  backports          conda-forge/noarch::backports-1.0-pyhd8ed1ab_3
+  backports.functoo~ conda-forge/noarch::backports.functools_lru_cache-1.6.1-py_0
+  backports_abc      conda-forge/noarch::backports_abc-0.5-py_1
+  biopython          conda-forge/linux-64::biopython-1.76-py27h516909a_0
+  bz2file            conda-forge/noarch::bz2file-0.98-py_0
+  bzip2              conda-forge/linux-64::bzip2-1.0.8-h7f98852_4
+  ca-certificates    conda-forge/linux-64::ca-certificates-2023.7.22-hbcca054_0
+  certifi            conda-forge/linux-64::certifi-2019.11.28-py27h8c360ce_1
+  clustalo           bioconda/linux-64::clustalo-1.2.4-hdbdd923_7
+  cutadapt           bioconda/linux-64::cutadapt-1.18-py27h14c3975_1
+  cycler             conda-forge/noarch::cycler-0.10.0-py_2
+  dbus               conda-forge/linux-64::dbus-1.13.6-hfdff14a_1
+  emboss             bioconda/linux-64::emboss-6.5.7-ha92aebf_5
+  expat              conda-forge/linux-64::expat-2.5.0-hcb278e6_1
+  fargene            bioconda/linux-64::fargene-0.1-py27h21c881e_4
+  fastqc             bioconda/linux-64::fastqc-0.11.4-0
+  fontconfig         conda-forge/linux-64::fontconfig-2.14.2-h14ed4e7_0
+  freetype           conda-forge/linux-64::freetype-2.12.1-hca18f0e_1
+  functools32        conda-forge/noarch::functools32-3.2.3.2-py_3
+  futures            conda-forge/linux-64::futures-3.3.0-py27h8c360ce_1
+  gettext            conda-forge/linux-64::gettext-0.21.1-h27087fc_0
+  glib               conda-forge/linux-64::glib-2.66.3-h58526e2_0
+  gst-plugins-base   conda-forge/linux-64::gst-plugins-base-1.14.5-h0935bb2_2
+  gstreamer          conda-forge/linux-64::gstreamer-1.14.5-h36ae1b5_2
+  hmmer              bioconda/linux-64::hmmer-3.3.2-hdbdd923_4
+  icu                conda-forge/linux-64::icu-64.2-he1b5a44_1
+  jpeg               conda-forge/linux-64::jpeg-9e-h0b41bf4_3
+  kiwisolver         conda-forge/linux-64::kiwisolver-1.1.0-py27h9e3301b_1
+  ld_impl_linux-64   conda-forge/linux-64::ld_impl_linux-64-2.40-h41732ed_0
+  libblas            conda-forge/linux-64::libblas-3.9.0-17_linux64_openblas
+  libcblas           conda-forge/linux-64::libcblas-3.9.0-17_linux64_openblas
+  libexpat           conda-forge/linux-64::libexpat-2.5.0-hcb278e6_1
+  libffi             conda-forge/linux-64::libffi-3.2.1-he1b5a44_1007
+  libgcc-ng          conda-forge/linux-64::libgcc-ng-13.1.0-he5830b7_0
+  libgfortran-ng     conda-forge/linux-64::libgfortran-ng-13.1.0-h69a702a_0
+  libgfortran5       conda-forge/linux-64::libgfortran5-13.1.0-h15d22d2_0
+  libglib            conda-forge/linux-64::libglib-2.66.3-hbe7bbb4_0
+  libgomp            conda-forge/linux-64::libgomp-13.1.0-he5830b7_0
+  libiconv           conda-forge/linux-64::libiconv-1.17-h166bdaf_0
+  liblapack          conda-forge/linux-64::liblapack-3.9.0-17_linux64_openblas
+  libnsl             conda-forge/linux-64::libnsl-2.0.0-h7f98852_0
+  libopenblas        conda-forge/linux-64::libopenblas-0.3.23-pthreads_h80387f5_0
+  libpng             conda-forge/linux-64::libpng-1.6.39-h753d276_0
+  libsqlite          conda-forge/linux-64::libsqlite-3.42.0-h2797004_0
+  libstdcxx-ng       conda-forge/linux-64::libstdcxx-ng-13.1.0-hfd8a6a1_0
+  libuuid            conda-forge/linux-64::libuuid-2.38.1-h0b41bf4_0
+  libxcb             conda-forge/linux-64::libxcb-1.15-h0b41bf4_0
+  libxml2            conda-forge/linux-64::libxml2-2.9.10-hee79883_0
+  libzlib            conda-forge/linux-64::libzlib-1.2.13-hd590300_5
+  llvm-meta          conda-forge/noarch::llvm-meta-7.0.0-0
+  matplotlib         conda-forge/linux-64::matplotlib-2.2.5-ha770c72_3
+  matplotlib-base    conda-forge/linux-64::matplotlib-base-2.2.5-py27h250f245_1
+  ncurses            conda-forge/linux-64::ncurses-6.4-hcb278e6_0
+  numpy              conda-forge/linux-64::numpy-1.16.5-py27h95a1406_0
+  openmp             conda-forge/linux-64::openmp-7.0.0-h2d50403_0
+  openssl            conda-forge/linux-64::openssl-1.1.1u-hd590300_0
+  pcre               conda-forge/linux-64::pcre-8.45-h9c3ff4c_0
+  perl               conda-forge/linux-64::perl-5.32.1-4_hd590300_perl5
+  pigz               conda-forge/linux-64::pigz-2.6-h27826a3_0
+  pip                conda-forge/noarch::pip-20.1.1-pyh9f0ad1d_0
+  prodigal           bioconda/linux-64::prodigal-2.6.3-h031d066_6
+  pthread-stubs      conda-forge/linux-64::pthread-stubs-0.4-h36c2ea0_1001
+  pyparsing          conda-forge/noarch::pyparsing-2.4.7-pyh9f0ad1d_0
+  pyqt               conda-forge/linux-64::pyqt-5.9.2-py27hcca6a23_4
+  python             conda-forge/linux-64::python-2.7.15-h5a48372_1011_cpython
+  python-dateutil    conda-forge/noarch::python-dateutil-2.8.1-py_0
+  python_abi         conda-forge/linux-64::python_abi-2.7-1_cp27mu
+  pytz               conda-forge/noarch::pytz-2020.1-pyh9f0ad1d_0
+  pyyaml             conda-forge/linux-64::pyyaml-5.3.1-py27hdf8410d_0
+  qt                 conda-forge/linux-64::qt-5.9.7-h0c104cb_3
+  readline           conda-forge/linux-64::readline-8.2-h8228510_1
+  seqtk              bioconda/linux-64::seqtk-1.4-he4a0461_1
+  setuptools         conda-forge/linux-64::setuptools-44.0.0-py27_0
+  singledispatch     conda-forge/noarch::singledispatch-3.6.1-pyh44b312d_0
+  sip                conda-forge/linux-64::sip-4.19.8-py27hf484d3e_1000
+  six                conda-forge/noarch::six-1.16.0-pyh6c4a22f_0
+  spades             bioconda/linux-64::spades-3.14.1-h95f258a_2
+  sqlite             conda-forge/linux-64::sqlite-3.42.0-h2c6b66d_0
+  subprocess32       conda-forge/linux-64::subprocess32-3.5.4-py27h516909a_0
+  tk                 conda-forge/linux-64::tk-8.6.12-h27826a3_0
+  tornado            conda-forge/linux-64::tornado-5.1.1-py27h14c3975_1000
+  trim-galore        bioconda/noarch::trim-galore-0.6.10-hdfd78af_0
+  wheel              conda-forge/noarch::wheel-0.37.1-pyhd8ed1ab_0
+  xopen              conda-forge/linux-64::xopen-0.8.4-py27h8c360ce_1
+  xorg-libxau        conda-forge/linux-64::xorg-libxau-1.0.11-hd590300_0
+  xorg-libxdmcp      conda-forge/linux-64::xorg-libxdmcp-1.1.3-h7f98852_0
+  xz                 conda-forge/linux-64::xz-5.2.6-h166bdaf_0
+  yaml               conda-forge/linux-64::yaml-0.2.5-h7f98852_2
+  zlib               conda-forge/linux-64::zlib-1.2.13-hd590300_5
+
+
+Proceed ([y]/n)? 
+
+Downloading and Extracting Packages
+subprocess32-3.5.4   | 46 KB     |            |   0% subprocess32-3.5.4   | 46 KB     | ###5       |  35% subprocess32-3.5.4   | 46 KB     | ########## | 100% subprocess32-3.5.4   | 46 KB     | ########## | 100% 
+xorg-libxau-1.0.11   | 14 KB     |            |   0% xorg-libxau-1.0.11   | 14 KB     | ########## | 100% xorg-libxau-1.0.11   | 14 KB     | ########## | 100% 
+_openmp_mutex-4.5    | 23 KB     |            |   0% _openmp_mutex-4.5    | 23 KB     | ########## | 100% _openmp_mutex-4.5    | 23 KB     | ########## | 100% 
+pytz-2020.1          | 227 KB    |            |   0% pytz-2020.1          | 227 KB    | 7          |   7% pytz-2020.1          | 227 KB    | ########## | 100% pytz-2020.1          | 227 KB    | ########## | 100% 
+backports-1.0        | 6 KB      |            |   0% backports-1.0        | 6 KB      | ########## | 100% backports-1.0        | 6 KB      | ########## | 100% 
+xz-5.2.6             | 409 KB    |            |   0% xz-5.2.6             | 409 KB    | #####4     |  55% xz-5.2.6             | 409 KB    | ########## | 100% 
+certifi-2019.11.28   | 149 KB    |            |   0% certifi-2019.11.28   | 149 KB    | ########## | 100% certifi-2019.11.28   | 149 KB    | ########## | 100% 
+trim-galore-0.6.10   | 45 KB     |            |   0% trim-galore-0.6.10   | 45 KB     | ########## | 100% trim-galore-0.6.10   | 45 KB     | ########## | 100% 
+libuuid-2.38.1       | 33 KB     |            |   0% libuuid-2.38.1       | 33 KB     | ########## | 100% libuuid-2.38.1       | 33 KB     | ########## | 100% 
+wheel-0.37.1         | 31 KB     |            |   0% wheel-0.37.1         | 31 KB     | ########## | 100% wheel-0.37.1         | 31 KB     | ########## | 100% 
+biopython-1.76       | 2.6 MB    |            |   0% biopython-1.76       | 2.6 MB    | ##2        |  22% biopython-1.76       | 2.6 MB    | ########## | 100% biopython-1.76       | 2.6 MB    | ########## | 100% 
+xopen-0.8.4          | 15 KB     |            |   0% xopen-0.8.4          | 15 KB     | ########## | 100% xopen-0.8.4          | 15 KB     | ########## | 100% 
+libzlib-1.2.13       | 60 KB     |            |   0% libzlib-1.2.13       | 60 KB     | ########## | 100% libzlib-1.2.13       | 60 KB     | ########## | 100% 
+hmmer-3.3.2          | 9.8 MB    |            |   0% hmmer-3.3.2          | 9.8 MB    | 7          |   7% hmmer-3.3.2          | 9.8 MB    | #######1   |  72% hmmer-3.3.2          | 9.8 MB    | ########## | 100% 
+fontconfig-2.14.2    | 266 KB    |            |   0% fontconfig-2.14.2    | 266 KB    | ########## | 100% fontconfig-2.14.2    | 266 KB    | ########## | 100% 
+seqtk-1.4            | 43 KB     |            |   0% seqtk-1.4            | 43 KB     | ########## | 100% seqtk-1.4            | 43 KB     | ########## | 100% 
+python_abi-2.7       | 4 KB      |            |   0% python_abi-2.7       | 4 KB      | ########## | 100% python_abi-2.7       | 4 KB      | ########## | 100% 
+libcblas-3.9.0       | 14 KB     |            |   0% libcblas-3.9.0       | 14 KB     | ########## | 100% libcblas-3.9.0       | 14 KB     | ########## | 100% 
+_libgcc_mutex-0.1    | 3 KB      |            |   0% _libgcc_mutex-0.1    | 3 KB      | ########## | 100% _libgcc_mutex-0.1    | 3 KB      | ########## | 100% 
+libiconv-1.17        | 1.4 MB    |            |   0% libiconv-1.17        | 1.4 MB    | #########3 |  94% libiconv-1.17        | 1.4 MB    | ########## | 100% 
+perl-5.32.1          | 12.7 MB   |            |   0% perl-5.32.1          | 12.7 MB   | #          |  10% perl-5.32.1          | 12.7 MB   | ####6      |  46% perl-5.32.1          | 12.7 MB   | #########2 |  93% perl-5.32.1          | 12.7 MB   | ########## | 100% 
+libgfortran-ng-13.1. | 23 KB     |            |   0% libgfortran-ng-13.1. | 23 KB     | ########## | 100% libgfortran-ng-13.1. | 23 KB     | ########## | 100% 
+pyparsing-2.4.7      | 60 KB     |            |   0% pyparsing-2.4.7      | 60 KB     | ########## | 100% pyparsing-2.4.7      | 60 KB     | ########## | 100% 
+liblapack-3.9.0      | 14 KB     |            |   0% liblapack-3.9.0      | 14 KB     | ########## | 100% liblapack-3.9.0      | 14 KB     | ########## | 100% 
+libffi-3.2.1         | 47 KB     |            |   0% libffi-3.2.1         | 47 KB     | ########## | 100% libffi-3.2.1         | 47 KB     | ########## | 100% 
+jpeg-9e              | 235 KB    |            |   0% jpeg-9e              | 235 KB    | ########## | 100% jpeg-9e              | 235 KB    | ########## | 100% 
+pthread-stubs-0.4    | 5 KB      |            |   0% pthread-stubs-0.4    | 5 KB      | ########## | 100% pthread-stubs-0.4    | 5 KB      | ########## | 100% 
+expat-2.5.0          | 134 KB    |            |   0% expat-2.5.0          | 134 KB    | ########## | 100% expat-2.5.0          | 134 KB    | ########## | 100% 
+openssl-1.1.1u       | 1.9 MB    |            |   0% openssl-1.1.1u       | 1.9 MB    | 9          |   9% openssl-1.1.1u       | 1.9 MB    | ########## | 100% openssl-1.1.1u       | 1.9 MB    | ########## | 100% 
+libgcc-ng-13.1.0     | 758 KB    |            |   0% libgcc-ng-13.1.0     | 758 KB    | ########## | 100% libgcc-ng-13.1.0     | 758 KB    | ########## | 100% 
+futures-3.3.0        | 26 KB     |            |   0% futures-3.3.0        | 26 KB     | ######2    |  63% futures-3.3.0        | 26 KB     | ########## | 100% 
+ncurses-6.4          | 860 KB    |            |   0% ncurses-6.4          | 860 KB    | ########## | 100% ncurses-6.4          | 860 KB    | ########## | 100% 
+pcre-8.45            | 253 KB    |            |   0% pcre-8.45            | 253 KB    | ########## | 100% pcre-8.45            | 253 KB    | ########## | 100% 
+kiwisolver-1.1.0     | 88 KB     |            |   0% kiwisolver-1.1.0     | 88 KB     | #8         |  18% kiwisolver-1.1.0     | 88 KB     | ########## | 100% kiwisolver-1.1.0     | 88 KB     | ########## | 100% 
+libpng-1.6.39        | 276 KB    |            |   0% libpng-1.6.39        | 276 KB    | ########## | 100% libpng-1.6.39        | 276 KB    | ########## | 100% 
+libgomp-13.1.0       | 409 KB    |            |   0% libgomp-13.1.0       | 409 KB    | ########## | 100% libgomp-13.1.0       | 409 KB    | ########## | 100% 
+fastqc-0.11.4        | 9.5 MB    |            |   0% fastqc-0.11.4        | 9.5 MB    |            |   0% fastqc-0.11.4        | 9.5 MB    | ##4        |  24% fastqc-0.11.4        | 9.5 MB    | ######5    |  65% fastqc-0.11.4        | 9.5 MB    | ########## | 100% fastqc-0.11.4        | 9.5 MB    | ########## | 100% 
+libstdcxx-ng-13.1.0  | 3.7 MB    |            |   0% libstdcxx-ng-13.1.0  | 3.7 MB    | ######3    |  64% libstdcxx-ng-13.1.0  | 3.7 MB    | ########## | 100% 
+python-dateutil-2.8. | 220 KB    |            |   0% python-dateutil-2.8. | 220 KB    | ########## | 100% python-dateutil-2.8. | 220 KB    | ########## | 100% 
+matplotlib-2.2.5     | 7 KB      |            |   0% matplotlib-2.2.5     | 7 KB      | ########## | 100% matplotlib-2.2.5     | 7 KB      | ########## | 100% 
+gst-plugins-base-1.1 | 6.8 MB    |            |   0% gst-plugins-base-1.1 | 6.8 MB    | ###4       |  35% gst-plugins-base-1.1 | 6.8 MB    | ########## | 100% gst-plugins-base-1.1 | 6.8 MB    | ########## | 100% 
+clustalo-1.2.4       | 315 KB    |            |   0% clustalo-1.2.4       | 315 KB    | #####      |  51% clustalo-1.2.4       | 315 KB    | ########## | 100% 
+bzip2-1.0.8          | 484 KB    |            |   0% bzip2-1.0.8          | 484 KB    | ########## | 100% bzip2-1.0.8          | 484 KB    | ########## | 100% 
+ca-certificates-2023 | 146 KB    |            |   0% ca-certificates-2023 | 146 KB    | ########## | 100% ca-certificates-2023 | 146 KB    | ########## | 100% 
+setuptools-44.0.0    | 663 KB    |            |   0% setuptools-44.0.0    | 663 KB    | 2          |   2% setuptools-44.0.0    | 663 KB    | ########## | 100% setuptools-44.0.0    | 663 KB    | ########## | 100% 
+spades-3.14.1        | 13.1 MB   |            |   0% spades-3.14.1        | 13.1 MB   |            |   0% spades-3.14.1        | 13.1 MB   | ####7      |  47% spades-3.14.1        | 13.1 MB   | #########9 | 100% spades-3.14.1        | 13.1 MB   | ########## | 100% 
+bz2file-0.98         | 9 KB      |            |   0% bz2file-0.98         | 9 KB      | ########## | 100% bz2file-0.98         | 9 KB      | ########## | 100% 
+libsqlite-3.42.0     | 809 KB    |            |   0% libsqlite-3.42.0     | 809 KB    | ########## | 100% libsqlite-3.42.0     | 809 KB    | ########## | 100% 
+libxcb-1.15          | 375 KB    |            |   0% libxcb-1.15          | 375 KB    | ########## | 100% libxcb-1.15          | 375 KB    | ########## | 100% 
+cutadapt-1.18        | 199 KB    |            |   0% cutadapt-1.18        | 199 KB    | ########## | 100% cutadapt-1.18        | 199 KB    | ########## | 100% 
+tk-8.6.12            | 3.3 MB    |            |   0% tk-8.6.12            | 3.3 MB    | ######3    |  63% tk-8.6.12            | 3.3 MB    | ########## | 100% 
+sqlite-3.42.0        | 799 KB    |            |   0% sqlite-3.42.0        | 799 KB    | ########## | 100% sqlite-3.42.0        | 799 KB    | ########## | 100% 
+libopenblas-0.3.23   | 5.2 MB    |            |   0% libopenblas-0.3.23   | 5.2 MB    | #####      |  51% libopenblas-0.3.23   | 5.2 MB    | ########## | 100% 
+backports.functools_ | 8 KB      |            |   0% backports.functools_ | 8 KB      | ########## | 100% backports.functools_ | 8 KB      | ########## | 100% 
+cycler-0.10.0        | 9 KB      |            |   0% cycler-0.10.0        | 9 KB      | ########## | 100% cycler-0.10.0        | 9 KB      | ########## | 100% 
+ld_impl_linux-64-2.4 | 688 KB    |            |   0% ld_impl_linux-64-2.4 | 688 KB    | ########## | 100% ld_impl_linux-64-2.4 | 688 KB    | ########## | 100% 
+argtable2-2.13       | 2.7 MB    |            |   0% argtable2-2.13       | 2.7 MB    | ######9    |  70% argtable2-2.13       | 2.7 MB    | ########## | 100% 
+yaml-0.2.5           | 87 KB     |            |   0% yaml-0.2.5           | 87 KB     | ########## | 100% yaml-0.2.5           | 87 KB     | ########## | 100% 
+dbus-1.13.6          | 585 KB    |            |   0% dbus-1.13.6          | 585 KB    | 2          |   3% dbus-1.13.6          | 585 KB    | ########## | 100% dbus-1.13.6          | 585 KB    | ########## | 100% 
+libgfortran5-13.1.0  | 1.4 MB    |            |   0% libgfortran5-13.1.0  | 1.4 MB    | ########## | 100% libgfortran5-13.1.0  | 1.4 MB    | ########## | 100% 
+readline-8.2         | 275 KB    |            |   0% readline-8.2         | 275 KB    | ########## | 100% readline-8.2         | 275 KB    | ########## | 100% 
+matplotlib-base-2.2. | 6.6 MB    |            |   0% matplotlib-base-2.2. | 6.6 MB    | 2          |   2% matplotlib-base-2.2. | 6.6 MB    | ########   |  80% matplotlib-base-2.2. | 6.6 MB    | ########## | 100% 
+pigz-2.6             | 87 KB     |            |   0% pigz-2.6             | 87 KB     | ########## | 100% pigz-2.6             | 87 KB     | ########## | 100% 
+libxml2-2.9.10       | 1.3 MB    |            |   0% libxml2-2.9.10       | 1.3 MB    | ########## | 100% libxml2-2.9.10       | 1.3 MB    | ########## | 100% 
+gettext-0.21.1       | 4.1 MB    |            |   0% gettext-0.21.1       | 4.1 MB    | #####1     |  51% gettext-0.21.1       | 4.1 MB    | ########## | 100% 
+backports_abc-0.5    | 5 KB      |            |   0% backports_abc-0.5    | 5 KB      | ########## | 100% backports_abc-0.5    | 5 KB      | ########## | 100% 
+gstreamer-1.14.5     | 4.5 MB    |            |   0% gstreamer-1.14.5     | 4.5 MB    | #5         |  15% gstreamer-1.14.5     | 4.5 MB    | ########## | 100% gstreamer-1.14.5     | 4.5 MB    | ########## | 100% 
+pip-20.1.1           | 1.1 MB    |            |   0% pip-20.1.1           | 1.1 MB    | ########## | 100% pip-20.1.1           | 1.1 MB    | ########## | 100% 
+libexpat-2.5.0       | 76 KB     |            |   0% libexpat-2.5.0       | 76 KB     | ########## | 100% libexpat-2.5.0       | 76 KB     | ########## | 100% 
+libglib-2.66.3       | 3.0 MB    |            |   0% libglib-2.66.3       | 3.0 MB    | 5          |   6% libglib-2.66.3       | 3.0 MB    | ########## | 100% libglib-2.66.3       | 3.0 MB    | ########## | 100% 
+singledispatch-3.6.1 | 12 KB     |            |   0% singledispatch-3.6.1 | 12 KB     | ########## | 100% singledispatch-3.6.1 | 12 KB     | ########## | 100% 
+xorg-libxdmcp-1.1.3  | 19 KB     |            |   0% xorg-libxdmcp-1.1.3  | 19 KB     | ########## | 100% xorg-libxdmcp-1.1.3  | 19 KB     | ########## | 100% 
+pyyaml-5.3.1         | 174 KB    |            |   0% pyyaml-5.3.1         | 174 KB    | ########## | 100% pyyaml-5.3.1         | 174 KB    | ########## | 100% 
+qt-5.9.7             | 80.8 MB   |            |   0% qt-5.9.7             | 80.8 MB   |            |   0% qt-5.9.7             | 80.8 MB   | 7          |   7% qt-5.9.7             | 80.8 MB   | #4         |  15% qt-5.9.7             | 80.8 MB   | ##2        |  23% qt-5.9.7             | 80.8 MB   | ###1       |  31% qt-5.9.7             | 80.8 MB   | ###9       |  40% qt-5.9.7             | 80.8 MB   | ####7      |  48% qt-5.9.7             | 80.8 MB   | #####6     |  56% qt-5.9.7             | 80.8 MB   | ######4    |  64% qt-5.9.7             | 80.8 MB   | #######3   |  73% qt-5.9.7             | 80.8 MB   | ########1  |  82% qt-5.9.7             | 80.8 MB   | #########  |  90% qt-5.9.7             | 80.8 MB   | #########8 |  99% qt-5.9.7             | 80.8 MB   | ########## | 100% 
+glib-2.66.3          | 500 KB    |            |   0% glib-2.66.3          | 500 KB    | 3          |   3% glib-2.66.3          | 500 KB    | ########## | 100% glib-2.66.3          | 500 KB    | ########## | 100% 
+libblas-3.9.0        | 14 KB     |            |   0% libblas-3.9.0        | 14 KB     | ########## | 100% libblas-3.9.0        | 14 KB     | ########## | 100% 
+six-1.16.0           | 14 KB     |            |   0% six-1.16.0           | 14 KB     | ########## | 100% six-1.16.0           | 14 KB     | ########## | 100% 
+icu-64.2             | 12.6 MB   |            |   0% icu-64.2             | 12.6 MB   | #6         |  16% icu-64.2             | 12.6 MB   | #######1   |  72% icu-64.2             | 12.6 MB   | ########## | 100% 
+emboss-6.5.7         | 80.0 MB   |            |   0% emboss-6.5.7         | 80.0 MB   |            |   0% emboss-6.5.7         | 80.0 MB   | 3          |   4% emboss-6.5.7         | 80.0 MB   | #2         |  12% emboss-6.5.7         | 80.0 MB   | #7         |  17% emboss-6.5.7         | 80.0 MB   | ##3        |  24% emboss-6.5.7         | 80.0 MB   | ###1       |  32% emboss-6.5.7         | 80.0 MB   | ####       |  41% emboss-6.5.7         | 80.0 MB   | ####8      |  49% emboss-6.5.7         | 80.0 MB   | #####7     |  58% emboss-6.5.7         | 80.0 MB   | ######6    |  67% emboss-6.5.7         | 80.0 MB   | #######5   |  75% emboss-6.5.7         | 80.0 MB   | ########3  |  84% emboss-6.5.7         | 80.0 MB   | #########2 |  93% emboss-6.5.7         | 80.0 MB   | ########## | 100% 
+functools32-3.2.3.2  | 15 KB     |            |   0% functools32-3.2.3.2  | 15 KB     | ########## | 100% functools32-3.2.3.2  | 15 KB     | ########## | 100% 
+freetype-2.12.1      | 611 KB    |            |   0% freetype-2.12.1      | 611 KB    | 2          |   3% freetype-2.12.1      | 611 KB    | ########## | 100% freetype-2.12.1      | 611 KB    | ########## | 100% 
+fargene-0.1          | 6.8 MB    |            |   0% fargene-0.1          | 6.8 MB    |            |   0% fargene-0.1          | 6.8 MB    | #####4     |  54% fargene-0.1          | 6.8 MB    | ########## | 100% fargene-0.1          | 6.8 MB    | ########## | 100% 
+sip-4.19.8           | 290 KB    |            |   0% sip-4.19.8           | 290 KB    | ##2        |  22% sip-4.19.8           | 290 KB    | ########## | 100% sip-4.19.8           | 290 KB    | ########## | 100% 
+pyqt-5.9.2           | 5.5 MB    |            |   0% pyqt-5.9.2           | 5.5 MB    |            |   0% pyqt-5.9.2           | 5.5 MB    | ########## | 100% pyqt-5.9.2           | 5.5 MB    | ########## | 100% 
+tornado-5.1.1        | 642 KB    |            |   0% tornado-5.1.1        | 642 KB    | #######4   |  75% tornado-5.1.1        | 642 KB    | ########## | 100% 
+zlib-1.2.13          | 91 KB     |            |   0% zlib-1.2.13          | 91 KB     | ########## | 100% zlib-1.2.13          | 91 KB     | ########## | 100% 
+python-2.7.15        | 12.2 MB   |            |   0% python-2.7.15        | 12.2 MB   | 6          |   7% python-2.7.15        | 12.2 MB   | ######3    |  63% python-2.7.15        | 12.2 MB   | ########## | 100% python-2.7.15        | 12.2 MB   | ########## | 100% 
+numpy-1.16.5         | 4.3 MB    |            |   0% numpy-1.16.5         | 4.3 MB    |            |   0% numpy-1.16.5         | 4.3 MB    | ########## | 100% numpy-1.16.5         | 4.3 MB    | ########## | 100% 
+libnsl-2.0.0         | 31 KB     |            |   0% libnsl-2.0.0         | 31 KB     | ########## | 100% libnsl-2.0.0         | 31 KB     | ########## | 100% 
+Preparing transaction: ...working... done
+Verifying transaction: ...working... done
+Executing transaction: ...working... done
+Detailed performance metrics for this job will be available at https://metrics.hpc.arizona.edu/#job_viewer?action=show&realm=SUPREMM&resource_id=73&local_job_id=7697095 by 8am on 2023/07/24.

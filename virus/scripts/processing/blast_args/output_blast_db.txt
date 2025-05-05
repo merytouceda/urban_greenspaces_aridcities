@@ -1,0 +1,12 @@
+
+
+Building a new DB, current time: 07/15/2023 08:02:53
+New DB name:   /groups/egornish/mtoucedasuarez/scripts/jobs/landuse/virus/cluster/viral_species_blast_db
+New DB title:  viral_species_landuse
+Sequence type: Nucleotide
+Keep MBits: T
+Maximum file size: 1000000000B
+Adding sequences from FASTA; added 4306 sequences in 0.142533 seconds.
+
+
+Detailed performance metrics for this job will be available at https://metrics.hpc.arizona.edu/#job_viewer?action=show&realm=SUPREMM&resource_id=73&local_job_id=7601903 by 8am on 2023/07/16.

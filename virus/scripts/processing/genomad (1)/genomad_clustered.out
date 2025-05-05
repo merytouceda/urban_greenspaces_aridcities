@@ -1,0 +1,249 @@
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad annotate (v1.7.6). This will perform gene calling in the  │
+│  input sequences and annotate the predicted proteins with geNomad's          │
+│  markers.                                                                    │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    /xdisk/egornish/mtoucedasuarez/barberan_xdisk_0224/landuse/virus/genomad  │
+│    /clustered/viral_contigs_rep_seq_annotate                                 │
+│    ├── viral_contigs_rep_seq_annotate.json (execution parameters)            │
+│    ├── viral_contigs_rep_seq_genes.tsv (gene annotation data)                │
+│    ├── viral_contigs_rep_seq_taxonomy.tsv (taxonomic assignment)             │
+│    ├── viral_contigs_rep_seq_mmseqs2.tsv (MMseqs2 output file)               │
+│    └── viral_contigs_rep_seq_proteins.faa (protein FASTA file)               │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[10:45:19] Executing genomad annotate.                                          
+[10:45:19] Creating the                                                         
+           /xdisk/egornish/mtoucedasuarez/barberan_xdisk_0224/landuse/virus/geno
+           mad/clustered/viral_contigs_rep_seq_annotate directory.              
+[10:45:34] Proteins predicted with pyrodigal-gv were written to                 
+           viral_contigs_rep_seq_proteins.faa.                                  
+[10:46:04] Proteins annotated with MMseqs2 and geNomad database (v1.7) were     
+           written to viral_contigs_rep_seq_mmseqs2.tsv.                        
+[10:46:04] Deleting viral_contigs_rep_seq_mmseqs2.                              
+[10:46:06] Gene data was written to viral_contigs_rep_seq_genes.tsv.            
+[10:46:06] Taxonomic assignment data was written to                             
+           viral_contigs_rep_seq_taxonomy.tsv.                                  
+[10:46:06] geNomad annotate finished!                                           
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad find-proviruses (v1.7.6). This will find putative         │
+│  proviral regions within the input sequences.                                │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    /xdisk/egornish/mtoucedasuarez/barberan_xdisk_0224/landuse/virus/genomad  │
+│    /clustered/viral_contigs_rep_seq_find_proviruses                          │
+│    ├── viral_contigs_rep_seq_find_proviruses.json (execution parameters)     │
+│    ├── viral_contigs_rep_seq_provirus.tsv (provirus data)                    │
+│    ├── viral_contigs_rep_seq_provirus.fna (provirus nucleotide sequences)    │
+│    ├── viral_contigs_rep_seq_provirus_proteins.faa (provirus protein         │
+│    │   sequences)                                                            │
+│    ├── viral_contigs_rep_seq_provirus_genes.tsv (provirus gene annotation    │
+│    │   data)                                                                 │
+│    ├── viral_contigs_rep_seq_provirus_taxonomy.tsv (provirus taxonomic       │
+│    │   assignment)                                                           │
+│    ├── viral_contigs_rep_seq_provirus_mmseqs2.tsv (MMseqs2 output file)      │
+│    └── viral_contigs_rep_seq_provirus_aragorn.tsv (Aragorn output file)      │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[10:46:06] Executing genomad find-proviruses.                                   
+[10:46:06] Creating the                                                         
+           /xdisk/egornish/mtoucedasuarez/barberan_xdisk_0224/landuse/virus/geno
+           mad/clustered/viral_contigs_rep_seq_find_proviruses directory.       
+[10:46:14] Integrases identified with MMseqs2 and geNomad database (v1.7) were  
+           written to viral_contigs_rep_seq_provirus_mmseqs2.tsv.               
+[10:46:14] Deleting viral_contigs_rep_seq_provirus_mmseqs2.                     
+[10:46:15] Deleting viral_contigs_rep_seq_provirus_mmseqs2_input.faa.           
+[10:46:16] tRNAs identified with Aragorn were written to                        
+           viral_contigs_rep_seq_provirus_aragorn.tsv.                          
+[10:46:16] Deleting viral_contigs_rep_seq_provirus_aragorn_input.fna.           
+[10:46:16] Provirus regions identified.                                         
+[10:46:16] Provirus data was written to viral_contigs_rep_seq_provirus.tsv.     
+[10:46:16] Provirus nucleotide sequences were written to                        
+           viral_contigs_rep_seq_provirus.fna.                                  
+[10:46:17] Provirus protein sequences were written to                           
+           viral_contigs_rep_seq_provirus_proteins.faa.                         
+[10:46:17] Provirus gene data was written to                                    
+           viral_contigs_rep_seq_provirus_genes.tsv.                            
+[10:46:17] Taxonomic assignment data was written to                             
+           viral_contigs_rep_seq_provirus_taxonomy.tsv.                         
+[10:46:17] geNomad find-proviruses finished!                                    
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad marker-classification (v1.7.6). This will classify the    │
+│  input sequences into chromosome, plasmid, or virus based on the presence    │
+│  of geNomad markers and other gene-related features.                         │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    /xdisk/egornish/mtoucedasuarez/barberan_xdisk_0224/landuse/virus/genomad  │
+│    /clustered/viral_contigs_rep_seq_marker_classification                    │
+│    ├── viral_contigs_rep_seq_marker_classification.json (execution           │
+│    │   parameters)                                                           │
+│    ├── viral_contigs_rep_seq_features.tsv (sequence feature data: tabular    │
+│    │   format)                                                               │
+│    ├── viral_contigs_rep_seq_features.npz (sequence feature data: binary     │
+│    │   format)                                                               │
+│    ├── viral_contigs_rep_seq_marker_classification.tsv (sequence             │
+│    │   classification: tabular format)                                       │
+│    ├── viral_contigs_rep_seq_marker_classification.npz (sequence             │
+│    │   classification: binary format)                                        │
+│    ├── viral_contigs_rep_seq_provirus_features.tsv (provirus feature data:   │
+│    │   tabular format)                                                       │
+│    ├── viral_contigs_rep_seq_provirus_features.npz (provirus feature data:   │
+│    │   binary format)                                                        │
+│    ├── viral_contigs_rep_seq_provirus_marker_classification.tsv (provirus    │
+│    │   classification: tabular format)                                       │
+│    └── viral_contigs_rep_seq_provirus_marker_classification.npz (provirus    │
+│        classification: binary format)                                        │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[10:46:17] Executing genomad marker-classification.                             
+[10:46:17] Creating the                                                         
+           /xdisk/egornish/mtoucedasuarez/barberan_xdisk_0224/landuse/virus/geno
+           mad/clustered/viral_contigs_rep_seq_marker_classification directory. 
+[10:46:18] Sequence features computed.                                          
+[10:46:18] Sequence features in binary format written to                        
+           viral_contigs_rep_seq_features.npz.                                  
+[10:46:18] Sequence features in tabular format written to                       
+           viral_contigs_rep_seq_features.tsv.                                  
+[10:46:19] Provirus features computed.                                          
+[10:46:19] Provirus features in binary format written to                        
+           viral_contigs_rep_seq_provirus_features.npz.                         
+[10:46:19] Provirus features in tabular format written to                       
+           viral_contigs_rep_seq_provirus_features.tsv.                         
+[10:46:19] Sequences classified.                                                
+[10:46:19] Sequence classification in binary format written to                  
+           viral_contigs_rep_seq_marker_classification.npz.                     
+[10:46:19] Sequence classification in tabular format written to                 
+           viral_contigs_rep_seq_marker_classification.tsv.                     
+[10:46:19] Proviruses classified.                                               
+[10:46:19] Provirus classification in binary format written to                  
+           viral_contigs_rep_seq_provirus_marker_classification.npz.            
+[10:46:19] Provirus classification in tabular format written to                 
+           viral_contigs_rep_seq_provirus_marker_classification.tsv.            
+[10:46:19] geNomad marker-classification finished!                              
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad nn-classification (v1.7.6). This will classify the input  │
+│  sequences into chromosome, plasmid, or virus based on the nucleotide        │
+│  sequence.                                                                   │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    /xdisk/egornish/mtoucedasuarez/barberan_xdisk_0224/landuse/virus/genomad  │
+│    /clustered/viral_contigs_rep_seq_nn_classification                        │
+│    ├── viral_contigs_rep_seq_nn_classification.json (execution parameters)   │
+│    ├── viral_contigs_rep_seq_encoded_sequences (directory containing         │
+│    │   encoded sequence data)                                                │
+│    ├── viral_contigs_rep_seq_nn_classification.tsv (contig classification:   │
+│    │   tabular format)                                                       │
+│    ├── viral_contigs_rep_seq_nn_classification.npz (contig classification:   │
+│    │   binary format)                                                        │
+│    ├── viral_contigs_rep_seq_encoded_proviruses (directory containing        │
+│    │   encoded sequence data)                                                │
+│    ├── viral_contigs_rep_seq_provirus_nn_classification.tsv (provirus        │
+│    │   classification: tabular format)                                       │
+│    └── viral_contigs_rep_seq_provirus_nn_classification.npz (provirus        │
+│        classification: binary format)                                        │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[10:46:23] Executing genomad nn-classification.                                 
+[10:46:23] Creating the                                                         
+           /xdisk/egornish/mtoucedasuarez/barberan_xdisk_0224/landuse/virus/geno
+           mad/clustered/viral_contigs_rep_seq_nn_classification directory.     
+[10:46:23] Creating the                                                         
+           /xdisk/egornish/mtoucedasuarez/barberan_xdisk_0224/landuse/virus/geno
+           mad/clustered/viral_contigs_rep_seq_nn_classification/viral_contigs_r
+           ep_seq_encoded_sequences directory.                                  
+[10:46:28] Encoded sequence data written to                                     
+           viral_contigs_rep_seq_encoded_sequences.                             
+[10:46:28] Creating the                                                         
+           /xdisk/egornish/mtoucedasuarez/barberan_xdisk_0224/landuse/virus/geno
+           mad/clustered/viral_contigs_rep_seq_nn_classification/viral_contigs_r
+           ep_seq_encoded_proviruses directory.                                 
+[10:46:28] Encoded provirus data written to                                     
+           viral_contigs_rep_seq_encoded_proviruses.                            
+
+[10:47:13] Sequences classified.                                                
+[10:47:13] Sequence classification in binary format written to                  
+           viral_contigs_rep_seq_nn_classification.npz.                         
+[10:47:13] Deleting encoded sequence data.                                      
+[10:47:16] Sequence classification in tabular format written to                 
+           viral_contigs_rep_seq_nn_classification.tsv.                         
+
+[10:47:19] Proviruses classified.                                               
+[10:47:19] Provirus classification in binary format written to                  
+           viral_contigs_rep_seq_provirus_nn_classification.npz.                
+[10:47:19] Deleting encoded provirus data.                                      
+[10:47:19] Provirus classification in tabular format written to                 
+           viral_contigs_rep_seq_provirus_nn_classification.tsv.                
+[10:47:19] geNomad nn-classification finished!                                  
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad aggregated-classification (v1.7.6). This will aggregate   │
+│  the results of the marker-classification and nn-classification modules to   │
+│  classify the input sequences into chromosome, plasmid, or virus.            │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    /xdisk/egornish/mtoucedasuarez/barberan_xdisk_0224/landuse/virus/genomad  │
+│    /clustered/viral_contigs_rep_seq_aggregated_classification                │
+│    ├── viral_contigs_rep_seq_aggregated_classification.json (execution       │
+│    │   parameters)                                                           │
+│    ├── viral_contigs_rep_seq_aggregated_classification.tsv (sequence         │
+│    │   classification: tabular format)                                       │
+│    ├── viral_contigs_rep_seq_aggregated_classification.npz (sequence         │
+│    │   classification: binary format)                                        │
+│    ├── viral_contigs_rep_seq_provirus_aggregated_classification.tsv          │
+│    │   (provirus classification: tabular format)                             │
+│    └── viral_contigs_rep_seq_provirus_aggregated_classification.npz          │
+│        (provirus classification: binary format)                              │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[10:47:19] Executing genomad aggregated-classification.                         
+[10:47:19] Creating the                                                         
+           /xdisk/egornish/mtoucedasuarez/barberan_xdisk_0224/landuse/virus/geno
+           mad/clustered/viral_contigs_rep_seq_aggregated_classification        
+           directory.                                                           
+[10:47:19] The total marker frequencies of the input sequences were computed.   
+[10:47:19] Sequences classified.                                                
+[10:47:19] Sequence classification in binary format written to                  
+           viral_contigs_rep_seq_aggregated_classification.npz.                 
+[10:47:19] Sequence classification in tabular format written to                 
+           viral_contigs_rep_seq_aggregated_classification.tsv.                 
+[10:47:19] Proviruses classified.                                               
+[10:47:19] Provirus classification in binary format written to                  
+           viral_contigs_rep_seq_provirus_aggregated_classification.npz.        
+[10:47:19] Provirus classification in tabular format written to                 
+           viral_contigs_rep_seq_provirus_aggregated_classification.tsv.        
+[10:47:19] geNomad aggregated-classification finished!                          
+╭──────────────────────────────────────────────────────────────────────────────╮
+│  Executing geNomad summary (v1.7.6). This will summarize the results across  │
+│  modules into a classification report.                                       │
+│  ──────────────────────────────────────────────────────────────────────────  │
+│  Outputs:                                                                    │
+│    /xdisk/egornish/mtoucedasuarez/barberan_xdisk_0224/landuse/virus/genomad  │
+│    /clustered/viral_contigs_rep_seq_summary                                  │
+│    ├── viral_contigs_rep_seq_summary.json (execution parameters)             │
+│    ├── viral_contigs_rep_seq_virus_summary.tsv (virus classification         │
+│    │   summary)                                                              │
+│    ├── viral_contigs_rep_seq_plasmid_summary.tsv (plasmid classification     │
+│    │   summary)                                                              │
+│    ├── viral_contigs_rep_seq_virus.fna (virus nucleotide FASTA file)         │
+│    ├── viral_contigs_rep_seq_plasmid.fna (plasmid nucleotide FASTA file)     │
+│    ├── viral_contigs_rep_seq_virus_proteins.faa (virus protein FASTA file)   │
+│    ├── viral_contigs_rep_seq_plasmid_proteins.faa (plasmid protein FASTA     │
+│    │   file)                                                                 │
+│    ├── viral_contigs_rep_seq_virus_genes.tsv (virus gene annotation data)    │
+│    └── viral_contigs_rep_seq_plasmid_genes.tsv (plasmid gene annotation      │
+│        data)                                                                 │
+╰──────────────────────────────────────────────────────────────────────────────╯
+[10:47:19] Executing genomad summary.                                           
+[10:47:19] Creating the                                                         
+           /xdisk/egornish/mtoucedasuarez/barberan_xdisk_0224/landuse/virus/geno
+           mad/clustered/viral_contigs_rep_seq_summary directory.               
+[10:47:19] Using scores from aggregated-classification.                         
+[10:47:19] 148 plasmid(s) and 524 virus(es) were identified.                    
+[10:47:19] Nucleotide sequences were written to                                 
+           viral_contigs_rep_seq_plasmid.fna and                                
+           viral_contigs_rep_seq_virus.fna.                                     
+[10:47:20] Protein sequences were written to                                    
+           viral_contigs_rep_seq_plasmid_proteins.faa and                       
+           viral_contigs_rep_seq_virus_proteins.faa.                            
+[10:47:20] Gene annotation data was written to                                  
+           viral_contigs_rep_seq_plasmid_genes.tsv and                          
+           viral_contigs_rep_seq_virus_genes.tsv.                               
+[10:47:20] Summary files were written to                                        
+           viral_contigs_rep_seq_plasmid_summary.tsv and                        
+           viral_contigs_rep_seq_virus_summary.tsv.                             
+[10:47:20] geNomad summary finished!                                            

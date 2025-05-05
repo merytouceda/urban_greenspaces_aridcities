@@ -1,0 +1,7 @@
+#!/bin/bash -l 
+# directories
+ASSEMBLY_DIR="/xdisk/barberan/mtoucedasuarez/landuse/assembly"
+READS_DIR="/xdisk/barberan/mtoucedasuarez/landuse/clean"
+BBMAP_DIR="groups/barberan/software/bbmap"
+# list of sample ids
+IN_LIST="/xdisk/barberan/mtoucedasuarez/landuse/s_regex.txt"

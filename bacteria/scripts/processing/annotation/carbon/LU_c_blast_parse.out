@@ -1,0 +1,53 @@
+── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+✔ dplyr     1.1.0     ✔ readr     2.1.4
+✔ forcats   1.0.0     ✔ stringr   1.5.0
+✔ ggplot2   3.4.1     ✔ tibble    3.2.1
+✔ lubridate 1.9.2     ✔ tidyr     1.3.0
+✔ purrr     1.0.1     
+── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+✖ dplyr::filter() masks stats::filter()
+✖ dplyr::lag()    masks stats::lag()
+ℹ Use the conflicted package (<http://conflicted.r-lib.org/>) to force all conflicts to become errors
+                                     qseqid                   sseqid pident
+1                                      <NA>                     <NA>     NA
+2 NB551502:16:H7LJ7BGXC:1:11101:10034:18779 QRQ99948.1|CBM48|GH13_10   81.3
+3 NB551502:16:H7LJ7BGXC:1:11101:10119:19022          QBR91446.1|GH15   81.6
+4 NB551502:16:H7LJ7BGXC:1:11101:10130:16496          QNA74517.1|CBM0   65.3
+5 NB551502:16:H7LJ7BGXC:1:11101:10178:14767           QKW33309.1|GT2   66.7
+6 NB551502:16:H7LJ7BGXC:1:11101:10194:17793           VTU39411.1|GH0   73.9
+  length mismatch gapopen qstart qend sstart send   evalue bitscore sample_id
+1     NA       NA      NA     NA   NA     NA   NA       NA       NA      <NA>
+2     48        9       0    149    6    160  207 3.19e-22     92.0  11B-T1-3
+3     49        9       0      2  148    396  444 5.92e-22     91.3  11B-T1-3
+4     49       17       0      3  149    177  225 7.43e-16     73.9  11B-T1-3
+5     51       15       1      4  150   1108 1158 1.91e-12     64.3  11B-T1-3
+6     46       12       0      1  138    164  209 5.08e-22     90.1  11B-T1-3
+                          11B.T1.3 11B.T1.6 11B.T1.9 8.T1.3 8.T1.6 8.T1.9
+AAA09235.1|AA1_3                 0        1        0      0      0      0
+AAA16044.1|GT2|2.4.1.-           0        0        0      0      0      0
+AAA16051.1|GT2|2.4.1.-           0        0        0      0      0      0
+AAA16513.1|GH13_6|3.2.1.1        0        0        0      0      0      0
+AAA16614.1|GH27|3.2.1.49         0        0        0      0      0      0
+AAA16969.1|GH8|3.2.1.4           0        1        0      2      0      0
+                          Ex45.T1.3 Ex45.T1.6 Ex45.T1.9 HP.T1.3 HP.T1.6 HP.T1.9
+AAA09235.1|AA1_3                  0         0         0       0       0       0
+AAA16044.1|GT2|2.4.1.-            0         0         0       0       0       0
+AAA16051.1|GT2|2.4.1.-            0         0         2       0       0       0
+AAA16513.1|GH13_6|3.2.1.1         0         0         0       0       0       0
+AAA16614.1|GH27|3.2.1.49          0         1         0       0       0       0
+AAA16969.1|GH8|3.2.1.4            1         0         0       0       0       0
+                          RC.T1.3 RC.T1.6 RC.T1.9 RP.T1.3 RP.T1.6 RP.T1.9
+AAA09235.1|AA1_3                0       0       1       0       0       0
+AAA16044.1|GT2|2.4.1.-          1       0       0       0       0       0
+AAA16051.1|GT2|2.4.1.-          1       0       0       0       0       0
+AAA16513.1|GH13_6|3.2.1.1       0       0       0       0       0       0
+AAA16614.1|GH27|3.2.1.49        0       0       0       2       0       0
+AAA16969.1|GH8|3.2.1.4          0       3       0       0       2       0
+                          SC.T1.3 SC.T1.6 SC.T1.9 UAB.T1.3 UAB.T1.6 UAB.T1.9
+AAA09235.1|AA1_3                0       0       0        0        0        0
+AAA16044.1|GT2|2.4.1.-          0       0       1        0        1        0
+AAA16051.1|GT2|2.4.1.-          0       0       0        0        0        0
+AAA16513.1|GH13_6|3.2.1.1       0       0       0        0        1        0
+AAA16614.1|GH27|3.2.1.49        0       0       0        0        0        0
+AAA16969.1|GH8|3.2.1.4          1       0       1        0        2        1
+Detailed performance metrics for this job will be available at https://metrics.hpc.arizona.edu/#job_viewer?action=show&realm=SUPREMM&resource_id=73&local_job_id=7618517 by 8am on 2023/07/20.

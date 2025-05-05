@@ -1,0 +1,19 @@
+#!/bin/bash -l
+#SBATCH --job-name=dramv_db
+#SBATCH --account=gornish
+#SBATCH --output=output_dramv_db.txt
+#SBATCH --error=errors_dramv_db.txt
+#SBATCH --partition=standard
+#SBATCH --time=24:00:00
+#SBATCH --ntasks=28
+#SBATCH --nodes=1
+#SBATCH --mem=112gb
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=mtoucedasuarez@hpc.arizona.edu
+
+module load anaconda
+source ~/.bashrc && conda activate
+conda activate DRAM
+
+
+DRAM-setup.py prepare_databases --output_dir /xdisk/egornish/mtoucedasuarez/databases --threads 28

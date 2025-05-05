@@ -1,0 +1,32 @@
+#!/bin/bash
+# --------------------------------------------------
+# Request resources here
+# --------------------------------------------------
+#SBATCH --job-name=diamondbacmet
+#SBATCH --output=diamond_bacmet.out
+#SBATCH --account=gornish
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=mtoucedasuarez@hpc.arizona.edu
+#SBATCH --partition=standard
+#SBATCH --ntasks=28
+#SBATCH --nodes=1
+#SBATCH --mem=112gb
+#SBATCH --time=125:00:00
+
+# --------------------------------------------------
+# Load modules here
+# --------------------------------------------------
+module load diamond/2.0.9
+
+DB_FILE="/xdisk/egornish/mtoucedasuarez/databases/bacmet/BacMet2_EXP_database.fasta"
+
+# for loop over samples:
+for sample in `awk '{print $1}' /xdisk/barberan/mtoucedasuarez/landuse/s_regex.txt`
+do
+    if [ "$sample" == "sample" ]; then continue; fi
+
+    # translate the nucleotide fasta reads into protein sequences to be able to run diamond on them
+
+    diamond blastx --db $DB_FILE --query /xdisk/barberan/mtoucedasuarez/landuse/clean/fasta/${sample}_R1_paired.fa --outfmt 6 --out /xdisk/barberan/mtoucedasuarez/landuse/metals/pre-assembly/${sample}_blastp.out  --max-target-seqs 1 --evalue 0.000001 --salltitles  --quiet --more-sensitive
+
+done

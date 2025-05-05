@@ -1,0 +1,2 @@
+/var/spool/slurm/d/job1942838/slurm_script: line 31: /home/u14/mtoucedasuarez/software/kraken2/kraken-build: No such file or directory
+Detailed performance metrics for this job will be available at https://metrics.hpc.arizona.edu/#job_viewer?action=show&realm=SUPREMM&resource_id=5&local_job_id=1942838 by 8am on 2023/05/23.

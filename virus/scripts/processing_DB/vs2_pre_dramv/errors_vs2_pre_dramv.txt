@@ -1,0 +1,80 @@
+[2023-05-30 16:44 INFO] VirSorter 2.2.3
+[2023-05-30 16:44 INFO] /home/u14/mtoucedasuarez/.conda/envs/vs2/bin/virsorter run --prep-for-dramv -w /xdisk/barberan/mtoucedasuarez/urban/virus/dramv/vs2_pre_dramV_viralcatalog.out -i /xdisk/barberan/mtoucedasuarez/urban/virus/final/fasta/all_viral_contigs.fa -j 4 all
+[2023-05-30 16:44 INFO] Using /home/u14/mtoucedasuarez/.conda/envs/vs2/lib/python3.10/site-packages/virsorter/template-config.yaml as config template
+[2023-05-30 16:44 INFO] conig file written to /xdisk/barberan/mtoucedasuarez/urban/virus/dramv/vs2_pre_dramV_viralcatalog.out/config.yaml
+
+[2023-05-30 16:44 INFO] Executing: snakemake --snakefile /home/u14/mtoucedasuarez/.conda/envs/vs2/lib/python3.10/site-packages/virsorter/Snakefile --directory /xdisk/barberan/mtoucedasuarez/urban/virus/dramv/vs2_pre_dramV_viralcatalog.out --jobs 4 --configfile /xdisk/barberan/mtoucedasuarez/urban/virus/dramv/vs2_pre_dramV_viralcatalog.out/config.yaml --latency-wait 600 --rerun-incomplete --nolock  --conda-frontend mamba --conda-prefix /xdisk/barberan/mtoucedasuarez/landuse/virus/db/conda_envs --use-conda    --quiet  all   
+Job counts:
+	count	jobs
+	1	all
+	1	check_point_for_reclassify
+	1	circular_linear_split
+	1	classify
+	2	classify_by_group
+	2	classify_full_and_part_by_group
+	1	combine_linear_circular
+	2	combine_linear_circular_by_group
+	1	extract_feature
+	1	extract_provirus_seqs
+	1	finalize
+	1	gff_feature
+	2	gff_feature_by_group
+	2	hmm_features_by_group
+	1	hmm_sort_to_best_hit_taxon
+	2	hmm_sort_to_best_hit_taxon_by_group
+	2	merge_annotation_table_by_group_from_split
+	1	merge_annotation_table_from_groups
+	1	merge_classification
+	1	merge_full_and_part_classification
+	2	merge_hmm_gff_features_by_group
+	2	merge_provirus_call_by_group_by_split
+	1	merge_provirus_call_from_groups
+	6	merge_split_hmmtbl
+	12	merge_split_hmmtbl_by_group
+	12	merge_split_hmmtbl_by_group_tmp
+	1	pick_viral_fullseq
+	1	preprocess
+	1	split_faa
+	2	split_faa_by_group
+	2	split_gff_by_group
+	69
+[2023-05-30 16:45 INFO] # of seqs < 0 bp and removed: 0
+[2023-05-30 16:45 INFO] # of circular seqs: 105
+[2023-05-30 16:45 INFO] # of linear seqs  : 18555
+[2023-05-30 16:45 INFO] Finish spliting circular contig file with common rbs
+[2023-05-30 16:45 INFO] Finish spliting linear contig file with common rbs
+[2023-05-30 16:47 INFO] Step 1 - preprocess finished.
+[2023-05-30 19:13 INFO] Step 2 - extract-feature finished.
+[2023-05-30 19:29 INFO] 
+            ====> VirSorter run (provirus mode) finished.
+            # of full    seqs (>=2 genes) as viral:	13442
+            # of partial seqs (>=2 genes) as viral:	11
+            # of short   seqs (< 2 genes) as viral:	904
+
+            Useful output files:
+                final-viral-score.tsv       ==> score table
+                final-viral-combined.fa     ==> all viral seqs
+                final-viral-boundary.tsv    ==> table with boundary info
+                for-dramv                   ==> dir with input files for dramv
+            
+                Suffix is added to seq names in final-viral-combined.fa:
+                full    seqs (>=2 genes) as viral:	||full
+                partial seqs (>=2 genes) as viral:	||partial
+                short   seqs (< 2 genes) as viral:	||lt2gene
+                For seqnames in files for dramv, 
+                    | is replaced with _ to be compatible with DRAMv
+                
+                
+            NOTES:
+            Users can further screen the results based on the following 
+                columns in final-viral-score.tsv:
+                - contig length (length) 
+                - hallmark gene count (hallmark)
+                - viral gene % (viral) 
+                - cellular gene % (cellular)
+            The group field in final-viral-score.tsv should NOT be used
+                as reliable taxonomy info
+
+            <====
+            
+[2023-05-30 19:29 INFO] Step 3 - classify finished.

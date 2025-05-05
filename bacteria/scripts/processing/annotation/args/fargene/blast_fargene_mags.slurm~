@@ -1,0 +1,23 @@
+#!/bin/bash -l                                                                                                                                                               
+#SBATCH --job-name=blast-fargene-mags                                                                                                                                           
+#SBATCH --account=gornish
+#SBATCH --output=output_blast_fargenemags.txt                                                                                                                                               
+#SBATCH --error=errors_blast_fargenemags.txt                                                                                                                                                
+#SBATCH --mail-user=mtoucedasuarez@hpc.arizona.edu                                        
+#SBATCH --partition=standard                                                                                                                                                 
+#SBATCH --time=24:00:00                                                                                                                                                      
+#SBATCH --ntasks=94                                                                                                                                                           
+#SBATCH --nodes=1                                                                                                                                                            
+#SBATCH --mem=470gb
+
+
+# load modules
+module load blast
+# execute commands
+
+MAGS_DB="/groups/egornish/mtoucedasuarez/scripts/jobs/landuse/virus/"
+VIRAL_SPECIES_FASTA="/xdisk/barberan/mtoucedasuarez/landuse/args/fargene/all_predicted_orfs//lu_all_predicted_orfs.fasta"
+OUTPUT_FILE="/xdisk/barberan/mtoucedasuarez/landuse/args/fargene/blast_fargene_mags.out"
+
+#çmakeblastdb -in $MAGS_FA -title "Landuse mags" -dbtype nucl -out lu_mags_db 
+blastn -db lu_mags_db -query $FARGENE_ORFS_FASTA -out $OUTPUT_FILE -outfmt 6 -evalue 0.0000000001

@@ -1,0 +1,16 @@
+#BATCH --ntasks=94                                                                                                                                                           
+#SBATCH --nodes=1                                                                                                                                                            
+#SBATCH --mem=470gb
+
+
+# load modules
+module load blast
+# execute commands
+
+MAGS_FA="/xdisk/barberan/mtoucedasuarez/landuse/mags/bin_refinement/all_bins_renamed.fa"
+VIRAL_SPECIES_FASTA="/xdisk/barberan/mtoucedasuarez/landuse/virus/cluster/viral_contigs_rep_seq.fasta"
+OUTPUT_FILE="/xdisk/barberan/mtoucedasuarez/landuse/virus/host-prediction/blast_mags_virus/blast_virus_mags.out"
+
+makeblastdb -in $MAGS_FA -title "Landuse mags" -dbtype nucl -out lu_mags_db 
+blastn -db lu_mags_db -query $VIRAL_SPECIES_FASTA -out $OUTPUT_FILE -outfmt 6 -evalue 0.0000000001
+blast_virus_mags.slurm (END)

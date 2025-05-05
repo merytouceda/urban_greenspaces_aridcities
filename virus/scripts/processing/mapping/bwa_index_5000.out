@@ -1,0 +1,9 @@
+[bwa_index] Pack FASTA... 0.01 sec
+[bwa_index] Construct BWT for the packed sequence...
+[bwa_index] 0.52 seconds elapse.
+[bwa_index] Update BWT... 0.00 sec
+[bwa_index] Pack forward-only FASTA... 0.01 sec
+[bwa_index] Construct SA from BWT and Occ... 0.18 sec
+[main] Version: 0.7.17-r1198-dirty
+[main] CMD: /home/u14/mtoucedasuarez/software/bwa/bwa index -p /xdisk/egornish/mtoucedasuarez/barberan_xdisk_0224/landuse/virus/mapping/5000/species_index_5000 /xdisk/egornish/mtoucedasuarez/barberan_xdisk_0224/landuse/virus/cluster/viral_contigs_5000_rep_seq.fasta
+[main] Real time: 1.034 sec; CPU: 0.725 sec

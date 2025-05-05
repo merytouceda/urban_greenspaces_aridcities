@@ -1,0 +1,31 @@
+#!/bin/bash
+# --------------------------------------------------
+# Request resources here
+# --------------------------------------------------
+#SBATCH --job-name=prodigal
+#SBATCH --output=prodigal.out
+#SBATCH --account=barberan
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=mtoucedasuarez@hpc.arizona.edu
+#SBATCH --partition=standard
+#SBATCH --ntasks=1
+#SBATCH --nodes=1
+#SBATCH --mem-per-cpu=4000
+#SBATCH --cpus-per-task=40
+#SBATCH --time=16:00:00
+
+# --------------------------------------------------
+# Load modules here
+# --------------------------------------------------
+
+# --------------------------------------------------
+# Execute commands here
+# --------------------------------------------------
+cd /groups/egornish/mtoucedasuarez/scripts/jobs/landuse/mags/prodigal 
+source config.sh
+
+
+# array of jobs: 
+export SAMPLE=`head -n +${SLURM_ARRAY_TASK_ID} $IN_LIST | tail -n 1`
+
+~/software/Prodigal-2.6.1/prodigal -i $IN_DIR/$SAMPLE -a $OUT_DIR/${SAMPLE}_pro.fa -d $OUT_DIR/${SAMPLE}_nuc.fa -f gff -p meta -q -m

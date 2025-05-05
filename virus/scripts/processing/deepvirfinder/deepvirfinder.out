@@ -1,0 +1,241 @@
+Traceback (most recent call last):
+  File "/groups/barberan/software/DeepVirFinder/dvf.py", line 57, in <module>
+    import keras
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/__init__.py", line 21, in <module>
+    from keras import models
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/models/__init__.py", line 18, in <module>
+    from keras.engine.functional import Functional
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/engine/functional.py", line 24, in <module>
+    import tensorflow.compat.v2 as tf
+ModuleNotFoundError: No module named 'tensorflow'
+Traceback (most recent call last):
+  File "/groups/barberan/software/DeepVirFinder/dvf.py", line 57, in <module>
+    import keras
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/__init__.py", line 21, in <module>
+    from keras import models
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/models/__init__.py", line 18, in <module>
+    from keras.engine.functional import Functional
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/engine/functional.py", line 24, in <module>
+    import tensorflow.compat.v2 as tf
+ModuleNotFoundError: No module named 'tensorflow'
+Traceback (most recent call last):
+  File "/groups/barberan/software/DeepVirFinder/dvf.py", line 57, in <module>
+    import keras
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/__init__.py", line 21, in <module>
+    from keras import models
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/models/__init__.py", line 18, in <module>
+    from keras.engine.functional import Functional
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/engine/functional.py", line 24, in <module>
+    import tensorflow.compat.v2 as tf
+ModuleNotFoundError: No module named 'tensorflow'
+Traceback (most recent call last):
+  File "/groups/barberan/software/DeepVirFinder/dvf.py", line 57, in <module>
+    import keras
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/__init__.py", line 21, in <module>
+    from keras import models
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/models/__init__.py", line 18, in <module>
+    from keras.engine.functional import Functional
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/engine/functional.py", line 24, in <module>
+    import tensorflow.compat.v2 as tf
+ModuleNotFoundError: No module named 'tensorflow'
+Traceback (most recent call last):
+  File "/groups/barberan/software/DeepVirFinder/dvf.py", line 57, in <module>
+    import keras
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/__init__.py", line 21, in <module>
+    from keras import models
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/models/__init__.py", line 18, in <module>
+    from keras.engine.functional import Functional
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/engine/functional.py", line 24, in <module>
+    import tensorflow.compat.v2 as tf
+ModuleNotFoundError: No module named 'tensorflow'
+Traceback (most recent call last):
+  File "/groups/barberan/software/DeepVirFinder/dvf.py", line 57, in <module>
+    import keras
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/__init__.py", line 21, in <module>
+    from keras import models
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/models/__init__.py", line 18, in <module>
+    from keras.engine.functional import Functional
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/engine/functional.py", line 24, in <module>
+    import tensorflow.compat.v2 as tf
+ModuleNotFoundError: No module named 'tensorflow'
+Traceback (most recent call last):
+  File "/groups/barberan/software/DeepVirFinder/dvf.py", line 57, in <module>
+    import keras
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/__init__.py", line 21, in <module>
+    from keras import models
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/models/__init__.py", line 18, in <module>
+    from keras.engine.functional import Functional
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/engine/functional.py", line 24, in <module>
+    import tensorflow.compat.v2 as tf
+ModuleNotFoundError: No module named 'tensorflow'
+Traceback (most recent call last):
+  File "/groups/barberan/software/DeepVirFinder/dvf.py", line 57, in <module>
+    import keras
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/__init__.py", line 21, in <module>
+    from keras import models
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/models/__init__.py", line 18, in <module>
+    from keras.engine.functional import Functional
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/engine/functional.py", line 24, in <module>
+    import tensorflow.compat.v2 as tf
+ModuleNotFoundError: No module named 'tensorflow'
+Traceback (most recent call last):
+  File "/groups/barberan/software/DeepVirFinder/dvf.py", line 57, in <module>
+    import keras
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/__init__.py", line 21, in <module>
+    from keras import models
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/models/__init__.py", line 18, in <module>
+    from keras.engine.functional import Functional
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/engine/functional.py", line 24, in <module>
+    import tensorflow.compat.v2 as tf
+ModuleNotFoundError: No module named 'tensorflow'
+Traceback (most recent call last):
+  File "/groups/barberan/software/DeepVirFinder/dvf.py", line 57, in <module>
+    import keras
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/__init__.py", line 21, in <module>
+    from keras import models
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/models/__init__.py", line 18, in <module>
+    from keras.engine.functional import Functional
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/engine/functional.py", line 24, in <module>
+    import tensorflow.compat.v2 as tf
+ModuleNotFoundError: No module named 'tensorflow'
+Traceback (most recent call last):
+  File "/groups/barberan/software/DeepVirFinder/dvf.py", line 57, in <module>
+    import keras
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/__init__.py", line 21, in <module>
+    from keras import models
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/models/__init__.py", line 18, in <module>
+    from keras.engine.functional import Functional
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/engine/functional.py", line 24, in <module>
+    import tensorflow.compat.v2 as tf
+ModuleNotFoundError: No module named 'tensorflow'
+Traceback (most recent call last):
+  File "/groups/barberan/software/DeepVirFinder/dvf.py", line 57, in <module>
+    import keras
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/__init__.py", line 21, in <module>
+    from keras import models
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/models/__init__.py", line 18, in <module>
+    from keras.engine.functional import Functional
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/engine/functional.py", line 24, in <module>
+    import tensorflow.compat.v2 as tf
+ModuleNotFoundError: No module named 'tensorflow'
+Traceback (most recent call last):
+  File "/groups/barberan/software/DeepVirFinder/dvf.py", line 57, in <module>
+    import keras
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/__init__.py", line 21, in <module>
+    from keras import models
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/models/__init__.py", line 18, in <module>
+    from keras.engine.functional import Functional
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/engine/functional.py", line 24, in <module>
+    import tensorflow.compat.v2 as tf
+ModuleNotFoundError: No module named 'tensorflow'
+Traceback (most recent call last):
+  File "/groups/barberan/software/DeepVirFinder/dvf.py", line 57, in <module>
+    import keras
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/__init__.py", line 21, in <module>
+    from keras import models
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/models/__init__.py", line 18, in <module>
+    from keras.engine.functional import Functional
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/engine/functional.py", line 24, in <module>
+    import tensorflow.compat.v2 as tf
+ModuleNotFoundError: No module named 'tensorflow'
+Traceback (most recent call last):
+  File "/groups/barberan/software/DeepVirFinder/dvf.py", line 57, in <module>
+    import keras
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/__init__.py", line 21, in <module>
+    from keras import models
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/models/__init__.py", line 18, in <module>
+    from keras.engine.functional import Functional
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/engine/functional.py", line 24, in <module>
+    import tensorflow.compat.v2 as tf
+ModuleNotFoundError: No module named 'tensorflow'
+Traceback (most recent call last):
+  File "/groups/barberan/software/DeepVirFinder/dvf.py", line 57, in <module>
+    import keras
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/__init__.py", line 21, in <module>
+    from keras import models
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/models/__init__.py", line 18, in <module>
+    from keras.engine.functional import Functional
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/engine/functional.py", line 24, in <module>
+    import tensorflow.compat.v2 as tf
+ModuleNotFoundError: No module named 'tensorflow'
+Traceback (most recent call last):
+  File "/groups/barberan/software/DeepVirFinder/dvf.py", line 57, in <module>
+    import keras
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/__init__.py", line 21, in <module>
+    from keras import models
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/models/__init__.py", line 18, in <module>
+    from keras.engine.functional import Functional
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/engine/functional.py", line 24, in <module>
+    import tensorflow.compat.v2 as tf
+ModuleNotFoundError: No module named 'tensorflow'
+Traceback (most recent call last):
+  File "/groups/barberan/software/DeepVirFinder/dvf.py", line 57, in <module>
+    import keras
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/__init__.py", line 21, in <module>
+    from keras import models
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/models/__init__.py", line 18, in <module>
+    from keras.engine.functional import Functional
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/engine/functional.py", line 24, in <module>
+    import tensorflow.compat.v2 as tf
+ModuleNotFoundError: No module named 'tensorflow'
+Traceback (most recent call last):
+  File "/groups/barberan/software/DeepVirFinder/dvf.py", line 57, in <module>
+    import keras
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/__init__.py", line 21, in <module>
+    from keras import models
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/models/__init__.py", line 18, in <module>
+    from keras.engine.functional import Functional
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/engine/functional.py", line 24, in <module>
+    import tensorflow.compat.v2 as tf
+ModuleNotFoundError: No module named 'tensorflow'
+Traceback (most recent call last):
+  File "/groups/barberan/software/DeepVirFinder/dvf.py", line 57, in <module>
+    import keras
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/__init__.py", line 21, in <module>
+    from keras import models
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/models/__init__.py", line 18, in <module>
+    from keras.engine.functional import Functional
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/engine/functional.py", line 24, in <module>
+    import tensorflow.compat.v2 as tf
+ModuleNotFoundError: No module named 'tensorflow'
+Traceback (most recent call last):
+  File "/groups/barberan/software/DeepVirFinder/dvf.py", line 57, in <module>
+    import keras
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/__init__.py", line 21, in <module>
+    from keras import models
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/models/__init__.py", line 18, in <module>
+    from keras.engine.functional import Functional
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/engine/functional.py", line 24, in <module>
+    import tensorflow.compat.v2 as tf
+ModuleNotFoundError: No module named 'tensorflow'
+Traceback (most recent call last):
+  File "/groups/barberan/software/DeepVirFinder/dvf.py", line 57, in <module>
+    import keras
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/__init__.py", line 21, in <module>
+    from keras import models
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/models/__init__.py", line 18, in <module>
+    from keras.engine.functional import Functional
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/engine/functional.py", line 24, in <module>
+    import tensorflow.compat.v2 as tf
+ModuleNotFoundError: No module named 'tensorflow'
+Traceback (most recent call last):
+  File "/groups/barberan/software/DeepVirFinder/dvf.py", line 57, in <module>
+    import keras
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/__init__.py", line 21, in <module>
+    from keras import models
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/models/__init__.py", line 18, in <module>
+    from keras.engine.functional import Functional
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/engine/functional.py", line 24, in <module>
+    import tensorflow.compat.v2 as tf
+ModuleNotFoundError: No module named 'tensorflow'
+Traceback (most recent call last):
+  File "/groups/barberan/software/DeepVirFinder/dvf.py", line 57, in <module>
+    import keras
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/__init__.py", line 21, in <module>
+    from keras import models
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/models/__init__.py", line 18, in <module>
+    from keras.engine.functional import Functional
+  File "/home/u14/mtoucedasuarez/.conda/envs/deepvirfinder/lib/python3.6/site-packages/keras/engine/functional.py", line 24, in <module>
+    import tensorflow.compat.v2 as tf
+ModuleNotFoundError: No module named 'tensorflow'
+Detailed performance metrics for this job will be available at https://metrics.hpc.arizona.edu/#job_viewer?action=show&realm=SUPREMM&resource_id=5&local_job_id=1473573 by 8am on 2022/12/08.

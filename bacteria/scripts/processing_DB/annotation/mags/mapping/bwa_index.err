@@ -1,0 +1,24 @@
+[bwa_index] Pack FASTA... 1.95 sec
+[bwa_index] Construct BWT for the packed sequence...
+[BWTIncCreate] textLength=689104388, availableWord=60487488
+[BWTIncConstructFromPacked] 10 iterations done. 95584308 characters processed.
+[BWTIncConstructFromPacked] 20 iterations done. 180608980 characters processed.
+[BWTIncConstructFromPacked] 30 iterations done. 256175124 characters processed.
+[BWTIncConstructFromPacked] 40 iterations done. 323334532 characters processed.
+[BWTIncConstructFromPacked] 50 iterations done. 383021956 characters processed.
+[BWTIncConstructFromPacked] 60 iterations done. 436068260 characters processed.
+[BWTIncConstructFromPacked] 70 iterations done. 483211924 characters processed.
+[BWTIncConstructFromPacked] 80 iterations done. 525109316 characters processed.
+[BWTIncConstructFromPacked] 90 iterations done. 562343780 characters processed.
+[BWTIncConstructFromPacked] 100 iterations done. 595433860 characters processed.
+[BWTIncConstructFromPacked] 110 iterations done. 624840388 characters processed.
+[BWTIncConstructFromPacked] 120 iterations done. 650972964 characters processed.
+[BWTIncConstructFromPacked] 130 iterations done. 674195604 characters processed.
+[bwt_gen] Finished constructing BWT in 138 iterations.
+[bwa_index] 178.31 seconds elapse.
+[bwa_index] Update BWT... 1.16 sec
+[bwa_index] Pack forward-only FASTA... 0.99 sec
+[bwa_index] Construct SA from BWT and Occ... 84.21 sec
+[main] Version: 0.7.17-r1198-dirty
+[main] CMD: /home/u14/mtoucedasuarez/software/bwa/bwa index -p /xdisk/barberan/mtoucedasuarez/urban/mags/mapping/mags_index /xdisk/barberan/mtoucedasuarez/urban/mags/single/single_70_10/all_bins.fasta
+[main] Real time: 267.413 sec; CPU: 266.633 sec

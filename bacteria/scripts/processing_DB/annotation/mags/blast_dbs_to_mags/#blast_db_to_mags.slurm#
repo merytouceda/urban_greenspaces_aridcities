@@ -1,0 +1,22 @@
+#!/bin/bash -l                                                                                                                                                               
+#SBATCH --job-name=blast-C                                                                                                                                           
+#SBATCH --account=gornish
+#SBATCH --output=output_blast_C.txt                                                                                                                                               
+#SBATCH --error=errors_blast_C.txt                                                                                                                                                
+#SBATCH --mail-user=mtoucedasuarez@hpc.arizona.edu                                        
+#SBATCH --partition=standard                                                                                                                                                 
+#SBATCH --time=24:00:00                                                                                                                                                      
+#SBATCH --ntasks=94                                                                                                                                                           
+#SBATCH --nodes=1                                                                                                                                                            
+#SBATCH --mem=470gb
+
+
+# load modules
+module load blast
+# execute commands
+
+cd /groups/egornish/mtoucedasuarez/
+C_DB="/xdisk/egornish/mtoucedasuarez/databases/CAZyDB.09242021.fa"
+OUTPUT_FILE="/xdisk/barberan/mtoucedasuarez/landuse/mags/blast_dbs_to_magsblast_C_mags.out"
+
+blastn -db lu_mags_db -query $C_DB -out $OUTPUT_FILE -outfmt 6 -evalue 0.0000000001

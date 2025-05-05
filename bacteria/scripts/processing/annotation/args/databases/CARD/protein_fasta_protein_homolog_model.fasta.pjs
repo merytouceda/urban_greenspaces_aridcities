@@ -1,0 +1,22 @@
+{
+  "version": "1.2",
+  "dbname": "protein_fasta_protein_homolog_model.fasta",
+  "dbtype": "Protein",
+  "db-version": 5,
+  "description": "/groups/egornish/mtoucedasuarez/scripts/jobs/landuse/args/databases/CARD/card_blast_db",
+  "number-of-letters": 1482682,
+  "number-of-sequences": 4661,
+  "last-updated": "2023-11-03T15:08:00",
+  "number-of-volumes": 1,
+  "bytes-total": 2225967,
+  "bytes-to-cache": 1524832,
+  "files": [
+    "protein_fasta_protein_homolog_model.fasta.pdb",
+    "protein_fasta_protein_homolog_model.fasta.phr",
+    "protein_fasta_protein_homolog_model.fasta.pin",
+    "protein_fasta_protein_homolog_model.fasta.pot",
+    "protein_fasta_protein_homolog_model.fasta.psq",
+    "protein_fasta_protein_homolog_model.fasta.ptf",
+    "protein_fasta_protein_homolog_model.fasta.pto"
+  ]
+}

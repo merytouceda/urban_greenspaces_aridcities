@@ -1,0 +1,170 @@
+ERROR: zero bytes of file annotation
+Step 1: counting kmers for virus HP-T1-3_contig.fa_sel1_provirus.fa
+ (Average time for counting kmers for one virus: 0.1439s) 
+ (ETR for counting kmers for viruses: 6.7655s) 
+Step 1: counting kmers for virus UAB-T1-9_contig.fa_sel1_viral.fa
+ (Average time for counting kmers for one virus: 0.1643s) 
+ (ETR for counting kmers for viruses: 7.5577s) 
+Step 1: counting kmers for virus 8-T1-3_contig.fa_sel1_viral.fa
+ (Average time for counting kmers for one virus: 0.1494s) 
+ (ETR for counting kmers for viruses: 6.7245s) 
+Step 1: counting kmers for virus 11B-T1-6_contig.fa_sel1_provirus.f
+ (Average time for counting kmers for one virus: 0.1422s) 
+ (ETR for counting kmers for viruses: 6.2585s) 
+Step 1: counting kmers for virus SC-T1-6_contig.fa_sel1_viral.fa
+ (Average time for counting kmers for one virus: 0.1713s) 
+ (ETR for counting kmers for viruses: 7.3643s) 
+Step 1: counting kmers for virus SC-T1-9_contig.fa_sel1_viral.fa
+ (Average time for counting kmers for one virus: 0.1871s) 
+ (ETR for counting kmers for viruses: 7.8563s) 
+Step 1: counting kmers for virus HP-T1-6_contig.fa_sel1_viral.fa
+ (Average time for counting kmers for one virus: 0.242s) 
+ (ETR for counting kmers for viruses: 9.9208s) 
+Step 1: counting kmers for virus HP-T1-9_contig.fa_sel1_viral.fa
+ (Average time for counting kmers for one virus: 0.2683s) 
+ (ETR for counting kmers for viruses: 10.73s) 
+Step 1: counting kmers for virus UAB-T1-9_contig.fa_sel1_provirus.f
+ (Average time for counting kmers for one virus: 0.2506s) 
+ (ETR for counting kmers for viruses: 9.7728s) 
+Step 1: counting kmers for virus SC-T1-9_contig.fa_sel1_provirus.fa
+ (Average time for counting kmers for one virus: 0.2376s) 
+ (ETR for counting kmers for viruses: 9.0284s) 
+Step 1: counting kmers for virus 8-T1-9_contig.fa_sel1_viral.fa
+ (Average time for counting kmers for one virus: 0.23s) 
+ (ETR for counting kmers for viruses: 8.5088s) 
+Step 1: counting kmers for virus SC-T1-3_contig.fa_sel1_provirus.fa
+ (Average time for counting kmers for one virus: 0.2219s) 
+ (ETR for counting kmers for viruses: 7.9892s) 
+Step 1: counting kmers for virus 8-T1-3_contig.fa_sel1_provirus.fa
+ (Average time for counting kmers for one virus: 0.2134s) 
+ (ETR for counting kmers for viruses: 7.4678s) 
+Step 1: counting kmers for virus RC-T1-9_contig.fa_sel1_viral.fa
+ (Average time for counting kmers for one virus: 0.2129s) 
+ (ETR for counting kmers for viruses: 7.2388s) 
+Step 1: counting kmers for virus Ex45-T1-9_contig.fa_sel1_viral.fa
+ (Average time for counting kmers for one virus: 0.2112s) 
+ (ETR for counting kmers for viruses: 6.9682s) 
+Step 1: counting kmers for virus Ex45-T1-6_contig.fa_sel1_provirus.
+ (Average time for counting kmers for one virus: 0.2052s) 
+ (ETR for counting kmers for viruses: 6.5665s) 
+Step 1: counting kmers for virus SC-T1-6_contig.fa_sel1_provirus.fa
+ (Average time for counting kmers for one virus: 0.2001s) 
+ (ETR for counting kmers for viruses: 6.2019s) 
+Step 1: counting kmers for virus HP-T1-9_contig.fa_sel1_provirus.fa
+ (Average time for counting kmers for one virus: 0.1957s) 
+ (ETR for counting kmers for viruses: 5.8705s) 
+Step 1: counting kmers for virus Ex45-T1-3_contig.fa_sel1_viral.fa
+ (Average time for counting kmers for one virus: 0.1937s) 
+ (ETR for counting kmers for viruses: 5.6159s) 
+Step 1: counting kmers for virus 8-T1-6_contig.fa_sel1_provirus.fa
+ (Average time for counting kmers for one virus: 0.1889s) 
+ (ETR for counting kmers for viruses: 5.2885s) 
+Step 1: counting kmers for virus RP-T1-3_contig.fa_sel1_viral.fa
+ (Average time for counting kmers for one virus: 0.2099s) 
+ (ETR for counting kmers for viruses: 5.6671s) 
+Step 1: counting kmers for virus Ex45-T1-9_contig.fa_sel1_provirus.
+ (Average time for counting kmers for one virus: 0.2057s) 
+ (ETR for counting kmers for viruses: 5.3471s) 
+Step 1: counting kmers for virus RC-T1-6_contig.fa_sel1_viral.fa
+ (Average time for counting kmers for one virus: 0.2044s) 
+ (ETR for counting kmers for viruses: 5.1092s) 
+Step 1: counting kmers for virus SC-T1-3_contig.fa_sel1_viral.fa
+ (Average time for counting kmers for one virus: 0.2078s) 
+ (ETR for counting kmers for viruses: 4.9881s) 
+Step 1: counting kmers for virus UAB-T1-6_contig.fa_sel1_viral.fa
+ (Average time for counting kmers for one virus: 0.2103s) 
+ (ETR for counting kmers for viruses: 4.8367s) 
+Step 1: counting kmers for virus RP-T1-3_contig.fa_sel1_provirus.fa
+ (Average time for counting kmers for one virus: 0.2079s) 
+ (ETR for counting kmers for viruses: 4.573s) 
+Step 1: counting kmers for virus RC-T1-6_contig.fa_sel1_provirus.fa
+ (Average time for counting kmers for one virus: 0.2048s) 
+ (ETR for counting kmers for viruses: 4.3008s) 
+Step 1: counting kmers for virus UAB-T1-3_contig.fa_sel1_viral.fa
+ (Average time for counting kmers for one virus: 0.2034s) 
+ (ETR for counting kmers for viruses: 4.0686s) 
+Step 1: counting kmers for virus RP-T1-6_contig.fa_sel1_provirus.fa
+ (Average time for counting kmers for one virus: 0.201s) 
+ (ETR for counting kmers for viruses: 3.8197s) 
+Step 1: counting kmers for virus HP-T1-3_contig.fa_sel1_viral.fa
+ (Average time for counting kmers for one virus: 0.2004s) 
+ (ETR for counting kmers for viruses: 3.6064s) 
+Step 1: counting kmers for virus RP-T1-9_contig.fa_sel1_provirus.fa
+ (Average time for counting kmers for one virus: 0.1978s) 
+ (ETR for counting kmers for viruses: 3.3624s) 
+Step 1: counting kmers for virus 8-T1-9_contig.fa_sel1_provirus.fa
+ (Average time for counting kmers for one virus: 0.1951s) 
+ (ETR for counting kmers for viruses: 3.1218s) 
+Step 1: counting kmers for virus 11B-T1-9_contig.fa_sel1_provirus.f
+ (Average time for counting kmers for one virus: 0.1929s) 
+ (ETR for counting kmers for viruses: 2.8938s) 
+Step 1: counting kmers for virus HP-T1-6_contig.fa_sel1_provirus.fa
+ (Average time for counting kmers for one virus: 0.1909s) 
+ (ETR for counting kmers for viruses: 2.6724s) 
+Step 1: counting kmers for virus UAB-T1-6_contig.fa_sel1_provirus.f
+ (Average time for counting kmers for one virus: 0.189s) 
+ (ETR for counting kmers for viruses: 2.4565s) 
+Step 1: counting kmers for virus RC-T1-3_contig.fa_sel1_viral.fa
+ (Average time for counting kmers for one virus: 0.1896s) 
+ (ETR for counting kmers for viruses: 2.2753s) 
+Step 1: counting kmers for virus 8-T1-6_contig.fa_sel1_viral.fa
+ (Average time for counting kmers for one virus: 0.188s) 
+ (ETR for counting kmers for viruses: 2.0682s) 
+Step 1: counting kmers for virus Ex45-T1-6_contig.fa_sel1_viral.fa
+ (Average time for counting kmers for one virus: 0.1879s) 
+ (ETR for counting kmers for viruses: 1.8793s) 
+Step 1: counting kmers for virus 11B-T1-3_contig.fa_sel1_provirus.f
+ (Average time for counting kmers for one virus: 0.1862s) 
+ (ETR for counting kmers for viruses: 1.6758s) 
+Step 1: counting kmers for virus UAB-T1-3_contig.fa_sel1_provirus.f
+ (Average time for counting kmers for one virus: 0.1846s) 
+ (ETR for counting kmers for viruses: 1.4769s) 
+Step 1: counting kmers for virus RP-T1-6_contig.fa_sel1_viral.fa
+ (Average time for counting kmers for one virus: 0.1905s) 
+ (ETR for counting kmers for viruses: 1.3333s) 
+Step 1: counting kmers for virus RP-T1-9_contig.fa_sel1_viral.fa
+ (Average time for counting kmers for one virus: 0.1918s) 
+ (ETR for counting kmers for viruses: 1.151s) 
+Step 1: counting kmers for virus RC-T1-9_contig.fa_sel1_provirus.fa
+ (Average time for counting kmers for one virus: 0.1902s) 
+ (ETR for counting kmers for viruses: 0.9509s) 
+Step 1: counting kmers for virus 11B-T1-3_contig.fa_sel1_viral.fa
+ (Average time for counting kmers for one virus: 0.1887s) 
+ (ETR for counting kmers for viruses: 0.7549s) 
+Step 1: counting kmers for virus 11B-T1-9_contig.fa_sel1_viral.fa
+ (Average time for counting kmers for one virus: 0.1876s) 
+ (ETR for counting kmers for viruses: 0.5629s) 
+Step 1: counting kmers for virus 11B-T1-6_contig.fa_sel1_viral.fa
+ (Average time for counting kmers for one virus: 0.1896s) 
+ (ETR for counting kmers for viruses: 0.3792s) 
+Step 1: counting kmers for virus Ex45-T1-3_contig.fa_sel1_provirus.
+ (Average time for counting kmers for one virus: 0.1879s) 
+ (ETR for counting kmers for viruses: 0.1879s) 
+Step 1: counting kmers for virus RC-T1-3_contig.fa_sel1_provirus.fa
+ (Average time for counting kmers for one virus: 0.1862s) 
+ (ETR for counting kmers for viruses: 0.0s) 
+Step 1: counting kmers for host HP-T1-6_bin7_.fa
+ (Average time for counting kmers for one host: 1.0972s) 
+ (ETR for counting kmers for hosts: 72.4172s) 
+Step 1: counting kmers for host SC-T1-9_bin1_.fa
+ (Average time for counting kmers for one host: 0.9908s) 
+ (ETR for counting kmers for hosts: 64.4012s) 
+Step 1: counting kmers for host HP-T1-9_bin6_.fa
+ (Average time for counting kmers for one host: 0.899s) 
+ (ETR for counting kmers for hosts: 57.5373s) 
+Step 1: counting kmers for host HP-T1-9_bin3_.fa
+ (Average time for counting kmers for one host: 0.8919s) 
+ (ETR for counting kmers for hosts: 56.1885s) 
+Step 1: counting kmers for host Ex45-T1-6_bin2_.fa
+ (Average time for counting kmers for one host: 0.8419s) 
+ (ETR for counting kmers for hosts: 52.1949s) 
+Step 1: counting kmers for host RC-T1-9_bin1_.fa
+ (Average time for counting kmers for one host: 0.9707s) 
+ (ETR for counting kmers for hosts: 59.2147s) 
+Step 1: counting kmers for host HP-T1-3_bin3_.fa
+ (Average time for counting kmers for one host: 1.033s) 
+ (ETR for counting kmers for hosts: 61.9818s) 
+Step 1: counting kmers for host HP-T1-6_bin5_.fa
+ (Average time for counting kmers for one host: 1.0353s) 
+ (ETR for counting kmers for hosts: 61.0812s) 
+Detailed performance metrics for this job will be available at https://metrics.hpc.arizona.edu/#job_viewer?action=show&realm=SUPREMM&resource_id=73&local_job_id=8490321 by 8am on 2023/10/31.

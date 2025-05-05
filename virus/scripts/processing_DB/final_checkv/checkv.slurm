@@ -1,0 +1,33 @@
+#!/bin/bash -l
+#SBATCH --job-name=final_checkv
+#SBATCH --account=barberan
+#SBATCH --output=output_finalcheckv.txt
+#SBATCH --error=errors_finalcheckv.txt
+#SBATCH --mail-user=mtoucedasuarez@hpc.arizona.edu                                                                                                                                                         
+#SBATCH --partition=standard  
+#SBATCH --time=06:00:00
+#SBATCH --ntasks=1
+#SBATCH --nodes=1
+#SBATCH --cpus-per-task=10
+#SBATCH --mem-per-cpu=4000
+
+
+# load job configuration
+
+# load environment
+#source $CONDA/etc/profile.d/conda.sh
+module load anaconda
+source ~/.bashrc && conda activate
+conda activate viral 
+
+# echo for log
+
+# export variable for env
+CHECKVDB="/groups/egornish/mtoucedasuarez/scripts/jobs/landuse/virus/checkv-db-v1.5"
+export CHECKVDB=$CHECKVDB
+FILE="/xdisk/barberan/mtoucedasuarez/urban/virus/cluster/viral_contigs_rep_seq.fasta"
+OUTPUT_DIR="/xdisk/barberan/mtoucedasuarez/urban/virus/final_checkv"
+
+checkv end_to_end $FILE $OUTPUT_DIR -t 10
+
+rm -r $OUTPUT_DIR/tmp

@@ -1,0 +1,132 @@
+Traceback (most recent call last):
+  File "/groups/barberan/software/fargene_from_git/.venv/bin/fargene", line 5, in <module>
+    from fargene_analysis.fargene_analysis import main
+  File "/groups/barberan/software/fargene_from_git/.venv/lib/python3.11/site-packages/fargene_analysis/fargene_analysis.py", line 12, in <module>
+    from Transformer import Transformer
+ModuleNotFoundError: No module named 'Transformer'
+Traceback (most recent call last):
+  File "/groups/barberan/software/fargene_from_git/.venv/bin/fargene", line 5, in <module>
+    from fargene_analysis.fargene_analysis import main
+  File "/groups/barberan/software/fargene_from_git/.venv/lib/python3.11/site-packages/fargene_analysis/fargene_analysis.py", line 12, in <module>
+    from Transformer import Transformer
+ModuleNotFoundError: No module named 'Transformer'
+Traceback (most recent call last):
+  File "/groups/barberan/software/fargene_from_git/.venv/bin/fargene", line 5, in <module>
+    from fargene_analysis.fargene_analysis import main
+  File "/groups/barberan/software/fargene_from_git/.venv/lib/python3.11/site-packages/fargene_analysis/fargene_analysis.py", line 12, in <module>
+    from Transformer import Transformer
+ModuleNotFoundError: No module named 'Transformer'
+Traceback (most recent call last):
+  File "/groups/barberan/software/fargene_from_git/.venv/bin/fargene", line 5, in <module>
+    from fargene_analysis.fargene_analysis import main
+  File "/groups/barberan/software/fargene_from_git/.venv/lib/python3.11/site-packages/fargene_analysis/fargene_analysis.py", line 12, in <module>
+    from Transformer import Transformer
+ModuleNotFoundError: No module named 'Transformer'
+Traceback (most recent call last):
+  File "/groups/barberan/software/fargene_from_git/.venv/bin/fargene", line 5, in <module>
+    from fargene_analysis.fargene_analysis import main
+  File "/groups/barberan/software/fargene_from_git/.venv/lib/python3.11/site-packages/fargene_analysis/fargene_analysis.py", line 12, in <module>
+    from Transformer import Transformer
+ModuleNotFoundError: No module named 'Transformer'
+Traceback (most recent call last):
+  File "/groups/barberan/software/fargene_from_git/.venv/bin/fargene", line 5, in <module>
+    from fargene_analysis.fargene_analysis import main
+  File "/groups/barberan/software/fargene_from_git/.venv/lib/python3.11/site-packages/fargene_analysis/fargene_analysis.py", line 12, in <module>
+    from Transformer import Transformer
+ModuleNotFoundError: No module named 'Transformer'
+Traceback (most recent call last):
+  File "/groups/barberan/software/fargene_from_git/.venv/bin/fargene", line 5, in <module>
+    from fargene_analysis.fargene_analysis import main
+  File "/groups/barberan/software/fargene_from_git/.venv/lib/python3.11/site-packages/fargene_analysis/fargene_analysis.py", line 12, in <module>
+    from Transformer import Transformer
+ModuleNotFoundError: No module named 'Transformer'
+Traceback (most recent call last):
+  File "/groups/barberan/software/fargene_from_git/.venv/bin/fargene", line 5, in <module>
+    from fargene_analysis.fargene_analysis import main
+  File "/groups/barberan/software/fargene_from_git/.venv/lib/python3.11/site-packages/fargene_analysis/fargene_analysis.py", line 12, in <module>
+    from Transformer import Transformer
+ModuleNotFoundError: No module named 'Transformer'
+Traceback (most recent call last):
+  File "/groups/barberan/software/fargene_from_git/.venv/bin/fargene", line 5, in <module>
+    from fargene_analysis.fargene_analysis import main
+  File "/groups/barberan/software/fargene_from_git/.venv/lib/python3.11/site-packages/fargene_analysis/fargene_analysis.py", line 12, in <module>
+    from Transformer import Transformer
+ModuleNotFoundError: No module named 'Transformer'
+Traceback (most recent call last):
+  File "/groups/barberan/software/fargene_from_git/.venv/bin/fargene", line 5, in <module>
+    from fargene_analysis.fargene_analysis import main
+  File "/groups/barberan/software/fargene_from_git/.venv/lib/python3.11/site-packages/fargene_analysis/fargene_analysis.py", line 12, in <module>
+    from Transformer import Transformer
+ModuleNotFoundError: No module named 'Transformer'
+Traceback (most recent call last):
+  File "/groups/barberan/software/fargene_from_git/.venv/bin/fargene", line 5, in <module>
+    from fargene_analysis.fargene_analysis import main
+  File "/groups/barberan/software/fargene_from_git/.venv/lib/python3.11/site-packages/fargene_analysis/fargene_analysis.py", line 12, in <module>
+    from Transformer import Transformer
+ModuleNotFoundError: No module named 'Transformer'
+Traceback (most recent call last):
+  File "/groups/barberan/software/fargene_from_git/.venv/bin/fargene", line 5, in <module>
+    from fargene_analysis.fargene_analysis import main
+  File "/groups/barberan/software/fargene_from_git/.venv/lib/python3.11/site-packages/fargene_analysis/fargene_analysis.py", line 12, in <module>
+    from Transformer import Transformer
+ModuleNotFoundError: No module named 'Transformer'
+Traceback (most recent call last):
+  File "/groups/barberan/software/fargene_from_git/.venv/bin/fargene", line 5, in <module>
+    from fargene_analysis.fargene_analysis import main
+  File "/groups/barberan/software/fargene_from_git/.venv/lib/python3.11/site-packages/fargene_analysis/fargene_analysis.py", line 12, in <module>
+    from Transformer import Transformer
+ModuleNotFoundError: No module named 'Transformer'
+Traceback (most recent call last):
+  File "/groups/barberan/software/fargene_from_git/.venv/bin/fargene", line 5, in <module>
+    from fargene_analysis.fargene_analysis import main
+  File "/groups/barberan/software/fargene_from_git/.venv/lib/python3.11/site-packages/fargene_analysis/fargene_analysis.py", line 12, in <module>
+    from Transformer import Transformer
+ModuleNotFoundError: No module named 'Transformer'
+Traceback (most recent call last):
+  File "/groups/barberan/software/fargene_from_git/.venv/bin/fargene", line 5, in <module>
+    from fargene_analysis.fargene_analysis import main
+  File "/groups/barberan/software/fargene_from_git/.venv/lib/python3.11/site-packages/fargene_analysis/fargene_analysis.py", line 12, in <module>
+    from Transformer import Transformer
+ModuleNotFoundError: No module named 'Transformer'
+Traceback (most recent call last):
+  File "/groups/barberan/software/fargene_from_git/.venv/bin/fargene", line 5, in <module>
+    from fargene_analysis.fargene_analysis import main
+  File "/groups/barberan/software/fargene_from_git/.venv/lib/python3.11/site-packages/fargene_analysis/fargene_analysis.py", line 12, in <module>
+    from Transformer import Transformer
+ModuleNotFoundError: No module named 'Transformer'
+Traceback (most recent call last):
+  File "/groups/barberan/software/fargene_from_git/.venv/bin/fargene", line 5, in <module>
+    from fargene_analysis.fargene_analysis import main
+  File "/groups/barberan/software/fargene_from_git/.venv/lib/python3.11/site-packages/fargene_analysis/fargene_analysis.py", line 12, in <module>
+    from Transformer import Transformer
+ModuleNotFoundError: No module named 'Transformer'
+Traceback (most recent call last):
+  File "/groups/barberan/software/fargene_from_git/.venv/bin/fargene", line 5, in <module>
+    from fargene_analysis.fargene_analysis import main
+  File "/groups/barberan/software/fargene_from_git/.venv/lib/python3.11/site-packages/fargene_analysis/fargene_analysis.py", line 12, in <module>
+    from Transformer import Transformer
+ModuleNotFoundError: No module named 'Transformer'
+Traceback (most recent call last):
+  File "/groups/barberan/software/fargene_from_git/.venv/bin/fargene", line 5, in <module>
+    from fargene_analysis.fargene_analysis import main
+  File "/groups/barberan/software/fargene_from_git/.venv/lib/python3.11/site-packages/fargene_analysis/fargene_analysis.py", line 12, in <module>
+    from Transformer import Transformer
+ModuleNotFoundError: No module named 'Transformer'
+Traceback (most recent call last):
+  File "/groups/barberan/software/fargene_from_git/.venv/bin/fargene", line 5, in <module>
+    from fargene_analysis.fargene_analysis import main
+  File "/groups/barberan/software/fargene_from_git/.venv/lib/python3.11/site-packages/fargene_analysis/fargene_analysis.py", line 12, in <module>
+    from Transformer import Transformer
+ModuleNotFoundError: No module named 'Transformer'
+Traceback (most recent call last):
+  File "/groups/barberan/software/fargene_from_git/.venv/bin/fargene", line 5, in <module>
+    from fargene_analysis.fargene_analysis import main
+  File "/groups/barberan/software/fargene_from_git/.venv/lib/python3.11/site-packages/fargene_analysis/fargene_analysis.py", line 12, in <module>
+    from Transformer import Transformer
+ModuleNotFoundError: No module named 'Transformer'
+Traceback (most recent call last):
+  File "/groups/barberan/software/fargene_from_git/.venv/bin/fargene", line 5, in <module>
+    from fargene_analysis.fargene_analysis import main
+  File "/groups/barberan/software/fargene_from_git/.venv/lib/python3.11/site-packages/fargene_analysis/fargene_analysis.py", line 12, in <module>
+    from Transformer import Transformer
+ModuleNotFoundError: No module named 'Transformer'

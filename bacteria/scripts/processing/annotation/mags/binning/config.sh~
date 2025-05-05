@@ -1,0 +1,6 @@
+#!/bin/bash -l 
+# directories
+ASSEMBLY_DIR="/xdisk/barberan/mtoucedasuarez/landuse/assembly"
+OUT_DIR="/xdisk/barberan/mtoucedasuarez/landuse/mags/binning"
+IN_LIST="/xdisk/barberan/mtoucedasuarez/landuse/s_regex.txt"
+READS_DIR="/xdisk/barberan/mtoucedasuarez/landuse/clean"

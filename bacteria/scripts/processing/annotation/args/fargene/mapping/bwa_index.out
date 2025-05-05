@@ -1,0 +1,10 @@
+[bwa_index] Pack FASTA... 0.00 sec
+[bwa_index] Construct BWT for the packed sequence...
+[bwa_index] 0.01 seconds elapse.
+[bwa_index] Update BWT... 0.00 sec
+[bwa_index] Pack forward-only FASTA... 0.00 sec
+[bwa_index] Construct SA from BWT and Occ... 0.01 sec
+[main] Version: 0.7.17-r1198-dirty
+[main] CMD: /home/u14/mtoucedasuarez/software/bwa/bwa index -p /xdisk/barberan/mtoucedasuarez/landuse/args/fargene/all_predicted_orfs/mapping/fargene_orfs_index /xdisk/barberan/mtoucedasuarez/landuse/args/fargene/all_predicted_orfs/lu_all_predicted_orfs.fasta
+[main] Real time: 0.088 sec; CPU: 0.022 sec
+Detailed performance metrics for this job will be available at https://metrics.hpc.arizona.edu/#job_viewer?action=show&realm=SUPREMM&resource_id=73&local_job_id=8178384 by 8am on 2023/09/18.

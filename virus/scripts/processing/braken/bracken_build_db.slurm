@@ -1,0 +1,31 @@
+#!/bin/bash
+# --------------------------------------------------
+# Request resources here
+# --------------------------------------------------
+#SBATCH --job-name=bracken
+#SBATCH --output=bracken_db.out
+#SBATCH --error=bracken_db.err
+#SBATCH --account=gornish
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=mtoucedasuarez@hpc.arizona.edu
+#SBATCH --partition=standard
+#SBATCH --ntasks=24
+#SBATCH --nodes=1
+#SBATCH --mem=112gb
+#SBATCH --time=10:00:00
+
+# --------------------------------------------------
+# Load modules here
+# --------------------------------------------------
+module load anaconda
+source ~/.bashrc && conda activate
+conda activate kraken2
+
+# variables
+KRAKEN_DB="/xdisk/egornish/mtoucedasuarez/databases/kraken/standard"
+KRAKEN_INSTALLATION="/home/u14/mtoucedasuarez/software/kraken2" # not sure if this is correct path or src?
+
+cd /xdisk/egornish/mtoucedasuarez/databases/kraken/standard 
+tar xvzf k2_standard_20231009.tar.gz
+
+/home/u14/mtoucedasuarez/software/Bracken/bracken-build -d $KRAKEN_DB -t 24 -k 35 -l 150 -x $KRAKEN_INSTALLATION

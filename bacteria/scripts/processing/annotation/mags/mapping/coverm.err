@@ -1,0 +1,29 @@
+[2023-11-14T00:37:34Z INFO  coverm] CoverM version 0.6.1
+[2023-11-14T00:37:34Z INFO  coverm] Writing output to file: mags_count_table.txt
+[2023-11-14T00:37:34Z INFO  coverm] Using min-covered-fraction 10%
+[2023-11-14T00:37:34Z INFO  bird_tool_utils::clap_utils] Not using directory entry '/xdisk/barberan/mtoucedasuarez/landuse/mags/bin_refinement/all_bins/bins_for_virhostmatcher/annotation' as a genome FASTA file
+[2023-11-14T00:37:36Z INFO  coverm::genome] Of 35908 reference IDs, 33557 were assigned to a genome and 2351 were not
+[2023-11-14T00:37:39Z INFO  coverm::genome] In sample '11B-T1-3', found 10509367 reads mapped out of 10618323 total (98.97%)
+[2023-11-14T00:37:44Z INFO  coverm::genome] In sample '11B-T1-6', found 13960449 reads mapped out of 14183742 total (98.43%)
+[2023-11-14T00:37:47Z INFO  coverm::genome] In sample '11B-T1-9', found 8647365 reads mapped out of 9152523 total (94.48%)
+[2023-11-14T00:37:51Z INFO  coverm::genome] In sample '8-T1-3', found 12386704 reads mapped out of 12496945 total (99.12%)
+[2023-11-14T00:37:54Z INFO  coverm::genome] In sample '8-T1-6', found 7172958 reads mapped out of 7288351 total (98.42%)
+[2023-11-14T00:37:59Z INFO  coverm::genome] In sample '8-T1-9', found 15056496 reads mapped out of 15279470 total (98.54%)
+[2023-11-14T00:38:02Z INFO  coverm::genome] In sample 'Ex45-T1-3', found 7685833 reads mapped out of 7890037 total (97.41%)
+[2023-11-14T00:38:06Z INFO  coverm::genome] In sample 'Ex45-T1-6', found 9727233 reads mapped out of 10038370 total (96.90%)
+[2023-11-14T00:38:09Z INFO  coverm::genome] In sample 'Ex45-T1-9', found 9742212 reads mapped out of 10218569 total (95.34%)
+[2023-11-14T00:38:14Z INFO  coverm::genome] In sample 'HP-T1-3', found 13988195 reads mapped out of 14474798 total (96.64%)
+[2023-11-14T00:38:19Z INFO  coverm::genome] In sample 'HP-T1-6', found 17527861 reads mapped out of 17866097 total (98.11%)
+[2023-11-14T00:38:24Z INFO  coverm::genome] In sample 'HP-T1-9', found 16603395 reads mapped out of 16822869 total (98.70%)
+[2023-11-14T00:38:27Z INFO  coverm::genome] In sample 'RC-T1-3', found 8999496 reads mapped out of 9269980 total (97.08%)
+[2023-11-14T00:38:30Z INFO  coverm::genome] In sample 'RC-T1-6', found 6947850 reads mapped out of 7156572 total (97.08%)
+[2023-11-14T00:38:33Z INFO  coverm::genome] In sample 'RC-T1-9', found 8231355 reads mapped out of 8467129 total (97.22%)
+[2023-11-14T00:38:39Z INFO  coverm::genome] In sample 'RP-T1-3', found 21594900 reads mapped out of 22965637 total (94.03%)
+[2023-11-14T00:38:44Z INFO  coverm::genome] In sample 'RP-T1-6', found 16179431 reads mapped out of 16294274 total (99.30%)
+[2023-11-14T00:38:48Z INFO  coverm::genome] In sample 'RP-T1-9', found 11435187 reads mapped out of 11813161 total (96.80%)
+[2023-11-14T00:38:53Z INFO  coverm::genome] In sample 'SC-T1-3', found 14304253 reads mapped out of 14507407 total (98.60%)
+[2023-11-14T00:38:56Z INFO  coverm::genome] In sample 'SC-T1-6', found 10763000 reads mapped out of 11184250 total (96.23%)
+[2023-11-14T00:39:00Z INFO  coverm::genome] In sample 'SC-T1-9', found 9709772 reads mapped out of 10251561 total (94.72%)
+[2023-11-14T00:39:03Z INFO  coverm::genome] In sample 'UAB-T1-3', found 8730733 reads mapped out of 8990346 total (97.11%)
+[2023-11-14T00:39:09Z INFO  coverm::genome] In sample 'UAB-T1-6', found 19311601 reads mapped out of 19482186 total (99.12%)
+[2023-11-14T00:39:13Z INFO  coverm::genome] In sample 'UAB-T1-9', found 11923182 reads mapped out of 12039554 total (99.03%)

@@ -1,0 +1,16 @@
+#!/bin/bash -l
+#SBATCH --job-name=lu_gtdb-tk
+#SBATCH --account=gornish
+#SBATCH --output=outputr%j.txt
+#SBATCH --error=errors_%j.txt
+#SBATCH --mail-user=mtoucedasuarez@hpc.arizona.edu                                                                                                                                          
+#SBATCH --partition=standard  
+#SBATCH --nodes=1
+#SBATCH --ntasks=94
+#SBATCH --mem=470gb
+#SBATCH --time=20:00:00
+
+IN_DIR="/xdisk/barberan/mtoucedasuarez/landuse/mags/bin_refinement/all_bins"
+OUT_DIR="/xdisk/barberan/mtoucedasuarez/landuse/mags/taxonomy"
+
+singularity exec -B /xdisk/egornish/mtoucedasuarez/databases/gtdb_tk/release214:/refdata /contrib/singularity/shared/gtdb-tk/gtdb-tk-v2.3.2.sif gtdbtk classify_wf --genome_dir $IN_DIR --align_dir $OUT_DIR --out_dir $OUT_DIR --skip_ani_screen --cpus 94 -x fa

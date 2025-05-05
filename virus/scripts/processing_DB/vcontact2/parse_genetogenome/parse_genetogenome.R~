@@ -1,0 +1,49 @@
+# script to parse the results of prodigal to the gene-to-genome file for vContact2
+# Mery Touceda Suarez
+# May 1st 2023
+# desired outcome: 
+
+
+# load libraries 
+library(tidyverse)
+library(seqinr) 
+library(stringr)
+
+
+# make this script executable on command line
+args<-commandArgs(TRUE)
+
+## Input files and directories
+viral_catalog_file=args[1]
+prodigal_output_file=args[2]
+name=args[3]
+
+# read files to objects
+viral_catalog <- read.fasta(viral_catalog_file) 
+prodigal_output <- read.fasta(prodigal_output_file) 
+
+# extract the names of the genes in the fasta of prodigal output
+genes <- names(prodigal_output)
+# extract a list of the contigs from the genes
+contigs <- str_sub(genes,0,-3) 
+# bind that
+gene_to_genome <- data.frame(unlist(genes),unlist(contigs))
+
+# itnitialize empty list
+key_words = list()
+# get the attributes, megahit con
+for (i in match(contigs, names(viral_catalog))){
+  key_words[[length(key_words) + 1]] <- getAnnot(viral_catalog)[i][[1]]
+}
+
+#extract the gene number from the header
+# this is the regular expression i need to use: 
+key_words <- lapply(key_words, function(x) str_extract(x,"k(.*)"))
+
+
+# bind to create the final table
+gene_to_genome <- data.frame(gene_to_genome,unlist(key_words))
+
+# write result to csv
+outfile <- paste(name, "gene-to-genome.csv", sep="_")
+write.csv(gene_to_genome, outfile, quote = FALSE, row.names = FALSE)

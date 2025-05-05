@@ -1,0 +1,8 @@
+#!/bin/bash -l
+# conda directory
+#CONDA=""
+# INPUT LIST and  DIRECTORY
+IN_LIST="/groups/egornish/mtoucedasuarez/scripts/jobs/landuse/args/smple_list.txt" # list of files to process
+IN_DIR="/xdisk/barberan/mtoucedasuarez/landuse/gene_prediction/protein_fasta"
+DB_DIR="/groups/egornish/mtoucedasuarez/scripts/jobs/landuse/args/databases/CARD"
+OUT_PATH="/xdisk/barberan/mtoucedasuarez/landuse/args/CARD"
