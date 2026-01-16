@@ -4,7 +4,7 @@ This directory contains scripts and workflows for analyzing mobile genetic eleme
 
 ## Directory structure
 mges/
-├── data/                    # Data files for MGE analysis (to be added)
+├── data/                    # Data files for MGE analysis 
 ├── scripts/
 │   ├── processing/         # Data processing and filtering scripts
 │   └── analyses/           # Statistical analyses and visualization scripts

@@ -1,11 +1,9 @@
-NOTE: :wrench: This repository is under construction
-
 # Soil metagenomics of urban greenspaces in an arid city
 Repository for the publication: "Differences in the genomic potential of soil bacterial and phage communities between urban greenspaces and natural arid soils". 
 
 
 ## :file_folder: This repository
-This repository harbors the scripts for analysis and visualization, and final data products from the study of soil bacteria and viruses in urban greenspaces and natural soils around the arid city of Tucson (Arizona, USA).  
+This repository contains the scripts for analysis and visualization, and final data products from the study of soil bacteria and viruses, and - recently added - mobile genetic elements (MGEs) in urban greenspaces and natural soils around the arid city of Tucson (Arizona, USA).  
 
 Each folder contains scripts and data, and a README explaining its contents. The structure is briefly as follows: 
 
@@ -14,12 +12,13 @@ Each folder contains scripts and data, and a README explaining its contents. The
 
         - KEGG (used for funtional trait calculation, such as sugar-aminoacid preference)
         - NCyc (nitrogen cycling genes) 
-        - CAZY (carbon cycling genes) 
+        - CAZy (carbon cycling genes) 
         - CARD (anbtibiotic resistance genes)
         - BACmet (heavy metal resistance genes).
   
 - Virus: this folder contains the scripts and data for the analysis and visualization of viral community structure, taxonomy, life history strategies, and AMG (auxiliary metabolic gene) annotation.
-  
+
+- mges: this folder contains the scripts and data for the analysis and visualization of mobile genetic elements (specifically plasmids) community structure, and genetic composition (heavy metal resistance genes, antibiotic resistance genes, etc).
 
 ## :mount_fuji: Field sampling design
 The study included __24 samples__, 2 land uses (urban, natural), 3 vegetation types (grassland, forest, shrubland), 3 replicates per site. Here is the breakdown of the sites: 
@@ -43,5 +42,11 @@ The study included __24 samples__, 2 land uses (urban, natural), 3 vegetation ty
 Raw data for this project can be found at the [NCBI website](https://www.ncbi.nlm.nih.gov/),  project number: PRJNA1143147. Additionally, final data products can be found as this [Zenodo project](https://zenodo.org/records/13152735).
 
 
-## :newspaper: Publication
-The publication associated with this work is still under review. 
+## :newspaper: Publications
+
+**Bacteria and viruses:**
+- Touceda-Suárez M, Ponsero AJ, Barberán A. 2025. Differences in the genomic potential of soil bacterial and viral communities between urban greenspaces and natural arid soils. Appl Environ Microbiol 91:e02124-24.
+https://doi.org/10.1128/aem.02124-24
+
+**Mobile genetic elements (MGEs):**
+- Touceda-Suárez M, Ponsero AJ, Barberán A. Urban greenspaces harbor distinct plasmid communities enriched in heavy metal resistance and competitive traits in arid soils. (Under review at Microbiology).
