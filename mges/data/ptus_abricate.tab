@@ -1,0 +1,4 @@
+#FILE	SEQUENCE	START	END	STRAND	GENE	COVERAGE	COVERAGE_MAP	GAPS	%COVERAGE	%IDENTITY	DATABASE	ACCESSION	PRODUCT	RESISTANCE
+/xdisk/egornish/mtoucedasuarez/mge_urban/local/cluster_ptus/urban_plasmid_ptus_rep_seq.fasta	SC-T1-3_k127_822506	2639	3653	+	vanA-Sc	11-1031/1041	========/======	5/10	97.31	80.45	ncbi	NG_048329.1	D-alanine--(R)-lactate ligase VanA-Sc	VANCOMYCIN
+/xdisk/egornish/mtoucedasuarez/mge_urban/local/cluster_ptus/urban_plasmid_ptus_rep_seq.fasta	SC-T1-3_k127_822506	3677	4265	+	vanX-Sc	18-606/609	========/======	3/4	96.39	80.37	ncbi	NG_048500.1	D-Ala-D-Ala dipeptidase VanX-Sc	VANCOMYCIN
+/xdisk/egornish/mtoucedasuarez/mge_urban/local/cluster_ptus/urban_plasmid_ptus_rep_seq.fasta	SC-T1-3_k127_822506	6929	7614	-	vanR-O	6-694/702	========/======	1/3	97.72	84.47	ncbi	NG_048424.1	VanO-type vancomycin resistance response regulator transcription factor VanR	VANCOMYCIN
