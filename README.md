@@ -49,4 +49,4 @@ Raw data for this project can be found at the [NCBI website](https://www.ncbi.nl
 https://doi.org/10.1128/aem.02124-24
 
 **Mobile genetic elements (MGEs):**
-- Touceda-Suárez M, Ponsero AJ, Barberán A. Urban greenspaces harbor distinct plasmid communities enriched in heavy metal resistance and competitive traits in arid soils. (Under review at Microbiology).
+- Touceda-Suárez M, Ponsero AJ, Barberán A. 2026. Urban greenspaces harbor distinct plasmid communities enriched in heavy metal resistance and competitive traits in arid soils. Microbiology. https://doi.org/10.1099/mic.0.001705
